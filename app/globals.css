@@ -304,10 +304,12 @@ main > section:not(.hero):not(.org-hero) { margin-block: 0; padding-top: var(--s
 }
 
 @media (max-width: 760px) {
-  :root { --page: calc(100vw - 40px); --display: 700 32px/1.12 var(--display-font); --heading: 700 clamp(38px, 10vw, 46px)/1.04 var(--display-font); --content-gap: 38px; --header-offset: 96px; }
+  :root { --page: calc(100vw - 40px); --display: 700 28px/1.12 var(--display-font); --heading: 700 38px/1.04 var(--display-font); --content-gap: 38px; --header-offset: 96px; }
   .section-heading { gap: 20px; }
   .section-heading__copy { display: block; }
-  .section-heading h2, .section-heading--large h2 { font-size: 32px; line-height: 1.12; }
+  .home-page h2, .section-heading h2, .section-heading--large h2 { font-size: 28px; line-height: 1.12; }
+  .home-page p { font-size: 15px; }
+  .home-page .button { min-height: 44px; }
   .section-heading p { margin-top: 16px; }
   .pill { min-height: 34px; padding-inline: 15px; }
   .site-header { top: 12px; width: calc(100vw - 28px); min-height: 64px; padding: 9px 10px 9px 18px; border-radius: 22px; gap: 12px; isolation: isolate; transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, backdrop-filter 180ms ease; }
@@ -337,18 +339,21 @@ main > section:not(.hero):not(.org-hero) { margin-block: 0; padding-top: var(--s
   .hero__copy { width: var(--page); padding-top: 154px; }
   .bootcamp-pill { font-size: 12px; }
   .hero h1 { margin-top: 25px; }
-  .hero__copy > p { width: 100%; margin-top: 18px; font-size: 16px; }
+  .hero__copy > p { width: 100%; margin-top: 18px; font-size: 15px; }
   .hero__actions { margin-top: 25px; flex-wrap: wrap; justify-content: center; }
   .hero-gallery { bottom: -20px; width: 760px; }
   .stats { height: auto; padding: 70px 0 55px; }
-  .stats__panel { height: auto; margin-top: 35px; grid-template-columns: 1fr; border-radius: 26px; }
-  .stat-card { min-height: 215px; }
-  .partner-logos { width: calc(100vw - 40px); margin-top: 42px; }
+  .stats__panel { height: auto; margin-top: 35px; grid-template-columns: 1fr; border-radius: 26px; font-size: 12px; }
+  .stat-card { min-height: 0; padding: 18px; border-radius: 18px; }
+  .stat-card p { margin-top: 18px; font-size: 12px; }
+  .partner-marquee { margin-top: 42px; }
+  .partner-logos { width: 720px; margin-top: 0; padding-right: 48px; }
   .vision-section { min-height: 0; padding: 75px 0 82px; border-radius: 0 0 20px 20px; }
   .vision-section__inner { display: block; }
   .vision-section__copy { width: 100%; }
   .vision-cards { margin-top: 42px; grid-template-columns: 1fr; }
-  .vision-card { min-height: 310px; padding: 20px; }
+  .vision-card { height: auto; min-height: 0; padding: 18px; }
+  .vision-card p { margin-top: 12px; }
   .programmes { padding-top: 72px; padding-bottom: 75px; }
   .programmes__heading, .talent__heading, .blog-section__heading { display: block; }
   .programmes__heading > .button, .talent__heading > .button, .blog-section__heading > .button { margin-top: 25px; }
@@ -359,7 +364,7 @@ main > section:not(.hero):not(.org-hero) { margin-block: 0; padding-top: var(--s
   .benefits__heading, .video-section__heading, .talent__heading, .facilitators__heading, .testimonials__heading { margin-bottom: 48px; }
   .benefits__panel { margin-top: 0; padding: 42px 0; border-radius: 20px 20px 0 0; }
   .benefits__grid { grid-template-columns: 1fr; }
-  .benefit-card { height: 305px; padding: 20px; }
+  .benefit-card { height: auto; min-height: 0; padding: 18px; }
   .video-section { height: auto; padding: 70px 0 80px; }
   .browser-frame { height: auto; margin-top: 0; padding: 8px; border-radius: 20px; }
   .browser-frame__top { height: 29px; }
@@ -382,7 +387,7 @@ main > section:not(.hero):not(.org-hero) { margin-block: 0; padding-top: var(--s
   .gallery-row--two { transform: translateX(-20px); }
   .testimonials { height: auto; padding: 70px 0; }
   .testimonials__heading { width: calc(100vw - 40px); display: block; }
-  .testimonials__heading h2 { font-size: 33px; }
+  .testimonials__heading h2 { font-size: 28px; }
   .testimonials__heading > p { margin-top: 20px; }
   .testimonial-track { width: calc(100vw - 20px); margin-top: 0; margin-left: 20px; padding-right: 20px; }
   .testimonial-card { width: min(86vw, 348px); }
@@ -392,7 +397,7 @@ main > section:not(.hero):not(.org-hero) { margin-block: 0; padding-top: var(--s
   .counselling__card { height: 480px; }
   .counselling__card::after { background: rgba(16, 16, 16, .65); }
   .counselling__overlay { left: 25px; right: 25px; top: 53px; width: auto; }
-  .counselling__overlay h2 { font-size: 34px; }
+  .counselling__overlay h2 { font-size: 28px; }
   .blog-section { height: auto; padding: 70px 0; }
   .blog-grid { margin-top: 38px; grid-template-columns: 1fr; }
   .blog-card { height: auto; min-height: 401px; }

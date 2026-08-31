@@ -168,7 +168,9 @@
   .org-hero__copy h1 br { display: none; }
   .org-eyebrow { min-height: 34px; padding: 6px 14px; font-size: 14px; }
   .org-actions { margin-top: 28px; flex-wrap: wrap; justify-content: center; }
-  .org-section-title h2 { font-size: 34px; line-height: 1.12; }
+  .inner-page h2, .org-section-title h2 { font-size: 28px; line-height: 1.12; }
+  .inner-page p { font-size: 15px; }
+  .inner-page .button { min-height: 44px; }
   .org-section-title h2 br { display: none; }
   .talent-hero { min-height: 810px; }
   .talent-hero .org-hero__copy { width: var(--page); }
