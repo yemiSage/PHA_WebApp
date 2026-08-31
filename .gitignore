@@ -1,0 +1,12 @@
+# dependencies and build output
+/node_modules/
+/.next/
+/out/
+
+# local tooling output
+*.tsbuildinfo
+next-dev.*.log
+
+# local environment files
+.env*
+!.env.example
