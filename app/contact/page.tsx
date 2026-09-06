@@ -65,7 +65,7 @@ export default function ContactPage() {
             team is ready to answer all your questions
           </p>
           <div className="contact-actions">
-            <Button href="#page-form" arrow>
+            <Button href="#page-form">
               Talk to us
             </Button>
             <Button
