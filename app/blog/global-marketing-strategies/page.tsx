@@ -1,0 +1,15 @@
+import Link from "next/link";
+import { PageShell } from "@/components/programmes/PageShell";
+import { BlogCard } from "@/components/pages/BlogCard";
+import { ShareActions } from "@/components/pages/ShareActions";
+import "@/app/pages.css";
+
+export const metadata={title:"Global marketing strategies | Product Hub Africa"};
+const sections=[
+  ["Step 1: Pick a product to focus on and consider if it is expansion worthy",["Start with one product whose customer value is already clear. Review demand, operational readiness, competitive strength and whether the product can be adapted without losing the qualities that made it successful.","A strong expansion candidate solves a meaningful problem, has evidence of product-market fit, and can be supported sustainably in the new market."]],
+  ["Step 2: Conduct a micro analysis",["Study the customers, competitors, suppliers and partners closest to the product. Interview potential users, compare alternatives, and identify how people currently solve the problem.","Your analysis should reveal the audience, their buying behaviour, local distribution options, price expectations and the strongest competitive advantage you can own."]],
+  ["Step 3: Country market analysis using PESTLE model",["Use the PESTLE model to assess political, economic, social, technological, legal and environmental forces before you commit resources.","Political: tax policy, environmental regulations, trade restrictions and reform, tariffs and political stability. Economic factors include inflation, disposable income and currency movement; social factors cover culture, language and customer expectations."]],
+  ["Step 4: Make product adaptations to determine market entry mode",["Think about your global product strategy and how to localize your product to fit the new market. Adapt language, payments, onboarding and support while keeping the core promise consistent.","Choose an entry mode that matches your risk tolerance: direct sales, partnerships, licensing, a local entity, or a small pilot before a full launch."]],
+  ["Step 5: Use tested product strategies to launch",["Product strategies are the actions that connect what you want to achieve with how you will achieve it. Set a clear positioning statement, launch metrics and feedback loop.","Begin with a focused segment, test the message and price, learn quickly, and scale only after the evidence supports it."]],
+] as const;
+export default function ArticlePage(){return <PageShell><article className="inner-page article-page"><div className="article-top section-shell"><Link href="/blog">← Back</Link><ShareActions/></div><header className="article-header"><h1>What to do before<br/>launching a product into a<br/>new country - global<br/>marketing strategies.</h1><p>Victorial Oladosu <span>–</span> 12 Mins Read <span>–</span> 21st August 2026</p></header><div className="article-body">{sections.map(([title,paragraphs])=><section key={title}><h2>{title}</h2>{paragraphs.map(p=><p key={p}>{p}</p>)}</section>)}</div><section className="up-next"><h2>Up next</h2><div><BlogCard/><BlogCard/></div></section></article></PageShell>}

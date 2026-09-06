@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 type ButtonProps = {
   children: ReactNode;
@@ -19,7 +20,7 @@ export function Button({
   className = "",
 }: ButtonProps) {
   return (
-    <a className={`button button--${variant} button--${size} ${className}`} href={href}>
+    <Link className={`button button--${variant} button--${size} ${className}`} href={href}>
       <span>{children}</span>
       {arrow ? (
         <Image
@@ -31,6 +32,6 @@ export function Button({
           alt=""
         />
       ) : null}
-    </a>
+    </Link>
   );
 }

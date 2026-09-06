@@ -5,13 +5,14 @@ import { courses } from "@/data/home";
 const description = "Learn to create visually compelling and user-friendly digital products.";
 
 function CourseCard({ course }: { course: (typeof courses)[number] }) {
+  const href = course.title === "Data Analytics" ? "/courses/data-science" : "/contact?subject=course";
   return (
     <article className="course-card">
       <div className="course-card__image"><Image {...course.image} alt="" /></div>
       <div className="course-card__content">
         <h3>{course.title}</h3>
         <p>{description}</p>
-        <Button href="#contact" variant="ghost" size="small" arrow>Start course</Button>
+        <Button href={href} variant="ghost" size="small" arrow>Start course</Button>
       </div>
     </article>
   );

@@ -1,0 +1,114 @@
+.inner-page { background: #fff; }
+.inner-page h1 { font: 700 clamp(40px, 4vw, 56px)/1.02 var(--display-font); letter-spacing: -.035em; }
+
+.help-hero { padding: 250px 0 120px; text-align: center; }
+.help-hero > h1 { margin-top: 18px; }
+.help-hero > p { margin-top: 14px; color: var(--grey-600); }
+.help-faq { width: min(584px, 100%); margin: 68px auto 0; display: grid; gap: 10px; text-align: left; }
+.help-faq details, .course-faq details { padding: 19px 24px; border-radius: 18px; background: var(--grey-100); }
+.help-faq summary, .course-faq summary { list-style: none; display: flex; justify-content: space-between; gap: 24px; font-weight: 500; cursor: pointer; }
+.help-faq summary::-webkit-details-marker, .course-faq summary::-webkit-details-marker { display: none; }
+.help-faq summary span::after, .course-faq summary span::after { content: "+"; font-size: 22px; }
+.help-faq details[open] summary span::after, .course-faq details[open] summary span::after { content: "−"; }
+.help-faq details p, .course-faq details p { padding-top: 14px; color: var(--grey-600); font-size: 14px; }
+.help-contact { margin-top: 66px; display: flex; align-items: center; justify-content: center; gap: 30px; }
+.community-cta { position: relative; min-height: 560px; display: grid; place-items: center; overflow: hidden; color: #fff; }
+.community-cta > img { object-fit: cover; }
+.community-cta__shade { position: absolute; inset: 0; background: rgba(8, 13, 24, .45); }
+.community-cta__copy { position: relative; width: min(690px, calc(100% - 40px)); text-align: center; display: flex; flex-direction: column; align-items: center; }
+.community-cta__copy h2 { margin-top: 18px; font: 700 40px/1.1 var(--display-font); }
+.community-cta__copy p { max-width: 560px; margin-top: 14px; }
+.community-cta__copy .button { margin-top: 30px; }
+
+.blog-lead { padding: 250px 0 170px; }
+.blog-lead h1 { max-width: 900px; margin-top: 26px; }
+.blog-byline { margin: 24px 0 32px; color: var(--grey-600); }
+.blog-byline span, .article-header span { padding-inline: 12px; }
+.blog-listing { padding-bottom: 100px; }
+.blog-filters { display: flex; align-items: center; gap: 10px; margin-bottom: 40px; }
+.blog-filters > a { padding: 11px 18px; border-radius: 99px; color: var(--grey-600); background: var(--grey-100); font-size: 14px; white-space: nowrap; }
+.blog-filters > a.is-active { color: #fff; background: var(--primary); }
+.blog-filters form { margin-left: auto; }
+.blog-filters input { width: 235px; height: 42px; padding: 0 18px; border: 1px solid var(--grey-300); border-radius: 12px; background: #fff; }
+.listing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.listing-card { min-height: 400px; display: flex; flex-direction: column; justify-content: space-between; padding: 18px; border: 1px solid var(--grey-200); border-radius: 24px; background: #fff; }
+.listing-card__meta { display: flex; justify-content: space-between; color: var(--grey-600); font-size: 12px; }
+.listing-card__meta span:first-child { color: var(--primary); }
+.listing-card h2 { font-size: 18px; line-height: 1.25; }
+.listing-card p { margin-top: 8px; color: var(--grey-600); font-size: 14px; line-height: 1.4; }
+.listing-card a { width: fit-content; margin-top: 18px; display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; }
+
+.article-page { padding-top: 170px; }
+.article-top { display: flex; align-items: center; justify-content: space-between; font-size: 14px; }
+.article-actions { display: flex; gap: 10px; }
+.article-actions button { padding: 10px 14px; border: 0; border-radius: 99px; background: var(--grey-100); }
+.article-header, .article-body { width: min(850px, calc(100% - 40px)); margin-inline: auto; }
+.article-header { padding: 50px 0 36px; }
+.article-header h1 { font-size: clamp(42px, 4vw, 60px); }
+.article-header p { margin-top: 24px; color: var(--grey-600); }
+.article-body { padding-bottom: 110px; color: #555; line-height: 1.65; }
+.article-body section { margin-top: 46px; }
+.article-body h2 { margin-bottom: 14px; color: var(--grey-900); font-size: 24px; line-height: 1.25; }
+.article-body p + p { margin-top: 18px; }
+.up-next { padding: 70px max(20px, calc((100% - 850px)/2)); background: var(--grey-50); }
+.up-next > h2 { text-align: center; font-size: 34px; }
+.up-next > div { margin-top: 36px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.up-next .listing-card { min-height: 260px; }
+
+.course-hero { padding: 230px 0 80px; display: grid; grid-template-columns: 1fr 390px; align-items: start; gap: 80px; }
+.course-hero h1 { margin-top: 24px; }
+.course-hero > div > p { margin-top: 18px; color: var(--grey-600); }
+.course-tags { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 24px; color: var(--grey-600); font-size: 14px; }
+.course-tags span::before { content: "✓"; margin-right: 8px; color: var(--primary); }
+.course-hero aside { padding: 24px; border: 1px solid var(--grey-200); border-radius: 18px; box-shadow: 0 12px 30px rgba(16,16,16,.06); }
+.course-hero aside h2 { font-size: 18px; }
+.course-hero dl { margin: 20px 0; }
+.course-hero dl div { min-height: 46px; display: flex; align-items: center; justify-content: space-between; gap: 15px; border-bottom: 1px solid var(--grey-200); }
+.course-hero dt { display: flex; align-items: center; gap: 8px; color: var(--grey-600); }
+.course-hero dd { margin: 0; text-align: right; font-weight: 600; }
+.course-hero aside .button { width: 100%; }
+.course-content { padding-bottom: 110px; max-width: 1200px; }
+.course-benefits { display: grid; grid-template-columns: repeat(3, 1fr); margin-bottom: 60px; border: 1px solid var(--grey-200); border-radius: 16px; }
+.course-benefits article { padding: 24px; }
+.course-benefits article + article { border-left: 1px solid var(--grey-200); }
+.course-benefits h3 { margin-top: 22px; font-size: 18px; }
+.course-benefits p { margin-top: 8px; color: var(--grey-600); font-size: 14px; }
+.course-content > h2 { margin-top: 42px; font-size: 24px; }
+.course-content > p, .course-content > ol { max-width: 900px; margin-top: 14px; color: var(--grey-600); }
+.course-content > ol { padding-left: 20px; }
+.course-content > ol li + li { margin-top: 7px; }
+.tool-row { margin: 26px 0 45px; display: flex; gap: 18px; }
+.tool-row span { min-width: 120px; padding: 18px; border-radius: 6px; text-align: center; color: var(--grey-600); background: var(--grey-100); }
+.course-testimonials { padding: 100px 20px; overflow: hidden; background: var(--grey-50); }
+.testimonial-row { width: max-content; margin-inline: auto; display: flex; gap: 16px; }
+.testimonial-row article { width: 290px; min-height: 285px; padding: 24px; border: 1px solid var(--grey-200); border-radius: 20px; background: #fff; }
+.testimonial-row article > div { display: flex; align-items: center; gap: 12px; }
+.testimonial-row img { border-radius: 50%; object-fit: cover; }
+.testimonial-row strong, .testimonial-row span { display: block; }
+.testimonial-row span { color: var(--grey-600); font-size: 12px; }
+.testimonial-row h3 { margin-top: 42px; }
+.testimonial-row article > p { margin-top: 12px; color: var(--grey-600); font-size: 14px; }
+.course-faq { padding: 100px 0 120px; }
+.course-faq details { width: min(800px, 100%); margin: 10px auto 0; }
+
+@media (max-width: 900px) {
+  .listing-grid { grid-template-columns: repeat(2, 1fr); }
+  .blog-filters { overflow-x: auto; padding-bottom: 8px; }
+  .blog-filters form { display: none; }
+  .course-hero { grid-template-columns: 1fr; gap: 40px; }
+  .course-hero aside { width: min(500px, 100%); }
+  .tool-row { flex-wrap: wrap; }
+}
+@media (max-width: 700px) {
+  .help-hero, .blog-lead { padding: 170px 0 80px; }
+  .help-contact { flex-direction: column; gap: 18px; }
+  .community-cta { min-height: 440px; }
+  .community-cta__copy h2 { font-size: 30px; }
+  .listing-grid, .up-next > div, .course-benefits { grid-template-columns: 1fr; }
+  .listing-card { min-height: 300px; }
+  .article-page { padding-top: 130px; }
+  .article-header h1 { font-size: 38px; }
+  .course-hero { padding: 170px 0 60px; }
+  .course-benefits article + article { border-left: 0; border-top: 1px solid var(--grey-200); }
+  .testimonial-row { margin-left: 0; }
+}

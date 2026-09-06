@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
@@ -17,12 +18,12 @@ export function Blog() {
               <div><span>Community</span><span>12 min read</span></div>
               <h3>The influence of AI on skill development</h3>
               <p>In this study, we shall demystify some of the research findings conducted recently on the impact of...</p>
-              <a href="#blog">Read more <Image src="/assets/arrow-small.svg" width={20} height={20} alt="" /></a>
+              <Link href="/blog/global-marketing-strategies">Read more <Image src="/assets/arrow-small.svg" width={20} height={20} alt="" /></Link>
             </div>
           </article>
         ))}
       </div>
-      <a className="blog-section__more" href="#blog">View more <span aria-hidden="true">⌄</span></a>
+      <Link className="blog-section__more" href="/blog">View more <span aria-hidden="true">⌄</span></Link>
     </section>
   );
 }

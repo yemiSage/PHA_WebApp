@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const footerGroups = [
   {
@@ -7,7 +8,7 @@ const footerGroups = [
       { label: "Programmes", href: "/programmes" },
       { label: "Talent Pool", href: "/talent-pool" },
       { label: "Counseling", href: "/#counselling" },
-      { label: "Blog", href: "/#blog" },
+      { label: "Blog", href: "/blog" },
     ],
   },
   {
@@ -16,7 +17,7 @@ const footerGroups = [
       { label: "Partnership", href: "/partnership" },
       { label: "Sponsor", href: "/sponsorship" },
       { label: "Volunteer", href: "/volunteer" },
-      { label: "Help", href: "/contact" },
+      { label: "Help", href: "/help" },
     ],
   },
   {
@@ -60,7 +61,7 @@ export function Footer() {
               <div className="site-footer__group" key={group.title}>
                 <h3>{group.title}</h3>
                 <div>
-                  {group.links.map((link) => <a key={link.label} href={link.href}>{link.label}</a>)}
+                  {group.links.map((link) => <Link key={link.label} href={link.href}>{link.label}</Link>)}
                 </div>
               </div>
             ))}
