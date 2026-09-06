@@ -1,0 +1,498 @@
+const imgGroup = "https://www.figma.com/api/mcp/asset/6ea1725f-f92b-4d4e-bf2c-b401392f9a41.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/0910ef58-9e29-4469-b80e-9c0702207d39.svg";
+const imgFrame2147226497 = "https://www.figma.com/api/mcp/asset/7f502b89-f02d-45d9-9449-baf87e5f11d7.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/8dc96ff6-6438-4238-a2f4-f08bbaabc909.svg";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/04725502-46ea-4fc1-bf84-42f55b334ad2.svg";
+const imgVector2 = "https://www.figma.com/api/mcp/asset/696f346b-48cb-4028-84eb-fdf750d838c3.svg";
+const imgVector3 = "https://www.figma.com/api/mcp/asset/9f150a5d-4d9a-4edf-83f8-85d4a69d60e5.svg";
+const imgVector4 = "https://www.figma.com/api/mcp/asset/222ac2a7-9558-46c9-bc50-94fb30853df4.svg";
+const imgVector5 = "https://www.figma.com/api/mcp/asset/1101368b-8b7e-41ae-9cc8-bf7d3a738d5b.svg";
+const imgVector6 = "https://www.figma.com/api/mcp/asset/fcb4a534-e4d1-4e7a-8ffe-7d7088f7ea78.svg";
+const imgVector7 = "https://www.figma.com/api/mcp/asset/3d270438-c804-4ef3-8792-21ffc0ae39f8.svg";
+const imgVector8 = "https://www.figma.com/api/mcp/asset/b34d473b-b3b3-4c35-8a40-5794be86cbed.svg";
+const imgVector9 = "https://www.figma.com/api/mcp/asset/6150be97-993d-4f85-8080-3409ae803ec9.svg";
+const imgVector10 = "https://www.figma.com/api/mcp/asset/bd55b0ef-a32a-4741-b99b-46a82116f017.svg";
+const imgVector11 = "https://www.figma.com/api/mcp/asset/8fcf76ab-9955-44a5-b4a3-0125a49acbc9.svg";
+const imgVector12 = "https://www.figma.com/api/mcp/asset/d2e7e715-da67-4dfd-a4da-992444307b79.svg";
+const imgVector13 = "https://www.figma.com/api/mcp/asset/4e393691-3b49-4570-a119-55a47b79c522.svg";
+const imgVector14 = "https://www.figma.com/api/mcp/asset/3d646e09-6959-444c-81a1-54685c277a35.svg";
+const imgVector15 = "https://www.figma.com/api/mcp/asset/c36d6caa-dc53-4d26-9372-37eb6672fb2a.svg";
+const imgVector16 = "https://www.figma.com/api/mcp/asset/ee912bd1-2d2d-4c7c-a17c-83db7b16fffc.svg";
+const imgVector17 = "https://www.figma.com/api/mcp/asset/99dba6ef-84b7-45c1-b67f-ada8cb602838.svg";
+const imgVector18 = "https://www.figma.com/api/mcp/asset/997bb1c3-0f81-4050-8258-7ef581da080a.svg";
+const imgVector19 = "https://www.figma.com/api/mcp/asset/c62da182-33d8-4671-99f6-ecae8d6c9554.svg";
+const imgVector20 = "https://www.figma.com/api/mcp/asset/0faf2812-ab20-46f6-a64d-b5ebda3191a3.svg";
+const imgVector21 = "https://www.figma.com/api/mcp/asset/1c1d4145-9247-4515-bd28-14f07ba23556.svg";
+const imgVector22 = "https://www.figma.com/api/mcp/asset/93e5724a-3fe3-4efb-8358-e063d185af19.svg";
+const imgVector23 = "https://www.figma.com/api/mcp/asset/9c61f563-26fe-44ed-8c2f-b1b5c87754c5.svg";
+const imgVector24 = "https://www.figma.com/api/mcp/asset/d6577c0a-7a2a-4abf-8a8e-f63cde1c6313.svg";
+const imgVector25 = "https://www.figma.com/api/mcp/asset/7dffceb8-7782-46fe-9322-c2286b214c7f.svg";
+const imgVector26 = "https://www.figma.com/api/mcp/asset/51c831b7-d154-4ed1-a0f7-02e18b02446d.svg";
+const imgVector27 = "https://www.figma.com/api/mcp/asset/a7ab3e9c-7da9-4eff-b9f5-e6734c6ea052.svg";
+const imgVector28 = "https://www.figma.com/api/mcp/asset/19d3f192-ed8e-402c-8658-e67fc9392d3c.svg";
+const imgVector29 = "https://www.figma.com/api/mcp/asset/efdbceea-a61d-4d4b-a0c2-c20bf4ab14fd.svg";
+const imgVector30 = "https://www.figma.com/api/mcp/asset/0f8162ef-cfd8-4d17-a497-f2c171271021.svg";
+const imgVector31 = "https://www.figma.com/api/mcp/asset/03389485-432e-4241-8289-7a369539729b.svg";
+const imgVector32 = "https://www.figma.com/api/mcp/asset/2d5306c8-9bee-4c8f-b7f3-78bc97566426.svg";
+const imgVector33 = "https://www.figma.com/api/mcp/asset/b2f99cda-f285-480c-9a4f-c41d4630b26d.svg";
+const imgVector34 = "https://www.figma.com/api/mcp/asset/6e04a4e8-c9a8-495e-bd48-7a7368969543.svg";
+const imgVector35 = "https://www.figma.com/api/mcp/asset/da2b8f0f-a9b8-4646-8913-1f1645b7f644.svg";
+const imgVector36 = "https://www.figma.com/api/mcp/asset/248a262e-dd27-4797-a293-e68c1f10c620.svg";
+const imgVector37 = "https://www.figma.com/api/mcp/asset/27b78109-8615-412b-a300-3ff748860988.svg";
+const imgVector38 = "https://www.figma.com/api/mcp/asset/016c74e8-b9b8-426c-a6c0-6ba1fe6cba5a.svg";
+const imgVector39 = "https://www.figma.com/api/mcp/asset/c3d70f19-2218-44df-9a45-281bf4a3c57d.svg";
+const imgVector40 = "https://www.figma.com/api/mcp/asset/6f5329c8-ab9e-4b3b-b373-6b39dbe7fd98.svg";
+const imgVector41 = "https://www.figma.com/api/mcp/asset/148b0ea8-c2a0-4e18-9950-b2ae30878442.svg";
+const imgVector42 = "https://www.figma.com/api/mcp/asset/105c5466-5b79-4f45-8ae3-ba9359dad94f.svg";
+const imgVector43 = "https://www.figma.com/api/mcp/asset/88938f8a-22e1-4d9f-9940-465d4027738a.svg";
+const imgVector44 = "https://www.figma.com/api/mcp/asset/c2ad6d9c-7c2a-4985-805c-0d9592e66bf5.svg";
+const imgVector45 = "https://www.figma.com/api/mcp/asset/d3c53307-d06d-4fa0-aa4d-87f464f3ad7a.svg";
+const imgVector46 = "https://www.figma.com/api/mcp/asset/76e991fb-707f-4806-a4fe-0ba4aef21827.svg";
+const imgVector47 = "https://www.figma.com/api/mcp/asset/4aa25432-307e-4ca0-a4c8-630860fc2a54.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/21441769-f20a-4312-aecc-32faed6fec50.svg";
+const imgGroup3 = "https://www.figma.com/api/mcp/asset/4c1f3d93-3764-4903-9fe5-d240addef5f1.svg";
+const imgGroup4 = "https://www.figma.com/api/mcp/asset/21c5b1ed-b0a0-401f-a6fc-c539ac96275b.svg";
+const imgGroup5 = "https://www.figma.com/api/mcp/asset/94493be6-1236-4e27-b7da-62ee1df048a2.svg";
+const imgGroup45 = "https://www.figma.com/api/mcp/asset/d232f9bc-ec28-47ca-8cec-726361f3bcbe.svg";
+const imgGroup6 = "https://www.figma.com/api/mcp/asset/f2e30bf9-3e93-4949-9896-4549028f3c8d.svg";
+const imgGroup7 = "https://www.figma.com/api/mcp/asset/cc66666e-b6fa-4d5c-ba0f-83437017edee.svg";
+const imgGroup8 = "https://www.figma.com/api/mcp/asset/f8b3bead-7464-460f-a23e-7a7e2dcf1c07.svg";
+const imgGroup9 = "https://www.figma.com/api/mcp/asset/86c2f3d4-43ad-4784-81a3-6d5bca587045.svg";
+const imgGroup10 = "https://www.figma.com/api/mcp/asset/811f3131-9866-4d84-ab66-b7f8ad60c67a.svg";
+const imgGroup11 = "https://www.figma.com/api/mcp/asset/0b155e3f-6a48-4c70-bae3-285e7600e18c.svg";
+const imgGroup12 = "https://www.figma.com/api/mcp/asset/7fe03613-1b6a-4866-b954-f424f4580a82.svg";
+const imgGroup13 = "https://www.figma.com/api/mcp/asset/94360092-2134-4761-b0ac-3ac1cb1a2e25.svg";
+const imgGroup14 = "https://www.figma.com/api/mcp/asset/a60641e0-8ecd-491d-81d1-853fd1d89b55.svg";
+const imgGroup15 = "https://www.figma.com/api/mcp/asset/f1ff9a78-780e-4662-b29f-b406afe8ff8b.svg";
+const imgGroup16 = "https://www.figma.com/api/mcp/asset/7dfa825d-0b1f-4d63-80c3-14844bf401ef.svg";
+const imgGroup17 = "https://www.figma.com/api/mcp/asset/bddd1130-9d7d-4eee-a16e-ab960acb2e8f.svg";
+const imgGroup18 = "https://www.figma.com/api/mcp/asset/5c543a30-77bc-493e-9c7a-19cb94dc7d5a.svg";
+const imgGroup19 = "https://www.figma.com/api/mcp/asset/4260aa18-e9f8-4a80-8ec4-ec8db2c3217a.svg";
+const imgGroup20 = "https://www.figma.com/api/mcp/asset/5fc61e8d-94e7-4f59-a739-1a9bda42c2d0.svg";
+
+export default function Section5() {
+  return (
+    <div className="bg-[#f9f9f9] relative size-full" data-node-id="2022:5425" data-name="Section 5">
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[12px] items-center left-[calc(50%+0.5px)] top-[97px]" data-node-id="2022:5426">
+        <div className="bg-[#f4f4f4] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:5427">
+          <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:5428">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:5429">
+              <p className="leading-[1.4]">Partners</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2022:5430">
+          <div className="[word-break:break-word] flex flex-col font-['Aeonik:Bold'] justify-center leading-[0] not-italic relative shrink-0 text-[#1f1f1f] text-[48px] text-center tracking-[-0.72px] whitespace-nowrap" data-node-id="2022:5431">
+            <p className="leading-[1.2]">Backed by respected teams</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[92px] left-0 overflow-clip top-[265px] w-[1440px]" data-node-id="2022:5432">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex gap-[60px] items-center left-[calc(50%+0.27px)] top-[calc(50%+0.03px)]" data-node-id="2022:5433">
+          <div className="content-stretch flex h-[48px] items-center overflow-clip p-[12px] relative shrink-0" data-node-id="2022:5434">
+            <div className="h-[30px] overflow-clip relative shrink-0 w-[106.529px]" data-node-id="2022:5435" data-name="Asset 1.svg">
+              <div className="absolute contents inset-0" data-node-id="2022:5436" data-name="Layer_1">
+                <div className="absolute contents inset-0" data-node-id="2022:5437" data-name="Group">
+                  <div className="absolute inset-[0_0_0_26.21%]" data-node-id="2022:5438" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+                  </div>
+                  <div className="absolute bottom-1/4 left-0 right-[79.13%] top-[5.54%]" data-node-id="2022:5445" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="h-[48px] relative shrink-0 w-[79.244px]" data-node-id="2022:5448">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2147226497} />
+          </div>
+          <div className="content-stretch flex h-[48px] items-center overflow-clip p-[12px] relative shrink-0" data-node-id="2022:5450">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="2022:5451">
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="2022:5452">
+                <div className="col-1 h-[22.406px] ml-0 mt-[6.87px] relative row-1 w-[13.442px]" data-node-id="2022:5453" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+                </div>
+                <div className="col-1 h-[21.025px] ml-[15.23px] mt-[8.25px] relative row-1 w-[12.599px]" data-node-id="2022:5454" data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+                </div>
+                <div className="col-1 ml-[5.66px] mt-[1.22px] relative row-1 size-[17.635px]" data-node-id="2022:5455" data-name="Vector">
+                  <div className="absolute inset-[-1.78%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector2} />
+                  </div>
+                </div>
+                <div className="col-1 h-[2.399px] ml-[8.06px] mt-[3.19px] relative row-1 w-[4.157px]" data-node-id="2022:5456" data-name="Vector">
+                  <div className="absolute inset-[-2.65%_-0.88%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector3} />
+                  </div>
+                </div>
+                <div className="col-1 h-[3.03px] ml-[8px] mt-[2.98px] relative row-1 w-[5.248px]" data-node-id="2022:5457" data-name="Vector">
+                  <div className="absolute inset-[-2.1%_-0.7%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector4} />
+                  </div>
+                </div>
+                <div className="col-1 h-[3.087px] ml-[8.03px] mt-[3.28px] relative row-1 w-[5.346px]" data-node-id="2022:5458" data-name="Vector">
+                  <div className="absolute inset-[-2.06%_-0.69%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector5} />
+                  </div>
+                </div>
+                <div className="col-1 h-[3.114px] ml-[7.95px] mt-[3.66px] relative row-1 w-[5.396px]" data-node-id="2022:5459" data-name="Vector">
+                  <div className="absolute inset-[-2.04%_-0.68%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector6} />
+                  </div>
+                </div>
+                <div className="col-1 h-[3.459px] ml-[7.79px] mt-[3.79px] relative row-1 w-[5.992px]" data-node-id="2022:5460" data-name="Vector">
+                  <div className="absolute inset-[-1.84%_-0.61%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector7} />
+                  </div>
+                </div>
+                <div className="col-1 h-[3.646px] ml-[7.82px] mt-[3.96px] relative row-1 w-[6.314px]" data-node-id="2022:5461" data-name="Vector">
+                  <div className="absolute inset-[-1.74%_-0.58%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector8} />
+                  </div>
+                </div>
+                <div className="col-1 h-[4.188px] ml-[7.96px] mt-[3.71px] relative row-1 w-[7.253px]" data-node-id="2022:5462" data-name="Vector">
+                  <div className="absolute inset-[-1.52%_-0.51%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector9} />
+                  </div>
+                </div>
+                <div className="col-1 h-[4.258px] ml-[8.2px] mt-[3.87px] relative row-1 w-[7.375px]" data-node-id="2022:5463" data-name="Vector">
+                  <div className="absolute inset-[-1.49%_-0.5%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                  </div>
+                </div>
+                <div className="col-1 h-[4.424px] ml-[8.35px] mt-[3.99px] relative row-1 w-[7.661px]" data-node-id="2022:5464" data-name="Vector">
+                  <div className="absolute inset-[-1.44%_-0.48%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector11} />
+                  </div>
+                </div>
+                <div className="col-1 h-[4.65px] ml-[8.52px] mt-[4.05px] relative row-1 w-[8.052px]" data-node-id="2022:5465" data-name="Vector">
+                  <div className="absolute inset-[-1.37%_-0.46%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector12} />
+                  </div>
+                </div>
+                <div className="col-1 h-[4.91px] ml-[8.8px] mt-[4px] relative row-1 w-[8.505px]" data-node-id="2022:5466" data-name="Vector">
+                  <div className="absolute inset-[-1.29%_-0.43%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector13} />
+                  </div>
+                </div>
+                <div className="col-1 h-[4.919px] ml-[9.07px] mt-[4.21px] relative row-1 w-[8.52px]" data-node-id="2022:5467" data-name="Vector">
+                  <div className="absolute inset-[-1.29%_-0.43%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector14} />
+                  </div>
+                </div>
+                <div className="col-1 h-[4.617px] ml-[9.35px] mt-[4.72px] relative row-1 w-[7.997px]" data-node-id="2022:5468" data-name="Vector">
+                  <div className="absolute inset-[-1.38%_-0.46%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector15} />
+                  </div>
+                </div>
+                <div className="col-1 h-[4.341px] ml-[10px] mt-[5px] relative row-1 w-[7.518px]" data-node-id="2022:5469" data-name="Vector">
+                  <div className="absolute inset-[-1.46%_-0.49%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector16} />
+                  </div>
+                </div>
+                <div className="col-1 h-[6.027px] ml-[17.23px] mt-[5.32px] relative row-1 w-[1.682px]" data-node-id="2022:5470" data-name="Vector">
+                  <div className="absolute inset-[-0.33%_-4.2%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector17} />
+                  </div>
+                </div>
+                <div className="col-1 h-[6.969px] ml-[16.95px] mt-[5.48px] relative row-1 w-[1.945px]" data-node-id="2022:5471" data-name="Vector">
+                  <div className="absolute inset-[-0.28%_-3.63%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector18} />
+                  </div>
+                </div>
+                <div className="col-1 h-[7.986px] ml-[16.68px] mt-[5.64px] relative row-1 w-[2.23px]" data-node-id="2022:5472" data-name="Vector">
+                  <div className="absolute inset-[-0.25%_-3.17%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector19} />
+                  </div>
+                </div>
+                <div className="col-1 h-[8.029px] ml-[16.41px] mt-[5.8px] relative row-1 w-[2.241px]" data-node-id="2022:5473" data-name="Vector">
+                  <div className="absolute inset-[-0.25%_-3.15%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector20} />
+                  </div>
+                </div>
+                <div className="col-1 h-[8.006px] ml-[16.13px] mt-[5.96px] relative row-1 w-[2.235px]" data-node-id="2022:5474" data-name="Vector">
+                  <div className="absolute inset-[-0.25%_-3.16%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector21} />
+                  </div>
+                </div>
+                <div className="col-1 h-[7.987px] ml-[15.86px] mt-[6.13px] relative row-1 w-[2.23px]" data-node-id="2022:5475" data-name="Vector">
+                  <div className="absolute inset-[-0.25%_-3.17%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector22} />
+                  </div>
+                </div>
+                <div className="col-1 h-[8.075px] ml-[15.59px] mt-[6.29px] relative row-1 w-[2.254px]" data-node-id="2022:5476" data-name="Vector">
+                  <div className="absolute inset-[-0.24%_-3.14%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector23} />
+                  </div>
+                </div>
+                <div className="col-1 h-[8.821px] ml-[15.31px] mt-[6.45px] relative row-1 w-[2.462px]" data-node-id="2022:5477" data-name="Vector">
+                  <div className="absolute inset-[-0.22%_-2.87%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector24} />
+                  </div>
+                </div>
+                <div className="col-1 h-[8.841px] ml-[15.04px] mt-[6.61px] relative row-1 w-[2.468px]" data-node-id="2022:5478" data-name="Vector">
+                  <div className="absolute inset-[-0.22%_-2.86%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector25} />
+                  </div>
+                </div>
+                <div className="col-1 h-[9.078px] ml-[14.76px] mt-[6.77px] relative row-1 w-[2.535px]" data-node-id="2022:5479" data-name="Vector">
+                  <div className="absolute inset-[-0.22%_-2.79%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector26} />
+                  </div>
+                </div>
+                <div className="col-1 h-[9.252px] ml-[14.49px] mt-[6.94px] relative row-1 w-[2.583px]" data-node-id="2022:5480" data-name="Vector">
+                  <div className="absolute inset-[-0.21%_-2.74%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector27} />
+                  </div>
+                </div>
+                <div className="col-1 h-[9.248px] ml-[14.22px] mt-[7.1px] relative row-1 w-[2.581px]" data-node-id="2022:5481" data-name="Vector">
+                  <div className="absolute inset-[-0.21%_-2.74%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector28} />
+                  </div>
+                </div>
+                <div className="col-1 h-[9.402px] ml-[13.94px] mt-[7.26px] relative row-1 w-[2.624px]" data-node-id="2022:5482" data-name="Vector">
+                  <div className="absolute inset-[-0.21%_-2.69%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector29} />
+                  </div>
+                </div>
+                <div className="col-1 h-[9.486px] ml-[13.67px] mt-[7.42px] relative row-1 w-[2.649px]" data-node-id="2022:5483" data-name="Vector">
+                  <div className="absolute inset-[-0.21%_-2.67%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector30} />
+                  </div>
+                </div>
+                <div className="col-1 h-[9.453px] ml-[13.4px] mt-[7.58px] relative row-1 w-[2.639px]" data-node-id="2022:5484" data-name="Vector">
+                  <div className="absolute inset-[-0.21%_-2.68%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector31} />
+                  </div>
+                </div>
+                <div className="col-1 h-[9.368px] ml-[13.12px] mt-[7.74px] relative row-1 w-[2.615px]" data-node-id="2022:5485" data-name="Vector">
+                  <div className="absolute inset-[-0.21%_-2.7%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector32} />
+                  </div>
+                </div>
+                <div className="col-1 h-[9.253px] ml-[12.85px] mt-[7.91px] relative row-1 w-[2.583px]" data-node-id="2022:5486" data-name="Vector">
+                  <div className="absolute inset-[-0.21%_-2.74%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector33} />
+                  </div>
+                </div>
+                <div className="col-1 h-[9.137px] ml-[12.57px] mt-[8.07px] relative row-1 w-[2.552px]" data-node-id="2022:5487" data-name="Vector">
+                  <div className="absolute inset-[-0.22%_-2.77%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector34} />
+                  </div>
+                </div>
+                <div className="col-1 h-[8.971px] ml-[12.3px] mt-[8.23px] relative row-1 w-[2.504px]" data-node-id="2022:5488" data-name="Vector">
+                  <div className="absolute inset-[-0.22%_-2.82%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector35} />
+                  </div>
+                </div>
+                <div className="col-1 h-[7.434px] ml-[12.03px] mt-[8.39px] relative row-1 w-[2.077px]" data-node-id="2022:5489" data-name="Vector">
+                  <div className="absolute inset-[-0.27%_-3.4%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector36} />
+                  </div>
+                </div>
+                <div className="col-1 h-[0.492px] ml-[11.75px] mt-[8.55px] relative row-1 w-[0.138px]" data-node-id="2022:5490" data-name="Vector">
+                  <div className="absolute inset-[-2.89%_-36.76%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector37} />
+                  </div>
+                </div>
+                <div className="col-1 h-[0.006px] ml-[21.17px] mt-[7.86px] relative row-1 w-[0.002px]" data-node-id="2022:5491" data-name="Vector">
+                  <div className="absolute inset-[-0.03px_-0.07px]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector38} />
+                  </div>
+                </div>
+                <div className="col-1 h-[0.617px] ml-[20.88px] mt-[7.96px] relative row-1 w-[0.172px]" data-node-id="2022:5492" data-name="Vector">
+                  <div className="absolute inset-[-3.19%_-41.14%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector39} />
+                  </div>
+                </div>
+                <div className="col-1 h-[1.027px] ml-[20.57px] mt-[8px] relative row-1 w-[0.287px]" data-node-id="2022:5493" data-name="Vector">
+                  <div className="absolute inset-[-1.92%_-24.6%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector40} />
+                  </div>
+                </div>
+                <div className="col-1 h-[1.273px] ml-[20.28px] mt-[8.1px] relative row-1 w-[0.356px]" data-node-id="2022:5494" data-name="Vector">
+                  <div className="absolute inset-[-1.55%_-19.84%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector41} />
+                  </div>
+                </div>
+                <div className="col-1 h-[1.563px] ml-[19.95px] mt-[8.08px] relative row-1 w-[0.436px]" data-node-id="2022:5495" data-name="Vector">
+                  <div className="absolute inset-[-1.26%_-16.19%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector42} />
+                  </div>
+                </div>
+                <div className="col-1 h-[2.292px] ml-[19.5px] mt-[7.58px] relative row-1 w-[0.64px]" data-node-id="2022:5496" data-name="Vector">
+                  <div className="absolute inset-[-0.86%_-11.05%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector43} />
+                  </div>
+                </div>
+                <div className="col-1 h-[2.757px] ml-[19.12px] mt-[7.37px] relative row-1 w-[0.769px]" data-node-id="2022:5497" data-name="Vector">
+                  <div className="absolute inset-[-0.71%_-9.19%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector44} />
+                  </div>
+                </div>
+                <div className="col-1 h-[3.66px] ml-[18.62px] mt-[6.72px] relative row-1 w-[1.021px]" data-node-id="2022:5498" data-name="Vector">
+                  <div className="absolute inset-[-0.54%_-6.92%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector45} />
+                  </div>
+                </div>
+                <div className="col-1 h-[4.99px] ml-[18px] mt-[5.64px] relative row-1 w-[1.394px]" data-node-id="2022:5499" data-name="Vector">
+                  <div className="absolute inset-[-0.4%_-5.07%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector46} />
+                  </div>
+                </div>
+                <div className="col-1 h-[5.844px] ml-[17.5px] mt-[5.02px] relative row-1 w-[1.632px]" data-node-id="2022:5500" data-name="Vector">
+                  <div className="absolute inset-[-0.34%_-4.33%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector47} />
+                  </div>
+                </div>
+                <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[31.54px] mt-0 place-items-start relative row-1" data-node-id="2022:5501" data-name="Group">
+                  <p className="[word-break:break-word] col-1 font-['Montserrat:Bold'] font-bold leading-[normal] ml-0 mt-0 relative row-1 text-[#1f1f1f] text-[13.812px] whitespace-nowrap" data-node-id="2022:5502">{`STEM-A-SCHOOL `}</p>
+                </div>
+                <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[31.21px] mt-[12.43px] place-items-start relative row-1" data-node-id="2022:5503" data-name="Group">
+                  <p className="[word-break:break-word] col-1 font-['Montserrat:Bold'] font-bold leading-[normal] ml-0 mt-0 relative row-1 text-[#1f1f1f] text-[13.812px] whitespace-nowrap" data-node-id="2022:5504">
+                    BY PHA
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[48px] items-center overflow-clip p-[12px] relative shrink-0" data-node-id="2022:5505">
+            <div className="flex items-center justify-center relative shrink-0" data-node-id="2022:5506">
+              <div className="-scale-y-100 flex-none">
+                <div className="h-[30px] relative w-[116.015px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[48px] items-center overflow-clip p-[12px] relative shrink-0" data-node-id="2022:5508">
+            <div className="h-[30px] overflow-clip relative shrink-0 w-[87.484px]" data-node-id="2022:5509" data-name="Unwind fest">
+              <div className="absolute flex inset-[0.19%_0.07%_0_0] items-center justify-center" data-node-id="2022:5510" style={{ containerType: "size" }}>
+                <div className="-rotate-180 -scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+                  <div className="relative size-full" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[48px] items-center overflow-clip p-[12px] relative shrink-0" data-node-id="2022:5512">
+            <div className="content-stretch flex gap-[4.502px] items-center relative shrink-0" data-node-id="2022:5513" data-name="No code tech">
+              <div className="flex items-center justify-center relative shrink-0" data-node-id="2022:5514">
+                <div className="-scale-y-100 flex-none">
+                  <div className="h-[30px] relative w-[32.049px]" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup4} />
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center justify-center relative shrink-0" data-node-id="2022:5516">
+                <div className="-scale-y-100 flex-none">
+                  <div className="h-[24.099px] relative w-[71.988px]" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[48px] items-center overflow-clip p-[12px] relative shrink-0" data-node-id="2022:5518">
+            <div className="h-[30px] relative shrink-0 w-[80.245px]" data-node-id="2022:5519">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup45} />
+            </div>
+          </div>
+          <div className="content-stretch flex h-[48px] items-center overflow-clip p-[12px] relative shrink-0" data-node-id="2022:5523">
+            <div className="h-[30px] overflow-clip relative shrink-0 w-[63.38px]" data-node-id="2022:5524" data-name="Frame">
+              <div className="absolute flex inset-[8.66%_9.33%_11.62%_6.74%] items-center justify-center" data-node-id="2022:5525" style={{ containerType: "size" }}>
+                <div className="-rotate-180 -scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+                  <div className="relative size-full" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup6} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[48px] items-center overflow-clip p-[12px] relative shrink-0" data-node-id="2022:5527">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="2022:5528">
+              <div className="col-1 flex h-[30px] items-center justify-center ml-[10.99px] mt-0 relative row-1 w-[27.853px]" data-node-id="2022:5529">
+                <div className="-scale-y-100 flex-none">
+                  <div className="h-[30px] relative w-[27.853px]" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup7} />
+                  </div>
+                </div>
+              </div>
+              <div className="col-1 flex h-[26.985px] items-center justify-center ml-0 mt-[1.55px] relative row-1 w-[19.462px]" data-node-id="2022:5531">
+                <div className="-scale-y-100 flex-none">
+                  <div className="h-[26.985px] relative w-[19.462px]" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup8} />
+                  </div>
+                </div>
+              </div>
+              <div className="col-1 flex h-[15.925px] items-center justify-center ml-[8.75px] mt-[7.06px] relative row-1 w-[39.295px]" data-node-id="2022:5533">
+                <div className="-scale-y-100 flex-none">
+                  <div className="h-[15.925px] relative w-[39.295px]" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup9} />
+                  </div>
+                </div>
+              </div>
+              <div className="col-1 flex h-[12.566px] items-center justify-center ml-[45.5px] mt-[7.98px] relative row-1 w-[66.03px]" data-node-id="2022:5535">
+                <div className="-scale-y-100 flex-none">
+                  <div className="h-[12.566px] relative w-[66.03px]" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup10} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex h-[48px] items-center overflow-clip p-[12px] relative shrink-0" data-node-id="2022:5537">
+            <div className="h-[30px] overflow-clip relative shrink-0 w-[99.07px]" data-node-id="2022:5538" data-name="Frame">
+              <div className="absolute contents inset-[2.21%_0_2.2%_0]" data-node-id="2022:5539" data-name="Clip path group">
+                <div className="absolute contents inset-[2.21%_0.05%_2.06%_0.01%]" data-node-id="2022:5542" data-name="Frame">
+                  <div className="absolute contents inset-[2.21%_0.05%_2.06%_0.01%]" data-node-id="2022:5543" data-name="Group">
+                    <div className="absolute inset-[21.47%_78.2%_18.98%_0.01%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-0.011px_-5.778px] mask-size-[99.07px_28.678px]" data-node-id="2022:5544" style={{ maskImage: `url("${imgGroup11}")` }} data-name="Group_2">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup12} />
+                    </div>
+                    <div className="absolute inset-[11.42%_75.23%_28.89%_2.98%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-2.954px_-2.764px] mask-size-[99.07px_28.678px]" data-node-id="2022:5546" style={{ maskImage: `url("${imgGroup11}")` }} data-name="Group_3">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup13} />
+                    </div>
+                    <div className="absolute inset-[22.15%_57.57%_15.68%_28.7%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-28.43px_-5.982px] mask-size-[99.07px_28.678px]" data-node-id="2022:5548" style={{ maskImage: `url("${imgGroup11}")` }} data-name="Group_4">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup14} />
+                    </div>
+                    <div className="absolute inset-[21.88%_44.78%_30.81%_43.55%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-43.142px_-5.9px] mask-size-[99.07px_28.678px]" data-node-id="2022:5550" style={{ maskImage: `url("${imgGroup11}")` }} data-name="Group_5">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup15} />
+                    </div>
+                    <div className="absolute inset-[2.21%_37.65%_31.22%_56.57%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-56.048px_0px] mask-size-[99.07px_28.678px]" data-node-id="2022:5552" style={{ maskImage: `url("${imgGroup11}")` }} data-name="Group_6">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup16} />
+                    </div>
+                    <div className="absolute inset-[22.29%_24.17%_16.09%_63.05%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-62.464px_-6.026px] mask-size-[99.07px_28.678px]" data-node-id="2022:5554" style={{ maskImage: `url("${imgGroup11}")` }} data-name="Group_7">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup17} />
+                    </div>
+                    <div className="absolute inset-[21.88%_11.13%_30.81%_77.2%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-76.477px_-5.9px] mask-size-[99.07px_28.678px]" data-node-id="2022:5556" style={{ maskImage: `url("${imgGroup11}")` }} data-name="Group_8">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup18} />
+                    </div>
+                    <div className="absolute inset-[22.01%_0.05%_30.26%_89.07%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-88.239px_-5.941px] mask-size-[99.07px_28.678px]" data-node-id="2022:5558" style={{ maskImage: `url("${imgGroup11}")` }} data-name="Group_9">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup19} />
+                    </div>
+                    <div className="absolute contents inset-[61.76%_26.19%_2.06%_61.03%]" data-node-id="2022:5560" data-name="Group_10">
+                      <div className="absolute inset-[61.76%_26.19%_2.06%_61.03%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-60.463px_-17.867px] mask-size-[99.07px_28.678px]" data-node-id="2022:5561" style={{ maskImage: `url("${imgGroup11}")` }} data-name="Group_11">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup20} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Grey 900: #1F1F1F, Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Grey 50: #F4F4F4.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

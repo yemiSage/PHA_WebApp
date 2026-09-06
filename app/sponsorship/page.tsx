@@ -1,3 +1,4 @@
+export const metadata = { title: "Sponsorship | Product Hub Africa" };
 import Image from "next/image";
 import { OrganizationFormSection } from "@/components/organization/OrganizationForm";
 import { OrganizationEyebrow, OrganizationHero } from "@/components/organization/OrganizationHero";
@@ -21,3 +22,4 @@ export default function Page() {
     </OrganizationShell>
   );
 }
+

@@ -37,16 +37,16 @@ export function Testimonials() {
           <span className="pill pill--neutral">Testimonials</span>
           <h2 id="testimonials-title">We deliver value that speaks for itself</h2>
         </div>
-        <p>Hear firsthand from our community members about how Product Hub Africa has shaped their journeys, elevated their skills, and unlocked new opportunities.</p>
+        <p>Here is what our past alumnus are saying about our programmes</p>
       </div>
       <div className="testimonial-track" ref={track} onScroll={syncControls}>
         {testimonials.map((item) => (
           <article className="testimonial-card" key={item.name}>
             <div className="testimonial-card__person">
               <Image className="testimonial-card__avatar" {...item.image} alt="" />
-              <div><h3>{item.name}</h3><p>{item.role}</p></div>
-              <Image className="testimonial-card__flag" {...item.flag} alt="" />
+              <div><h3>{item.name}</h3><p><Image className="testimonial-card__flag" {...item.flag} alt="" />{item.role}</p></div>
             </div>
+            <h4>{item.headline}</h4>
             <p className="testimonial-card__quote">{item.quote}</p>
           </article>
         ))}

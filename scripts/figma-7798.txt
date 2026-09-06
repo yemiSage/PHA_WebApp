@@ -1,0 +1,146 @@
+const imgMailFilled = "https://www.figma.com/api/mcp/asset/9c62ab0c-d6da-42ab-bed5-70b36c7dd279.svg";
+const imgIconamoonArrowTopRight1Bold = "https://www.figma.com/api/mcp/asset/7cf33cd6-9ae7-46a1-af62-6cf63c90290e.svg";
+const imgIMacFilled = "https://www.figma.com/api/mcp/asset/ad03cf30-ffc3-4478-a74f-b768ea08f1a9.svg";
+const imgWhatsappFilled = "https://www.figma.com/api/mcp/asset/ec4e6aef-fb24-432a-a453-c53666ce138a.svg";
+
+export default function Section16() {
+  return (
+    <div className="bg-[#f9f9f9] relative size-full" data-node-id="2022:7798" data-name="Section 16">
+      <div className="-translate-y-1/2 absolute content-stretch flex flex-col gap-[60px] items-center left-[110px] top-[calc(50%+0.5px)] w-[1220px]" data-node-id="2022:7799">
+        <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0 w-full" data-node-id="2022:7800">
+          <div className="bg-[#f4f4f4] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:7801">
+            <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:7802">
+              <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#777] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:7803">
+                <p className="leading-[1.4]">Support</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2022:7804">
+            <div className="[word-break:break-word] flex flex-col font-['Aeonik:Bold'] justify-center leading-[0] not-italic relative shrink-0 text-[#1f1f1f] text-[48px] text-center tracking-[-0.72px] w-[622px]" data-node-id="2022:7805">
+              <p className="leading-[1.2]">Get the immediate support that you need</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-center flex flex-wrap gap-[16px] items-center justify-center relative shrink-0 w-full" data-node-id="2022:7806">
+          <div className="bg-white border border-[#eaeaea] border-solid content-stretch flex flex-col h-[401px] items-start overflow-clip p-[16px] relative rounded-[24px] shrink-0 w-[389px]" data-node-id="2022:7807">
+            <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-between min-h-px relative w-full" data-node-id="2022:7808">
+              <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-node-id="2022:7809">
+                <div className="bg-[#f4f4f4] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:7810">
+                  <div className="relative shrink-0 size-[32px]" data-node-id="2022:7811" data-name="mail_filled">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMailFilled} />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="2022:7813">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:7814">
+                  <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center min-w-full relative shrink-0 text-[#1f1f1f] text-[24px] tracking-[-0.36px] w-[min-content]" data-node-id="2022:7815">
+                    <p className="leading-[1.4]">Email Us</p>
+                  </div>
+                  <div className="content-stretch flex flex-col font-['Geist:Regular'] font-normal gap-[8px] items-start relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px]" data-node-id="2022:7816">
+                    <div className="flex flex-col justify-center relative shrink-0 w-[329px]" data-node-id="2022:7817">
+                      <p className="leading-[1.4]">info@producthubafrica.org</p>
+                    </div>
+                    <div className="flex flex-col justify-center relative shrink-0 w-[329px]" data-node-id="2022:7818">
+                      <p className="leading-[1.4]">producthubafrica@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="border-[1.5px] border-solid border-white content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:7819" data-name="Button">
+                  <div aria-hidden className="absolute bg-gradient-to-r from-[#f9f9f9] inset-0 pointer-events-none rounded-[16px] to-[#fafafa]" />
+                  <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#1f1f1f] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:7819;9:2820">
+                    Send a mail
+                  </p>
+                  <div className="relative shrink-0 size-[20px]" data-node-id="I2022:7819;22:4476" data-name="iconamoon:arrow-top-right-1-bold">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconamoonArrowTopRight1Bold} />
+                  </div>
+                  <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white border border-[#eaeaea] border-solid content-stretch flex flex-col h-[401px] items-start overflow-clip p-[16px] relative rounded-[24px] shrink-0 w-[389px]" data-node-id="2022:7820">
+            <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-between min-h-px relative w-full" data-node-id="2022:7821">
+              <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-node-id="2022:7822">
+                <div className="bg-[#f4f4f4] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:7823">
+                  <div className="relative shrink-0 size-[32px]" data-node-id="2022:7824" data-name="iMac_filled">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIMacFilled} />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="2022:7826">
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2022:7827">
+                  <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="2022:7828">
+                    <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[24px] tracking-[-0.36px] w-full" data-node-id="2022:7829">
+                      <p className="leading-[1.4]">Visit Us</p>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2022:7830">
+                      <div className="[word-break:break-word] content-stretch flex flex-col font-['Geist:Regular'] font-normal gap-[8px] items-start leading-[0] relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:7831">
+                        <div className="flex flex-col justify-center relative shrink-0 w-full" data-node-id="2022:7832">
+                          <p className="leading-[1.4]">Lagos, Nigeria</p>
+                        </div>
+                        <div className="flex flex-col justify-center relative shrink-0 w-full" data-node-id="2022:7833">
+                          <p className="leading-[1.4]">{`Reach out to our team virtually. Schedule a call here `}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="border-[1.5px] border-solid border-white content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:7834" data-name="Button">
+                  <div aria-hidden className="absolute bg-gradient-to-r from-[#f9f9f9] inset-0 pointer-events-none rounded-[16px] to-[#fafafa]" />
+                  <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#1f1f1f] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:7834;9:2820">
+                    Schedule a call
+                  </p>
+                  <div className="relative shrink-0 size-[20px]" data-node-id="I2022:7834;22:4476" data-name="iconamoon:arrow-top-right-1-bold">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconamoonArrowTopRight1Bold} />
+                  </div>
+                  <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white border border-[#eaeaea] border-solid content-stretch flex flex-col h-[401px] items-start overflow-clip p-[16px] relative rounded-[24px] shrink-0 w-[389px]" data-node-id="2022:7835">
+            <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-between min-h-px relative w-full" data-node-id="2022:7836">
+              <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-node-id="2022:7837">
+                <div className="bg-[#f4f4f4] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:7838">
+                  <div className="relative shrink-0 size-[32px]" data-node-id="2022:7839" data-name="whatsapp_filled">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWhatsappFilled} />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="2022:7841">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[6px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:7842">
+                  <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[24px] tracking-[-0.36px] w-full" data-node-id="2022:7843">
+                    <p className="leading-[1.4]">Support</p>
+                  </div>
+                  <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:7844">
+                    <p className="leading-[1.4]">Join our WhatsApp channel for 24/7 hour support</p>
+                  </div>
+                </div>
+                <div className="border-[1.5px] border-solid border-white content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:7845" data-name="Button">
+                  <div aria-hidden className="absolute bg-gradient-to-r from-[#f9f9f9] inset-0 pointer-events-none rounded-[16px] to-[#fafafa]" />
+                  <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#1f1f1f] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:7845;9:2820">
+                    Join our channel
+                  </p>
+                  <div className="relative shrink-0 size-[20px]" data-node-id="I2022:7845;22:4476" data-name="iconamoon:arrow-top-right-1-bold">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconamoonArrowTopRight1Bold} />
+                  </div>
+                  <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Grey 700: #777777, Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Grey 50: #F4F4F4, Grey 900: #1F1F1F, Paragraph 2/Paragraph 2 Me: Font(family: "Geist", style: Medium, size: 24, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Body/Body Re: Font(family: "Geist", style: Regular, size: 16, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), white: #FFFFFF, Grey 100: #EAEAEA.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 const footerGroups = [
   {
     title: "Menu",
     links: [
-      { label: "Programmes", href: "/#programmes" },
+      { label: "Programmes", href: "/programmes" },
       { label: "Talent Pool", href: "/talent-pool" },
       { label: "Counseling", href: "/#counselling" },
       { label: "Blog", href: "/#blog" },
@@ -14,13 +16,14 @@ const footerGroups = [
       { label: "Partnership", href: "/partnership" },
       { label: "Sponsor", href: "/sponsorship" },
       { label: "Volunteer", href: "/volunteer" },
+      { label: "Help", href: "/contact" },
     ],
   },
   {
     title: "Others",
     links: [
       { label: "About us", href: "/about" },
-      { label: "Policy", href: "/#contact" },
+      { label: "Policy", href: "/privacy-policy" },
     ],
   },
 ];
@@ -75,4 +78,4 @@ export function Footer() {
     </footer>
   );
 }
-import Image from "next/image";
+

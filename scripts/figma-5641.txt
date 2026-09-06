@@ -1,0 +1,146 @@
+const imgImage = "https://www.figma.com/api/mcp/asset/962fff73-6cda-4021-bfa0-4fed4151897c.png";
+const imgImage1 = "https://www.figma.com/api/mcp/asset/bd53e63d-8f4b-4af1-8989-33edc3f757a5.png";
+const imgImage2 = "https://www.figma.com/api/mcp/asset/39a4f6ad-e914-459c-a0b8-107e5032ec3b.png";
+const imgImage3 = "https://www.figma.com/api/mcp/asset/5a8a694a-779e-43e4-9cff-46c7880098d2.png";
+const imgImage4 = "https://www.figma.com/api/mcp/asset/43c5905a-3963-4f9a-ae12-f87765e34025.png";
+
+export default function Frame2147226322() {
+  return (
+    <div className="bg-[#101010] relative size-full" data-node-id="2022:5641">
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[12px] items-center left-[calc(50%+0.5px)] top-[117px] w-[1151px]" data-node-id="2022:5642">
+        <div className="bg-[#f4f4f4] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:5643">
+          <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:5644">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:5645">
+              <p className="leading-[1.4]">Core team</p>
+            </div>
+          </div>
+        </div>
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-center leading-[0] relative shrink-0 text-center" data-node-id="2022:5646">
+          <div className="flex flex-col font-['Aeonik:Bold'] justify-center not-italic relative shrink-0 text-[48px] text-white tracking-[-0.72px] w-[832px]" data-node-id="2022:5647">
+            <p className="leading-[1.2]">Meet our leadership team</p>
+          </div>
+          <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#dfdfdf] text-[16px] tracking-[-0.24px] w-[478px]" data-node-id="2022:5648">
+            <p className="leading-[1.4]">Behind the curtains, we have our key leaders</p>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute gap-x-[16px] gap-y-[16px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[repeat(2,fit-content(100%))] left-[calc(50%+0.5px)] top-[323px] w-[1193px]" data-node-id="2022:5649">
+        <div className="bg-[#f4f4f4] border border-[#f4f4f4] border-solid col-1 content-stretch flex flex-col items-start justify-self-stretch overflow-clip pb-[16px] pt-[4px] px-[4px] relative rounded-[28px] row-1 self-stretch shrink-0" data-node-id="2022:5650" data-name="CARD">
+          <div className="bg-white border border-[#f4f4f4] border-solid content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[28px] shrink-0 w-full" data-node-id="2022:5651">
+            <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full" data-node-id="2022:5652">
+              <div className="h-[316px] relative rounded-[12px] shrink-0 w-full" data-node-id="2022:5653" data-name="image">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[12px]">
+                  <img alt="" className="absolute h-[143.72%] left-[-12.84%] max-w-none top-[-5.02%] w-[131.79%]" src={imgImage} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2022:5654">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:5655">
+                  <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[28px] text-center tracking-[-0.42px] whitespace-nowrap" data-node-id="2022:5656">
+                    <p className="leading-[1.3]">Victoria Oladosu</p>
+                  </div>
+                  <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center min-w-full relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[min-content]" data-node-id="2022:5657">
+                    <p className="leading-[1.4]">Founder, Lead Community manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#f4f4f4] border border-[#f4f4f4] border-solid col-2 content-stretch flex flex-col items-start justify-self-stretch overflow-clip pb-[16px] pt-[4px] px-[4px] relative rounded-[28px] row-1 self-stretch shrink-0" data-node-id="2022:5658" data-name="CARD">
+          <div className="bg-white border border-[#f4f4f4] border-solid content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[24px] shrink-0 w-full" data-node-id="2022:5659">
+            <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full" data-node-id="2022:5660">
+              <div className="h-[316px] relative rounded-[12px] shrink-0 w-full" data-node-id="2022:5661" data-name="image">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[12px]">
+                  <img alt="" className="absolute h-[132.91%] left-[-33.45%] max-w-none top-[-1.79%] w-[158.17%]" src={imgImage1} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2022:5662">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:5663">
+                  <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[28px] text-center tracking-[-0.42px] whitespace-nowrap" data-node-id="2022:5664">
+                    <p className="leading-[1.3]">Dosunmu Aishat</p>
+                  </div>
+                  <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center min-w-full relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[min-content]" data-node-id="2022:5665">
+                    <p className="leading-[1.4]">Programs, Community Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#f4f4f4] border border-[#f4f4f4] border-solid col-3 content-stretch flex flex-col items-start justify-self-stretch overflow-clip pb-[16px] pt-[4px] px-[4px] relative rounded-[28px] row-1 self-stretch shrink-0" data-node-id="2022:5666" data-name="CARD">
+          <div className="bg-white border border-[#f4f4f4] border-solid content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[24px] shrink-0 w-full" data-node-id="2022:5667">
+            <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full" data-node-id="2022:5668">
+              <div className="h-[316px] relative rounded-[12px] shrink-0 w-full" data-node-id="2022:5669" data-name="image">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[12px]">
+                  <img alt="" className="absolute h-[160.03%] left-0 max-w-none top-[-3.8%] w-full" src={imgImage2} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2022:5670">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:5671">
+                  <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[28px] text-center tracking-[-0.42px] whitespace-nowrap" data-node-id="2022:5672">
+                    <p className="leading-[1.3]">Adegboye Opeyemi</p>
+                  </div>
+                  <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center min-w-full relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[min-content]" data-node-id="2022:5673">
+                    <p className="leading-[1.4]">Head of Operations, Digital Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#f4f4f4] border border-[#f4f4f4] border-solid col-1 content-stretch flex flex-col items-start justify-self-stretch overflow-clip pb-[16px] pt-[4px] px-[4px] relative rounded-[28px] row-2 self-stretch shrink-0" data-node-id="2022:5674" data-name="CARD">
+          <div className="bg-white border border-[#f4f4f4] border-solid content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[24px] shrink-0 w-full" data-node-id="2022:5675">
+            <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full" data-node-id="2022:5676">
+              <div className="h-[316px] relative rounded-[12px] shrink-0 w-full" data-node-id="2022:5677" data-name="image">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[12px]">
+                  <img alt="" className="absolute h-[190.72%] left-[-13.89%] max-w-none top-[-26.23%] w-[134.12%]" src={imgImage3} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2022:5678">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:5679">
+                  <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[28px] text-center tracking-[-0.42px] whitespace-nowrap" data-node-id="2022:5680">
+                    <p className="leading-[1.3]">Osaite Emmanuel</p>
+                  </div>
+                  <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center min-w-full relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[min-content]" data-node-id="2022:5681">
+                    <p className="leading-[1.4]">Lead Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#f4f4f4] border border-[#f4f4f4] border-solid col-2 content-stretch flex flex-col items-start justify-self-stretch overflow-clip pb-[16px] pt-[4px] px-[4px] relative rounded-[28px] row-2 self-stretch shrink-0" data-node-id="2022:5682" data-name="CARD">
+          <div className="bg-white border border-[#f4f4f4] border-solid content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[24px] shrink-0 w-full" data-node-id="2022:5683">
+            <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full" data-node-id="2022:5684">
+              <div className="h-[316px] relative rounded-[12px] shrink-0 w-full" data-node-id="2022:5685" data-name="image">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[12px]">
+                  <img alt="" className="absolute h-[148.1%] left-0 max-w-none top-[-13.96%] w-full" src={imgImage4} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2022:5686">
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:5687">
+                  <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[28px] text-center tracking-[-0.42px] whitespace-nowrap" data-node-id="2022:5688">
+                    <p className="leading-[1.3]">Grace Okailey Quaye</p>
+                  </div>
+                  <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center min-w-full relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[min-content]" data-node-id="2022:5689">
+                    <p className="leading-[1.4]">Programmes, Community Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Grey 900: #1F1F1F, Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Grey 50: #F4F4F4, white: #FFFFFF, Grey 150: #DFDFDF, Body/Body Re: Font(family: "Geist", style: Regular, size: 16, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), Paragraph 1/Paragraph 1 Me: Font(family: "Geist", style: Medium, size: 28, weight: 500, lineHeight: 1.2999999523162842, letterSpacing: -1.5), Grey 950: #101010.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

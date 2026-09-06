@@ -1,0 +1,94 @@
+const imgEllipse5 = "https://www.figma.com/api/mcp/asset/6f493af5-5e6a-4eef-964f-1e000c7833e5.png";
+const imgEllipse7 = "https://www.figma.com/api/mcp/asset/0da2dab0-8f81-48aa-8d81-61692008e6db.png";
+const imgEllipse8 = "https://www.figma.com/api/mcp/asset/6bb6287b-a89f-4185-953f-ba6cb8512142.png";
+const imgEllipse6 = "https://www.figma.com/api/mcp/asset/f6fcf47c-1709-4232-90e9-7c9a95593565.png";
+const imgNigeria = "https://www.figma.com/api/mcp/asset/6f3cac46-c2a5-4dee-9c48-d54d699c943b.png";
+const imgGhana = "https://www.figma.com/api/mcp/asset/cde7464c-7d8c-47f2-bc6f-cba32c27bca9.png";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/0825f466-6a32-449c-ab88-7d6bd2938976.svg";
+
+export default function Section4() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="2022:5712" data-name="Section 4">
+      <div className="absolute content-stretch flex flex-col items-start left-[120px] top-[47px] w-[1201px]" data-node-id="2022:5713">
+        <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0 w-full" data-node-id="2022:5714">
+          <div className="bg-[#f4f4f4] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:5715">
+            <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:5716">
+              <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#777] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:5717">
+                <p className="leading-[1.4]">Location</p>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-center leading-[0] relative shrink-0 text-center" data-node-id="2022:5718">
+            <div className="flex flex-col font-['Aeonik:Bold'] justify-center not-italic relative shrink-0 text-[#1f1f1f] text-[48px] tracking-[-0.72px] w-[979px]" data-node-id="2022:5719">
+              <p className="leading-[1.2]">We bridge the gap between learning and real-world experience</p>
+            </div>
+            <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[415px]" data-node-id="2022:5720">
+              <p className="leading-[1.4]">{`We offer variety of courses designed to get you off from a newbie to a junior level in tech. `}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute inset-[34.7%_16.7%_-14.76%_15.14%]" data-node-id="2022:5721">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+      </div>
+      <div className="absolute left-[124px] size-[94px] top-[514px]" data-node-id="2022:6082">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="94" src={imgEllipse5} width="94" />
+      </div>
+      <div className="absolute left-[calc(62.5%+1px)] size-[77px] top-[304px]" data-node-id="2022:6083">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="77" src={imgEllipse7} width="77" />
+      </div>
+      <div className="absolute left-[calc(87.5%-50px)] size-[72px] top-[389px]" data-node-id="2022:6084">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="72" src={imgEllipse8} width="72" />
+      </div>
+      <div className="absolute left-[calc(75%+37px)] size-[71px] top-[750px]" data-node-id="2022:6085">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="71" src={imgEllipse6} width="71" />
+      </div>
+      <div className="absolute content-stretch flex gap-px items-center left-[calc(37.5%+99px)] top-[630px]" data-node-id="2022:6086">
+        <div className="relative shrink-0 size-[58px]" data-node-id="2022:6087" data-name="nigeria">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNigeria} />
+        </div>
+        <div className="bg-[#47ba39] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:6088">
+          <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:6089">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:6090">
+              <p className="leading-[1.4]">Nigeria</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-px items-center left-[calc(25%+130px)] top-[534px]" data-node-id="2022:6091">
+        <div className="relative shrink-0 size-[58px]" data-node-id="2022:6092" data-name="ghana">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGhana} />
+        </div>
+        <div className="bg-[#ff574e] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:6093">
+          <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:6094">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:6095">
+              <p className="leading-[1.4]">Ghaha</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-px items-center left-[calc(12.5%+177px)] top-[357px]" data-node-id="2022:6096">
+        <div className="relative shrink-0 size-[58px]" data-node-id="2022:6097" data-name="ghana">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGhana} />
+        </div>
+        <div className="bg-[#ff574e] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:6098">
+          <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:6099">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[16px] text-center text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:6100">
+              <p className="leading-[1.4]">Ghaha</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Grey 700: #777777, Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Grey 50: #F4F4F4, Grey 900: #1F1F1F, Body/Body Re: Font(family: "Geist", style: Regular, size: 16, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), Primary/Pri 500: #2E6CFF, Green 500: #47BA39, white: #FFFFFF, Red 500: #FF574E.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

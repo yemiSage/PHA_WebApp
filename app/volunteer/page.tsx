@@ -1,3 +1,4 @@
+export const metadata = { title: "Volunteer | Product Hub Africa" };
 import Image from "next/image";
 import { OrganizationFormSection } from "@/components/organization/OrganizationForm";
 import { OrganizationHero } from "@/components/organization/OrganizationHero";
@@ -13,3 +14,4 @@ export default function Page() {
     </OrganizationShell>
   );
 }
+

@@ -12,10 +12,12 @@ import { Stats } from "@/components/home/sections/Stats";
 import { Talent } from "@/components/home/sections/Talent";
 import { VideoSection } from "@/components/home/sections/VideoSection";
 import { Vision } from "@/components/home/sections/Vision";
+import { MotionController } from "@/components/home/MotionController";
 
 export function HomePage() {
   return (
     <main className="home-page">
+      <MotionController />
       <Hero />
       <Stats />
       <Vision />
@@ -25,8 +27,8 @@ export function HomePage() {
       <Talent />
       <FacilitatorRail />
       <Gallery />
-      <Testimonials />
       <Counselling />
+      <Testimonials />
       <Blog />
       <FinalCta />
       <Footer />

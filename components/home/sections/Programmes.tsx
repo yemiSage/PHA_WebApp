@@ -6,8 +6,8 @@ export function Programmes() {
   return (
     <section className="programmes" id="programmes">
       <div className="section-shell programmes__heading">
-        <SectionHeading eyebrow="Programmes" tone="red" title="Programmes built for learning, growth, and real-world impact" description="From beginner-friendly bootcamps to advanced career pathways, our programmes are designed to help you build practical skills and confidently take your next step." />
-        <Button href="#programmes" arrow>Explore programmes</Button>
+        <SectionHeading eyebrow="Courses" tone="red" title="Get started with courses that are designed to kick you off the ground" description="We offer variety of courses designed to get you off from a newbie to a junior level in tech." />
+        <Button href="#programmes" arrow>Explore our courses</Button>
       </div>
       <ProgrammesGrid />
     </section>

@@ -14,14 +14,18 @@ export function Hero() {
           <span>Join our upcoming bootcamp 2.6</span>
         </div>
         <h1>Turn your <span>curiosity</span> into <span>experience</span> with us at Product Hub Africa</h1>
-        <p>Learn practical tech skills, build real-world experience, and connect with a community that supports your growth at every stage.</p>
+        <p>Learn endlessly and level up your skills through live, foundational courses, bootcamps and advanced trainings with real-world projects.</p>
         <div className="hero__actions">
-          <Button href="#community">Join our community</Button>
+          <Button href="#community" arrow>Join our community</Button>
           <Button href="#partner" variant="secondary" arrow>Partner with us</Button>
         </div>
       </div>
-      <div className="hero-gallery" aria-hidden="true">
-        <Image className="hero-gallery__image" src="/assets/hero-image.png" width={1200} height={366} loading="eager" fetchPriority="high" alt="" />
+      <div className="hero-gallery">
+        <div className="hero-gallery__top" aria-hidden="true"><Image src="/assets/browser-lights.svg" width={56} height={16} alt="" /></div>
+        <div className="hero-gallery__media">
+          <Image className="hero-gallery__image" src="/assets/home-v2/hero-video.png" width={1500} height={1000} loading="eager" fetchPriority="high" sizes="(max-width: 760px) 367px, 1168px" alt="A Product Hub Africa learner joining a video call" />
+          <button type="button" aria-label="Play introduction video"><Image src="/assets/play.svg" width={24} height={24} alt="" /></button>
+        </div>
       </div>
     </section>
   );

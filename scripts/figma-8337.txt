@@ -1,0 +1,417 @@
+const imgIconamoonArrowTopRight1Bold = "https://www.figma.com/api/mcp/asset/a3799daa-1a78-4640-abd0-8534e8510ca6.svg";
+const imgDownRegular = "https://www.figma.com/api/mcp/asset/91f08c7a-cce0-41d5-99bb-665a1b926965.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/91b31096-ebfd-4bf8-8635-374321545689.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/ddfe71e5-df36-4d61-a1b9-bdd6db43ecab.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/f024dd97-8ea9-42d5-a042-dbb9422ac6c8.svg";
+const img3431 = "https://www.figma.com/api/mcp/asset/5a138262-d533-4fa2-956a-e68266106ee8.png";
+const imgGroup3 = "https://www.figma.com/api/mcp/asset/c946d983-674c-425f-9bf2-26f2b3fba878.svg";
+const imgGroup4 = "https://www.figma.com/api/mcp/asset/1e9e0d30-3ca8-4996-a6ca-e978f36f63cb.svg";
+const imgGroup5 = "https://www.figma.com/api/mcp/asset/8aaf4efc-f32c-41e4-9da8-35a3c850857c.svg";
+const imgGroup6 = "https://www.figma.com/api/mcp/asset/0188a666-9759-4abe-92b5-b2b687f1abb2.svg";
+const imgGroup7 = "https://www.figma.com/api/mcp/asset/f8948b0f-dbbe-4754-81ec-169a4986ce98.svg";
+const imgInstagramFilled = "https://www.figma.com/api/mcp/asset/b97e81c4-4c2b-4c2d-95d7-8d452867bb61.svg";
+const imgLinkedinFilled = "https://www.figma.com/api/mcp/asset/a2705b92-9ad1-49e4-8c99-a6fd86eb865b.svg";
+const imgSocialXFilled = "https://www.figma.com/api/mcp/asset/2c6ca55e-e480-4626-89a6-f1848993afa4.svg";
+const imgFacebookOriginalMono = "https://www.figma.com/api/mcp/asset/a3d78993-5b0b-4c54-935f-5b2559b5d173.svg";
+const imgArrowUpRegular = "https://www.figma.com/api/mcp/asset/2bb47a67-f30f-4a22-bd1d-5a309ac9a878.svg";
+
+function IconamoonArrowTopRight1Bold({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[20px]"} data-node-id="2022:2921" data-name="iconamoon:arrow-top-right-1-bold">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconamoonArrowTopRight1Bold} />
+    </div>
+  );
+}
+
+function DownRegular({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[20px]"} data-node-id="2022:3181" data-name="down_regular">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDownRegular} />
+    </div>
+  );
+}
+
+function HeaderNav({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[#f4f4f4] border border-[#eaeaea] border-solid content-stretch flex flex-col items-start justify-center px-[16px] py-[12px] relative rounded-[322px]"} data-node-id="2022:3190" data-name="Header Nav">
+      <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:3191">
+        <div className="content-stretch flex flex-col items-start px-[12px] py-[8px] relative shrink-0 w-[136px]" data-node-id="2022:3192">
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="2022:3193" data-name="Group">
+            <div className="col-1 h-[12.511px] ml-[0.02px] mt-0 relative row-1 w-[61.128px]" data-node-id="2022:3194" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-[13.9px] place-items-start relative row-1" data-node-id="2022:3202" data-name="Group">
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="2022:3203" data-name="Group">
+                <div className="col-1 h-[12.53px] ml-0 mt-[0.06px] relative row-1 w-[29.16px]" data-node-id="2022:3204" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                </div>
+                <div className="col-1 h-[12.586px] ml-[32.1px] mt-0 relative row-1 w-[45.011px]" data-node-id="2022:3208" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="2022:3216">
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3217" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3217;12:2850">
+              <p className="leading-[1.4]">Programmes</p>
+            </div>
+            <DownRegular className="relative shrink-0 size-[20px]" />
+          </div>
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3218" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3218;12:2850">
+              <p className="leading-[1.4]">Courses</p>
+            </div>
+            <DownRegular className="relative shrink-0 size-[20px]" />
+          </div>
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3219" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3219;12:2850">
+              <p className="leading-[1.4]">Talent Pool</p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3220" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3220;12:2850">
+              <p className="leading-[1.4]">About us</p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3221" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3221;12:2850">
+              <p className="leading-[1.4]">Contact Us</p>
+            </div>
+          </div>
+        </div>
+        <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:3222" data-name="Component 2">
+          <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+          <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3222;9:2816">
+            Join our community
+          </p>
+          <IconamoonArrowTopRight1Bold className="relative shrink-0 size-[20px]" />
+          <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+type PrivacyPolicyNavProps = {
+  className?: string;
+  property1?: "Frame 2147226330" | "Frame 2147226331";
+};
+
+function PrivacyPolicyNav({ className, property1 = "Frame 2147226331" }: PrivacyPolicyNavProps) {
+  const isFrame2147226331 = property1 === "Frame 2147226331";
+  return (
+    <div className={className || "content-stretch flex items-center px-[12px] py-[8px] relative w-[273px]"} id={isFrame2147226331 ? "node-2022_3402" : "node-2022_3400"}>
+      <div className={`[word-break:break-word] flex flex-col font-["Geist:Regular"] font-normal justify-center leading-[0] relative shrink-0 text-[16px] tracking-[-0.24px] whitespace-nowrap ${isFrame2147226331 ? "text-[#959595]" : "text-[#1f1f1f]"}`} id={isFrame2147226331 ? "node-2022_3403" : "node-2022_3401"}>
+        <p className="leading-[1.4]">Information we collect</p>
+      </div>
+    </div>
+  );
+}
+
+export default function PrivacyPolicy() {
+  return (
+    <div className="bg-[#f9f9f9] relative size-full" data-node-id="2022:8337" data-name="PRIVACY POLICY">
+      <div className="-translate-x-1/2 absolute bg-[#101010] bottom-0 h-[827px] left-1/2 overflow-clip w-[1440px]" data-node-id="2022:8338" data-name="Desktop - 17">
+        <div className="-translate-x-1/2 absolute h-[512px] left-[calc(50%-0.5px)] opacity-9 top-[459px] w-[1319px]" data-node-id="I2022:8338;103:5860" data-name="343 1">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[360.82%] left-0 max-w-none top-[-148.63%] w-full" src={img3431} />
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[24px] items-start left-[120px] top-[67px] w-[362px]" data-node-id="I2022:8338;38:488">
+          <div className="content-stretch flex flex-col gap-[21px] items-start relative shrink-0 w-full" data-node-id="I2022:8338;38:489">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="I2022:8338;242:5188">
+              <div className="col-1 ml-0 mt-0 relative row-1 size-[48px]" data-node-id="I2022:8338;242:5189" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+              </div>
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[56.82px] mt-[3.99px] place-items-start relative row-1" data-node-id="I2022:8338;242:5204" data-name="Group">
+                <div className="col-1 h-[18.766px] ml-[0.03px] mt-0 relative row-1 w-[91.693px]" data-node-id="I2022:8338;242:5205" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup4} />
+                </div>
+                <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-[20.84px] place-items-start relative row-1" data-node-id="I2022:8338;242:5213" data-name="Group">
+                  <div className="col-1 ml-[117.27px] mt-[11.7px] relative row-1 size-[7.176px]" data-node-id="I2022:8338;242:5214" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+                  </div>
+                  <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="I2022:8338;242:5217" data-name="Group">
+                    <div className="col-1 h-[18.794px] ml-0 mt-[0.09px] relative row-1 w-[43.74px]" data-node-id="I2022:8338;242:5218" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup6} />
+                    </div>
+                    <div className="col-1 h-[18.879px] ml-[48.15px] mt-0 relative row-1 w-[67.516px]" data-node-id="I2022:8338;242:5222" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup7} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:8338;38:491">
+              <div className="[word-break:break-word] flex flex-col font-['Inter:Regular'] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white w-full" data-node-id="I2022:8338;38:492">
+                <p className="leading-[1.4]">Product Hub Africa is a Non-governmental organization designed to equipped up coming potential tech enthusiast</p>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Regular'] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#777] text-[14px] whitespace-nowrap" data-node-id="I2022:8338;38:493">
+            <p className="leading-[1.4]">© 2026 Product Hub Africa. All rights reserved.</p>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[18px] items-center left-[120px] top-[251px]" data-node-id="I2022:8338;38:516">
+          <div className="relative shrink-0 size-[24px]" data-node-id="I2022:8338;38:517" data-name="instagram_filled">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInstagramFilled} />
+          </div>
+          <div className="relative shrink-0 size-[24px]" data-node-id="I2022:8338;38:518" data-name="linkedin_filled">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLinkedinFilled} />
+          </div>
+          <div className="relative shrink-0 size-[24px]" data-node-id="I2022:8338;38:519" data-name="social_x_filled">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSocialXFilled} />
+          </div>
+          <div className="relative shrink-0 size-[24px]" data-node-id="I2022:8338;38:725" data-name="facebook_original_mono">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFacebookOriginalMono} />
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[56px] items-start left-[calc(50%+16px)] top-[67px] w-[546px]" data-node-id="I2022:8338;38:555">
+          <div className="content-stretch flex gap-[30px] items-start relative shrink-0 w-full" data-node-id="I2022:8338;38:494">
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[162px]" data-node-id="I2022:8338;38:495">
+              <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:496" data-name="navigation">
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.28px] whitespace-nowrap" data-node-id="I2022:8338;38:497">
+                  <p className="leading-[20px]">Menu</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:8338;38:498">
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:499" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:499;35:400">
+                    <p className="leading-[1.4]">Programmes</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:500" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:500;35:400">
+                    <p className="leading-[1.4]">Talent Pool</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:501" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:501;35:400">
+                    <p className="leading-[1.4]">Counseling</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:502" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:502;35:400">
+                    <p className="leading-[1.4]">Blog</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[162px]" data-node-id="I2022:8338;38:503">
+              <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:504" data-name="navigation">
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.28px] whitespace-nowrap" data-node-id="I2022:8338;38:505">
+                  <p className="leading-[20px]">Product Hub Africa</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:8338;38:506">
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:507" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:507;35:400">
+                    <p className="leading-[1.4]">Partnership</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:508" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:508;35:400">
+                    <p className="leading-[1.4]">Sponsor</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:509" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:509;35:400">
+                    <p className="leading-[1.4]">Volunteer</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;353:4434" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;353:4434;35:400">
+                    <p className="leading-[1.4]">Help</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[162px]" data-node-id="I2022:8338;38:510">
+              <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:511" data-name="navigation">
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.28px] whitespace-nowrap" data-node-id="I2022:8338;38:512">
+                  <p className="leading-[20px]">Others</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:8338;38:513">
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:514" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:514;35:400">
+                    <p className="leading-[1.4]">About us</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:8338;38:515" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:515;35:400">
+                    <p className="leading-[1.4]">Policy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[32px] items-start justify-center relative shrink-0" data-node-id="I2022:8338;35:365">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-[520px]" data-node-id="I2022:8338;35:366">
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:8338;35:367">
+                <div className="[word-break:break-word] flex flex-col font-['Aeonik:Bold'] justify-center leading-[0] not-italic relative shrink-0 text-[40px] text-white tracking-[-0.6px] w-full" data-node-id="I2022:8338;35:368">
+                  <p className="leading-[1.2]">Don’t miss an update, subscribe to our newsletter</p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0" data-node-id="I2022:8338;35:370">
+              <div className="bg-[var(--sematic\/backgrounds\/backround-1,#fdfdfd)] border border-[var(--sematic\/boder-and-seperator\/greyborder-1,#d9d9d9)] border-solid content-stretch flex gap-[10px] items-center px-[16px] py-[12px] relative rounded-[16px] self-stretch shrink-0 w-[339px]" data-node-id="I2022:8338;38:547">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.4] min-w-px relative text-[#959595] text-[16px] tracking-[-0.24px]" data-node-id="I2022:8338;38:548">
+                  Enter address
+                </p>
+              </div>
+              <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="I2022:8338;38:536" data-name="Component 2">
+                <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+                <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8338;38:536;9:2816">
+                  Subscribe
+                </p>
+                <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-white h-[523px] left-1/2 overflow-clip top-0 w-[1440px]" data-node-id="2022:8339" data-name="Desktop - 23">
+        <div className="absolute content-stretch flex flex-col gap-[12px] items-center left-[calc(12.5%+125px)] top-[250px] w-[830px]" data-node-id="2022:8340">
+          <div className="bg-[#f4f4f4] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:8341">
+            <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:8342">
+              <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:8343">
+                <p className="leading-[1.4]">Legal</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2022:8344">
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] items-center leading-[0] relative shrink-0 text-center w-full" data-node-id="2022:8345">
+              <div className="flex flex-col font-['Aeonik:Bold'] justify-center not-italic relative shrink-0 text-[#1f1f1f] text-[56px] tracking-[-0.84px] w-[766px]" data-node-id="2022:8346">
+                <p className="leading-none">Privacy policy</p>
+              </div>
+              <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[18px] tracking-[-0.27px] w-[478px]" data-node-id="2022:8347">
+                <p className="leading-[1.4]">Last updated 19th August, 2026</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-white h-[1040px] overflow-clip right-0 top-[523px] w-[488px]" data-node-id="2022:8348">
+        <div className="absolute content-stretch flex flex-col items-start left-[42px] top-[41px]" data-node-id="2022:8349">
+          <PrivacyPolicyNav className="content-stretch flex items-center px-[12px] py-[8px] relative shrink-0 w-[273px]" property1="Frame 2147226330" />
+          <div className="content-stretch flex items-center px-[12px] py-[8px] relative shrink-0 w-[273px]" data-node-id="2022:8351" data-name="Component 13">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#959595] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8351;56:7305">
+              <p className="leading-[1.4]">How we use this information</p>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center px-[12px] py-[8px] relative shrink-0 w-[273px]" data-node-id="2022:8352" data-name="Component 15">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#959595] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8352;56:7305">
+              <p className="leading-[1.4]">How informaiton is shared</p>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center px-[12px] py-[8px] relative shrink-0 w-[273px]" data-node-id="2022:8353" data-name="Component 17">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#959595] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8353;56:7305">
+              <p className="leading-[1.4]">Third party privacy policies</p>
+            </div>
+          </div>
+          <div className="content-stretch flex items-center px-[12px] py-[8px] relative shrink-0 w-[273px]" data-node-id="2022:8354" data-name="Component 11">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#959595] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:8354;56:7305">
+              <p className="leading-[1.4]">Consent</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[10px] items-center left-[42px] px-[12px] py-[8px] rounded-[var(--font\/line-height\/sm,24px)] top-[618px] w-[273px]" data-node-id="2022:8355">
+          <div className="relative shrink-0 size-[20px]" data-node-id="2022:8356" data-name="arrow_up_regular">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUpRegular} />
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[16px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:8358">
+            <p className="leading-[1.4]">Back to Top</p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-white h-[1040px] left-0 overflow-clip top-[523px] w-[952px]" data-node-id="2022:8359">
+        <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[49px] items-start leading-[0] left-[120px] top-[42px] w-[769px]" data-node-id="2022:8360">
+          <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[16px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.24px] w-full" data-node-id="2022:8361">
+            <p className="leading-[1.4]">{`At Product Hub Africa, accessible from https://producthubafrica.org, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Product Hub Africa and how we use it.`}</p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full" data-node-id="2022:8362">
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="2022:8363">
+              <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[18px] text-[color:var(--grey-color\/grey-12---text1,#202020)] tracking-[-0.27px] w-full" data-node-id="2022:8364">
+                <p className="leading-[1.4]">Information We Collect</p>
+              </div>
+              <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[16px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.24px] w-full" data-node-id="2022:8365">
+                <p className="leading-[1.4]">We collect personal information that you voluntarily provide to us when you register for a bootcamp, join our community, or contact us. This may include your name, email address, phone number, and professional details.</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="2022:8366">
+              <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[18px] text-[color:var(--grey-color\/grey-12---text1,#202020)] tracking-[-0.27px] w-full" data-node-id="2022:8367">
+                <p className="leading-[1.4]">How we use this information</p>
+              </div>
+              <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[16px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.24px] w-full" data-node-id="2022:8368">
+                <p className="leading-[1.4]">We use the information we collect in various ways, including to:</p>
+              </div>
+              <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[16px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.24px] w-full" data-node-id="2022:8369">
+                <ul className="list-disc">
+                  <li className="mb-0 ms-[24px]">
+                    <span className="leading-[1.4]">Provide, operate, and maintain our website and services</span>
+                  </li>
+                  <li className="mb-0 ms-[24px]">
+                    <span className="leading-[1.4]">Improve, personalize, and expand our website</span>
+                  </li>
+                  <li className="mb-0 ms-[24px]">
+                    <span className="leading-[1.4]">Understand and analyze how you use our website</span>
+                  </li>
+                  <li className="mb-0 ms-[24px]">
+                    <span className="leading-[1.4]">Develop new products, services, features, and functionality</span>
+                  </li>
+                  <li className="mb-0 ms-[24px]">
+                    <span className="leading-[1.4]">Communicate with you regarding updates and marketing</span>
+                  </li>
+                  <li className="mb-0 ms-[24px]">
+                    <span className="leading-[1.4]">Send you emails</span>
+                  </li>
+                  <li className="ms-[24px]">
+                    <span className="leading-[1.4]">Find and prevent fraud</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="2022:8370">
+              <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[18px] text-[color:var(--grey-color\/grey-12---text1,#202020)] tracking-[-0.27px] w-full" data-node-id="2022:8371">
+                <p className="leading-[1.4]">How information is shared</p>
+              </div>
+              <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[16px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.24px] w-full" data-node-id="2022:8372">
+                <p className="leading-[1.4]">We share course content and limited creator information with distribution partners (such as Udemy and Coursera) as needed to publish and sell your course there. We share payment details with our payment processors to complete withdrawals. We do not sell personal information, and we only share identity or verification data with law enforcement when legally required — for example, in response to a valid DMCA takedown dispute.</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="2022:8373">
+              <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[18px] text-[color:var(--grey-color\/grey-12---text1,#202020)] tracking-[-0.27px] w-full" data-node-id="2022:8374">
+                <p className="leading-[1.4]">Third Party Privacy Policies</p>
+              </div>
+              <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[16px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.24px] w-full" data-node-id="2022:8375">
+                <p className="leading-[1.4]">{`Product Hub Africa's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information.`}</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="2022:8376">
+              <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[18px] text-[color:var(--grey-color\/grey-12---text1,#202020)] tracking-[-0.27px] w-full" data-node-id="2022:8377">
+                <p className="leading-[1.4]">Consent</p>
+              </div>
+              <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[16px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.24px] w-full" data-node-id="2022:8378">
+                <p className="leading-[1.4]">By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <HeaderNav className="-translate-x-1/2 absolute bg-[#f4f4f4] border border-[#eaeaea] border-solid content-stretch flex flex-col items-start justify-center left-[calc(50%+0.5px)] px-[16px] py-[12px] rounded-[322px] top-[55px]" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: white: #FFFFFF, Grey 900: #1F1F1F, Grey 700: #777777, Grey 500: #959595, Body Sm/Body sm Semibold: Font(family: "Inter", style: Semi Bold, size: 14, weight: 600, lineHeight: 20, letterSpacing: -2), Grey 100: #EAEAEA, Body/Body Re: Font(family: "Geist", style: Regular, size: 16, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), Display: Font(family: "Aeonik", style: Bold, size: 40, weight: 700, lineHeight: 1.2000000476837158, letterSpacing: -1.5), Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Primary/Pri 500: #2E6CFF, Grey 950: #101010, Grey 50: #F4F4F4, Heading: Font(family: "Aeonik", style: Bold, size: 56, weight: 700, lineHeight: 1, letterSpacing: -1.5), Paragraph 3/Paragraph 3 Rg: Font(family: "Geist", style: Regular, size: 18, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), Paragraph 3/Paragraph 3 md: Font(family: "Geist", style: Medium, size: 18, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Old/white: #FFFFFF.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

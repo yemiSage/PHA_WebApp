@@ -51,10 +51,11 @@ export function Header() {
           if ((event.target as HTMLElement).closest("a")) setMenuOpen(false);
         }}
       >
-        <Link href="/#programmes" onClick={() => setMenuOpen(false)}>Programmes <Image src="/assets/down.svg" width={20} height={20} alt="" aria-hidden="true" /></Link>
+        <Link href="/programmes" onClick={() => setMenuOpen(false)}>Programs <Image src="/assets/down.svg" width={20} height={20} alt="" aria-hidden="true" /></Link>
+        <Link href="/#programmes" onClick={() => setMenuOpen(false)}>Courses <Image src="/assets/down.svg" width={20} height={20} alt="" aria-hidden="true" /></Link>
         <Link href="/talent-pool" onClick={() => setMenuOpen(false)}>Talent Pool</Link>
         <Link href="/about" onClick={() => setMenuOpen(false)}>About us</Link>
-        <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
+        <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
         <Button href="/#community" size="small" className="site-header__mobile-cta">Join our community</Button>
       </nav>
       <Button href="/#community" size="small" arrow className="site-header__cta">Join our community</Button>
@@ -71,3 +72,4 @@ export function Header() {
     </header>
   );
 }
+

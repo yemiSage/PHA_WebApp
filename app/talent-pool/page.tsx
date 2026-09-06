@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/Button";
 import { OrganizationEyebrow, OrganizationHero } from "@/components/organization/OrganizationHero";
 import { OrganizationShell } from "@/components/organization/OrganizationShell";
 
+import { TalentDirectory } from "@/components/organization/TalentDirectory";
+export const metadata = { title: "Talent Pool | Product Hub Africa" };
 const benefits = [
   ["Verified, not just listed", "We check identity, work history, and credentials before a profile goes live."],
   ["Experienced global talent", "Hire experienced professionals from our alumni network."],
@@ -35,6 +37,7 @@ export default function Page() {
   return (
     <OrganizationShell pageClass="talent-page">
       <OrganizationHero eyebrow="Hire from us" tone="neutral" title={<>Hire the <em>best talent</em> for your<br />teams today!</>} description="Browse verified professionals who are actively available for work - full-time, contract, or project-based. See their skills, rates, and start dates before you even send a message." className="talent-hero">
+        <div className="talent-hero__actions"><Button href="#directory" size="small" arrow>Hire talent</Button><Button href="/#community" variant="ghost" size="small">Join our community</Button></div>
         <div className="talent-hero__art" aria-hidden="true">
           <span className="talent-ribbon talent-ribbon--one">Project Managers</span><span className="talent-ribbon talent-ribbon--two">Software Developers</span><span className="talent-ribbon talent-ribbon--three">Product Designers</span><span className="talent-ribbon talent-ribbon--four">Virtual Assistant</span>
           <Image src="/assets/pages/talent-hero.png" width={4096} height={1550} loading="eager" fetchPriority="high" alt="" />
@@ -49,31 +52,24 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="talent-directory">
-        <div className="talent-filters">
-          <input name="query" aria-label="Search role or name" autoComplete="off" placeholder="Search role or name…" />
-          {[["Role", "Product Designer"], ["Level", "Senior level"], ["Country", "Nigeria"]].map(([label, option]) => <select name={label.toLowerCase()} aria-label={label} defaultValue="" key={label}><option value="" disabled>{label}</option><option>{option}</option></select>)}
-          <button type="button">Search</button>
-        </div>
-        <div className="talent-profile-grid">{talentCards.map((talent) => <article className="talent-profile-card" key={talent.id}><span>{talent.level}</span><div className="talent-profile-card__identity"><Image className="talent-profile-card__avatar" src={talent.image} width={112} height={112} alt={`Portrait of ${talent.name}`} /><div><h3>{talent.name}</h3><p>{talent.role}</p></div></div><div><a href={`#talent-${talent.id}`}>View profile</a><small>{talent.location}</small></div></article>)}</div>
-        <button className="talent-view-more" type="button">View more <span>⌄</span></button>
-      </section>
+      <TalentDirectory talents={talentCards} />
 
       <section className="talent-request">
-        <div className="org-section-title"><OrganizationEyebrow>Request</OrganizationEyebrow><h2>Request for a talent</h2><p>Can’t find what you’re looking for? Reach out and we’ll help<br />you find the right talent for the role.</p><Button href="/#contact" size="small">Contact us</Button></div>
+        <div className="org-section-title"><OrganizationEyebrow>Request</OrganizationEyebrow><h2>Request for a talent</h2><p>Can’t find what you’re looking for? Reach out and we’ll help<br />you find the right talent for the role.</p><Button href="/contact" size="small">Contact us</Button></div>
         <Image src="/assets/pages/talent-request-wave.svg" width={1567} height={327} alt="" aria-hidden="true" />
       </section>
 
       <section className="talent-faq">
-        <div className="org-section-title"><OrganizationEyebrow>Request</OrganizationEyebrow><h2>Frequently asked questions</h2><p>Here are a few questions frequently asked about our<br />talent programmes.</p><Button href="/#contact" size="small">Contact us</Button></div>
+        <div className="org-section-title"><OrganizationEyebrow>Request</OrganizationEyebrow><h2>Frequently asked questions</h2><p>Here are a few questions frequently asked about our<br />talent programmes.</p><Button href="/contact" size="small">Contact us</Button></div>
         <div className="faq-list">
           <details><summary>Can I partner with PHA to acquire talent?</summary><p>Yes. We work with organisations looking for verified product and technology professionals.</p></details>
           <details open><summary>Do I pay commission to hire talent here?</summary><p>No recruiter markup is added. Rates and payment terms are agreed directly between both parties.</p></details>
           <details><summary>Does this talent have experience?</summary><p>Our talent pool includes vetted professionals with practical industry experience.</p></details>
           <details><summary>How do I start a partnership?</summary><p>Contact our team and we will guide you through the partnership process.</p></details>
         </div>
-        <div className="faq-contact"><strong>Can’t find the answer you’re looking for?</strong><Button href="/#contact" size="small" arrow>Contact us</Button></div>
+        <div className="faq-contact"><strong>Can’t find the answer you’re looking for?</strong><Button href="/contact" size="small" arrow>Contact us</Button></div>
       </section>
     </OrganizationShell>
   );
 }
+

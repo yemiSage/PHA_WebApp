@@ -1,0 +1,126 @@
+const imgFrame2147225945 = "https://www.figma.com/api/mcp/asset/ab7fe297-747e-489e-8925-04931d93de5b.png";
+const imgDownRegular = "https://www.figma.com/api/mcp/asset/f9351c80-fd34-4156-86b4-841febc2b57f.svg";
+
+export default function Section17() {
+  return (
+    <div className="bg-[#f9f9f9] relative size-full" data-node-id="2022:7732" data-name="Section 17">
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[60px] items-center left-1/2 top-[57px] w-[1120px]" data-node-id="2022:7733">
+        <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0 w-full" data-node-id="2022:7734">
+          <div className="bg-[#ffeeed] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:7735">
+            <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:7736">
+              <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#ff574e] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:7737">
+                <p className="leading-[1.4]">Get in touch</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2022:7738">
+            <div className="[word-break:break-word] flex flex-col font-['Aeonik:Bold'] justify-center leading-[0] not-italic relative shrink-0 text-[#1f1f1f] text-[48px] text-center tracking-[-0.72px] w-[813px]" data-node-id="2022:7739">
+              <p className="leading-[1.2]">Have an enquiry? send us a message</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-node-id="2022:7740">
+          <div className="h-[641px] relative rounded-[28px] shrink-0 w-[516px]" data-node-id="2022:7741">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[28px] size-full" src={imgFrame2147225945} />
+          </div>
+          <div className="bg-white content-stretch flex flex-col items-start overflow-clip p-[24px] relative rounded-[28px] shrink-0 w-[583px]" data-node-id="2022:7742">
+            <div className="content-stretch flex flex-col gap-[33px] items-start relative shrink-0 w-full" data-node-id="2022:7743">
+              <div className="content-stretch flex flex-col gap-[20px] items-start justify-center relative shrink-0 w-full" data-node-id="2022:7744">
+                <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full" data-node-id="2022:7745">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="2022:7746">
+                    <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[0] relative shrink-0 text-[#1f1f1f] text-[0px] tracking-[-0.21px] w-full" data-node-id="2022:7747">
+                      <span className="leading-[1.4] text-[14px]">First name</span>
+                      <span className="leading-[1.4] text-[#ff574e] text-[14px]">*</span>
+                    </p>
+                    <div className="bg-[var(--sematic\/backgrounds\/backround-1,#fdfdfd)] border border-[#f4f4f4] border-solid content-stretch flex gap-[10px] h-[48px] items-center px-[16px] py-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="2022:7748">
+                      <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.4] min-w-px relative text-[#959595] text-[14px] tracking-[-0.21px]" data-node-id="2022:7749">
+                        Enter name
+                      </p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px relative" data-node-id="2022:7751">
+                    <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[0] relative shrink-0 text-[#1f1f1f] text-[0px] tracking-[-0.21px] w-full" data-node-id="2022:7752">
+                      <span className="leading-[1.4] text-[14px]">Last name</span>
+                      <span className="leading-[1.4] text-[#ff574e] text-[14px]">*</span>
+                    </p>
+                    <div className="bg-[var(--sematic\/backgrounds\/backround-1,#fdfdfd)] border border-[#f4f4f4] border-solid content-stretch flex gap-[10px] h-[48px] items-center px-[16px] py-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="2022:7753">
+                      <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.4] min-w-px relative text-[#959595] text-[14px] tracking-[-0.21px]" data-node-id="2022:7754">
+                        Enter name
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="2022:7756">
+                  <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[0] relative shrink-0 text-[#1f1f1f] text-[0px] tracking-[-0.21px] w-full" data-node-id="2022:7757">
+                    <span className="leading-[1.4] text-[14px]">Email Address</span>
+                    <span className="leading-[1.4] text-[#ff574e] text-[14px]">*</span>
+                  </p>
+                  <div className="bg-[var(--sematic\/backgrounds\/backround-1,#fdfdfd)] border border-[#f4f4f4] border-solid content-stretch flex gap-[10px] h-[48px] items-center px-[16px] py-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="2022:7758">
+                    <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.4] min-w-px relative text-[#959595] text-[14px] tracking-[-0.21px]" data-node-id="2022:7759">
+                      example@mail.com
+                    </p>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start leading-[1.4] relative shrink-0 text-[14px] tracking-[-0.21px] w-full" data-node-id="2022:7761">
+                  <p className="font-['Geist:Medium'] font-medium relative shrink-0 text-[#1f1f1f] w-full" data-node-id="2022:7762">
+                    Phone Number
+                  </p>
+                  <div className="bg-[var(--sematic\/backgrounds\/backround-1,#fdfdfd)] border border-[#f4f4f4] border-solid content-stretch flex font-['Geist:Regular'] font-normal gap-[10px] h-[48px] items-center px-[16px] py-[12px] relative rounded-[16px] shrink-0 text-[#959595] w-full" data-node-id="2022:7763">
+                    <p className="relative shrink-0 whitespace-nowrap" data-node-id="2022:7764">
+                      +234
+                    </p>
+                    <p className="flex-[1_0_0] min-w-px relative" data-node-id="2022:7765">
+                      00000000000
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="2022:7767">
+                  <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#1f1f1f] text-[14px] tracking-[-0.21px] w-full" data-node-id="2022:7768">
+                    Subject
+                  </p>
+                  <div className="bg-[var(--sematic\/backgrounds\/backround-1,#fdfdfd)] border border-[#f4f4f4] border-solid content-stretch flex gap-[10px] h-[48px] items-center px-[16px] py-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="2022:7769">
+                    <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.4] min-w-px relative text-[#959595] text-[14px] tracking-[-0.21px]" data-node-id="2022:7770">
+                      Enter subject
+                    </p>
+                    <div className="relative shrink-0 size-[24px]" data-node-id="2022:7771" data-name="down_regular">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDownRegular} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="2022:7774">
+                  <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[0] relative shrink-0 text-[#1f1f1f] text-[14px] tracking-[-0.21px] w-full" data-node-id="2022:7775">
+                    <span className="leading-[1.4]">{`Message `}</span>
+                    <span className="leading-[1.4] text-[#ff574e]">*</span>
+                  </p>
+                  <div className="bg-[var(--sematic\/backgrounds\/backround-1,#fdfdfd)] border border-[#f4f4f4] border-solid content-stretch flex gap-[10px] items-center px-[16px] py-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="2022:7776">
+                    <div className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[0] min-w-px relative text-[#959595] text-[14px] tracking-[-0.21px]" data-node-id="2022:7777">
+                      <p className="leading-[1.4] mb-[36px]">Select department</p>
+                      <p className="leading-[1.4]">​</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0 w-full" data-node-id="2022:7779" data-name="Component 2">
+                <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+                <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:7779;9:2816">
+                  Send message
+                </p>
+                <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Red 500: #FF574E, Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Red 50: #FFEEED, Grey 900: #1F1F1F, Body Small/Body Sm Md: Font(family: "Geist", style: Medium, size: 14, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Grey 500: #959595, Body Small/Body sm Rg: Font(family: "Geist", style: Regular, size: 14, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), Grey 50: #F4F4F4, Grey 700: #777777, Primary/Pri 500: #2E6CFF, white: #FFFFFF.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

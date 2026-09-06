@@ -7,3 +7,50 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+# Frontend Agent Instructions
+
+Work efficiently and minimize unnecessary context usage.
+
+## Scope
+
+- Inspect only files directly relevant to the requested task.
+- Do not scan the entire repository unless required.
+- Prefer targeted searches over opening large folders or files.
+- Do not modify unrelated code.
+- Reuse existing components, utilities, styles, and patterns before creating new ones.
+
+## Implementation
+
+- Preserve the existing project structure and coding conventions.
+- Keep changes small and focused.
+- Avoid unnecessary refactors.
+- Do not add dependencies unless clearly necessary.
+- Maintain responsive behavior.
+- Maintain existing accessibility patterns.
+- Keep TypeScript types strict; avoid `any` unless unavoidable.
+- Do not duplicate existing components or logic.
+
+## UI
+
+- Follow the existing design system and component patterns.
+- Reuse existing spacing, typography, colors, and tokens.
+- Do not redesign screens unless explicitly requested.
+- Match the provided design/reference closely when one exists.
+
+## Validation
+
+- Run only tests, linting, or type checks relevant to the changed area.
+- Fix errors caused by your changes.
+- Do not attempt unrelated cleanup.
+
+## Response
+
+After completing a task, respond concisely with:
+
+1. What changed
+2. Files changed
+3. Tests/checks run
+4. Any important unresolved issue
+
+Do not provide long explanations unless requested.

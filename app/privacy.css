@@ -1,0 +1,79 @@
+.privacy-page {
+  background: white;
+}
+.privacy-heading {
+  padding: 250px 24px 160px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.privacy-heading p {
+  color: var(--grey-600);
+}
+.privacy-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 770px) 1fr;
+  gap: 110px;
+  padding-bottom: 80px;
+}
+.privacy-layout article {
+  color: #606060;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.privacy-layout article section {
+  margin-top: 40px;
+}
+.privacy-layout h2 {
+  font: 500 18px/1.4 var(--body);
+  color: #202020;
+  margin-bottom: 16px;
+}
+.privacy-layout ul {
+  padding-left: 24px;
+  margin-block: 16px 0;
+}
+.privacy-layout aside {
+  align-self: start;
+  position: sticky;
+  top: 140px;
+  font-size: 16px;
+  color: #777;
+}
+.privacy-layout nav {
+  display: grid;
+  gap: 20px;
+}
+.privacy-layout nav a:hover {
+  color: var(--primary);
+}
+.privacy-back {
+  display: flex;
+  gap: 12px;
+  margin-top: 400px;
+}
+@media (max-width: 800px) {
+  .privacy-heading {
+    padding: 180px 20px 70px;
+  }
+  .privacy-layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .privacy-layout aside {
+    position: static;
+    order: -1;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .privacy-layout nav {
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    font-size: 14px;
+  }
+  .privacy-back {
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "intro": "At Product Hub Africa, accessible from https://producthubafrica.org, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Product Hub Africa and how we use it.",
+  "sections": [
+    {
+      "text": "We collect personal information that you voluntarily provide to us when you register for a bootcamp, join our community, or contact us. This may include your name, email address, phone number, and professional details.",
+      "id": "information",
+      "title": "Information We Collect"
+    },
+    {
+      "text": "We use the information we collect in various ways, including to:",
+      "id": "usage",
+      "title": "How we use this information",
+      "items": [
+        "Provide, operate, and maintain our website and services",
+        "Improve, personalize, and expand our website",
+        "Understand and analyze how you use our website",
+        "Develop new products, services, features, and functionality",
+        "Communicate with you regarding updates and marketing",
+        "Send you emails",
+        "Find and prevent fraud"
+      ]
+    },
+    {
+      "text": "We share course content and limited creator information with distribution partners (such as Udemy and Coursera) as needed to publish and sell your course there. We share payment details with our payment processors to complete withdrawals. We do not sell personal information, and we only share identity or verification data with law enforcement when legally required — for example, in response to a valid DMCA takedown dispute.",
+      "id": "sharing",
+      "title": "How information is shared"
+    },
+    {
+      "text": "Product Hub Africa's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information.",
+      "id": "third-parties",
+      "title": "Third Party Privacy Policies"
+    },
+    {
+      "text": "By using our website, you hereby consent to our Privacy Policy and agree to its terms.",
+      "id": "consent",
+      "title": "Consent"
+    }
+  ]
+}

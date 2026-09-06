@@ -8,7 +8,7 @@ export function VideoSection() {
       <div className="section-shell browser-frame">
         <div className="browser-frame__top"><Image src="/assets/browser-lights.svg" width={64} height={18} alt="" /></div>
         <div className="browser-frame__image">
-          <Image src="/assets/video-cover.png" width={1500} height={1000} alt="Product Hub Africa community event" />
+          <Image src="/assets/home-v2/video-cover.png" width={1500} height={1000} sizes="(max-width: 760px) 367px, 1168px" alt="A learner participating in an online session" />
           <button type="button" aria-label="Play video"><Image src="/assets/play.svg" width={24} height={24} alt="" /></button>
         </div>
       </div>

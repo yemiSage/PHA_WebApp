@@ -1,0 +1,70 @@
+const imgIconamoonArrowTopRight1Bold = "https://www.figma.com/api/mcp/asset/28d66d15-b744-4915-8ad5-7a9e4beaff20.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/eb1fb06c-7da1-4a2e-85be-4d48e12eb687.svg";
+const imgIconamoonArrowTopRight1Bold1 = "https://www.figma.com/api/mcp/asset/136d21a6-5a08-4186-90b8-aeeb7580605a.svg";
+
+function IconamoonArrowTopRight1Bold({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[20px]"} data-node-id="2022:2921" data-name="iconamoon:arrow-top-right-1-bold">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconamoonArrowTopRight1Bold} />
+    </div>
+  );
+}
+
+export default function Desktop24() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="2022:7359" data-name="Desktop - 24">
+      <div className="absolute inset-[66.49%_15.94%_-89.28%_15.9%]" data-node-id="2022:7360">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[12px] items-center left-[calc(12.5%+125px)] top-[250px] w-[830px]" data-node-id="2022:7721">
+        <div className="bg-[#eaf0ff] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:7722">
+          <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:7723">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#2e6cff] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:7724">
+              <p className="leading-[1.4]">Get in touch</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[40px] items-center relative shrink-0 w-full" data-node-id="2022:7725">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] items-center leading-[0] relative shrink-0 text-center w-full" data-node-id="2022:7726">
+            <div className="flex flex-col font-['Aeonik:Bold'] justify-center not-italic relative shrink-0 text-[#1f1f1f] text-[56px] tracking-[-0.84px] w-[766px]" data-node-id="2022:7727">
+              <p className="leading-none">We would be so happy to hear from you!</p>
+            </div>
+            <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[18px] tracking-[-0.27px] w-[552px]" data-node-id="2022:7728">
+              <p className="leading-[1.4]">Have a question about our bootcamps, community, or partnerships? Our team is ready to answer all your questions</p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="2022:7729">
+            <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:7730" data-name="Component 2">
+              <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+              <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:7730;9:2816">
+                Talk to us
+              </p>
+              <IconamoonArrowTopRight1Bold className="relative shrink-0 size-[20px]" />
+              <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+            </div>
+            <div className="border-[1.5px] border-solid border-white content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:7731" data-name="Component 2">
+              <div aria-hidden className="absolute bg-gradient-to-r from-[#f9f9f9] inset-0 pointer-events-none rounded-[16px] to-[#fafafa]" />
+              <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#1f1f1f] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:7731;9:2820">
+                Contact operations
+              </p>
+              <div className="relative shrink-0 size-[20px]" data-node-id="I2022:7731;22:4476" data-name="iconamoon:arrow-top-right-1-bold">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconamoonArrowTopRight1Bold1} />
+              </div>
+              <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Grey 100: #EAEAEA, Secondary/Sec 500: #F3BA2C, Primary/Pri 500: #2E6CFF, Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Primary/Pri 50: #EAF0FF, Grey 900: #1F1F1F, Heading: Font(family: "Aeonik", style: Bold, size: 56, weight: 700, lineHeight: 1, letterSpacing: -1.5), Paragraph 3/Paragraph 3 Rg: Font(family: "Geist", style: Regular, size: 18, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), Old/white: #FFFFFF, Grey 700: #777777, white: #FFFFFF.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

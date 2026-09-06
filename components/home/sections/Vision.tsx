@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 const cards = [
-  { title: "Our Mission", copy: "To empower African talent with practical skills, meaningful connections, and access to opportunities that enable them to build impactful careers and products.", image: "/assets/mission.png" },
-  { title: "Our Vision", copy: "To become Africa’s leading ecosystem for developing product talent, fostering innovation, and driving sustainable growth across the continent.", image: "/assets/vision.png" },
+  { title: "Our mission", copy: "To empower and inspire tech enthusiasts to create leading products through community-led growth and inclusive education.", image: "/assets/home-v2/mission-icon.png" },
+  { title: "Our Vision", copy: "To be the leading pan-African ecosystem where diverse talents collaborate to solve global challenges with local insights.", image: "/assets/home-v2/vision-icon.png" },
 ];
 
 export function Vision() {
@@ -13,10 +13,13 @@ export function Vision() {
         <div className="vision-section__copy">
           <span className="pill pill--blue">Our Vision</span>
           <h2>Driving innovation across Africa</h2>
-          <p>We are shaping a future where African talent has the skills, confidence, and opportunities to build solutions that solve real problems and create lasting impact.</p>
+          <p>We are more than just a tech hub; we are a movement. By connecting talent with opportunity, we are rewriting the narrative of African technology</p>
         </div>
-        <div className="vision-cards">
-          {cards.map((card) => <article className="vision-card" key={card.title}><Image src={card.image} width={512} height={512} alt="" /><h3>{card.title}</h3><p>{card.copy}</p></article>)}
+        <div className="vision-panel">
+          <Image className="vision-panel__image" src="/assets/home-v2/vision-panel.png" width={2160} height={1557} sizes="(max-width: 760px) 340px, 724px" alt="" />
+          <div className="vision-cards">
+            {cards.map((card) => <article className="vision-card" key={card.title}><Image src={card.image} width={60} height={60} alt="" /><h3>{card.title}</h3><p>{card.copy}</p></article>)}
+          </div>
         </div>
       </div>
     </section>

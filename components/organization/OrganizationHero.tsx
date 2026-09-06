@@ -23,10 +23,11 @@ export function OrganizationHero({ eyebrow, title, description, tone = "purple",
         <p>{description}</p>
         <div className="org-actions">
           <Button href="#page-form" size="small">Talk to us</Button>
-          <Button href="/#contact" variant="ghost" size="small" arrow>Contact operations</Button>
+          <Button href="mailto:producthubafrica@gmail.com?subject=Operations%20enquiry" variant="ghost" size="small" arrow>Contact operations</Button>
         </div>
       </div>
       {children}
     </section>
   );
 }
+

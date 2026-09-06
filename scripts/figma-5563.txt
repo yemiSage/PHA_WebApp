@@ -1,0 +1,86 @@
+const imgArrowLeftCircleFilled = "https://www.figma.com/api/mcp/asset/0ddaee8e-b41b-4a76-a1ac-34d57f086fb4.svg";
+
+export default function Section5() {
+  return (
+    <div className="bg-[#f9f9f9] relative size-full" data-node-id="2022:5563" data-name="Section 5">
+      <div className="-translate-y-1/2 absolute content-stretch flex flex-col gap-[60px] items-center left-[140px] top-[calc(50%+0.5px)] w-[1160px]" data-node-id="2022:5564">
+        <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0 w-full" data-node-id="2022:5565">
+          <div className="bg-[#eaf0ff] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:5566">
+            <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:5567">
+              <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#2e6cff] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:5568">
+                <p className="leading-[1.4]">Who we are</p>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-center leading-[0] relative shrink-0 text-center" data-node-id="2022:5569">
+            <div className="flex flex-col font-['Aeonik:Bold'] justify-center not-italic relative shrink-0 text-[#1f1f1f] text-[48px] tracking-[-0.72px] w-[813px]" data-node-id="2022:5570">
+              <p className="leading-[1.2]">{`Community & Impact`}</p>
+            </div>
+            <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[638px]" data-node-id="2022:5571">
+              <p className="leading-[1.4]">We are a dedicated non-profit organization and ed-tech community. Our team of passionate volunteers works tirelessly to empower African talent.</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-[491px]" data-node-id="2022:5572">
+          <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="2022:5573">
+            <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:5574">
+              <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5575">
+                <div className="relative shrink-0 size-[32px]" data-node-id="2022:5576" data-name="arrow_left_circle_filled">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5577">
+                <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center min-w-full relative shrink-0 text-[#1f1f1f] text-[16px] tracking-[-0.24px] w-[min-content]" data-node-id="2022:5578">
+                  <p className="leading-[1.4]">Building Impact</p>
+                </div>
+                <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[14px] tracking-[-0.21px] w-[329px]" data-node-id="2022:5579">
+                  <p className="leading-[1.4]">We check identity, work history, and credentials before a profile goes live.</p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:5580">
+              <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5581">
+                <div className="relative shrink-0 size-[32px]" data-node-id="2022:5582" data-name="arrow_left_circle_filled">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5583">
+                <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5584">
+                  <p className="leading-[1.4]">Create a learning environment for growth</p>
+                </div>
+                <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[14px] tracking-[-0.21px] w-full" data-node-id="2022:5585">
+                  <p className="leading-[1.4]">Hire from our pool of experience talents from our alumni</p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:5586">
+              <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5587">
+                <div className="relative shrink-0 size-[32px]" data-node-id="2022:5588" data-name="arrow_left_circle_filled">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5589">
+                <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5590">
+                  <p className="leading-[1.4]">{`Mentorship & tranining`}</p>
+                </div>
+                <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[14px] tracking-[-0.21px] w-full" data-node-id="2022:5591">
+                  <p className="leading-[1.4]">No fixed rates, payments are negotiable across parties.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Primary/Pri 500: #2E6CFF, Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Primary/Pri 50: #EAF0FF, Grey 900: #1F1F1F, Body/Body Re: Font(family: "Geist", style: Regular, size: 16, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), Grey 700: #777777, Body Small/Body sm Rg: Font(family: "Geist", style: Regular, size: 14, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5).
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

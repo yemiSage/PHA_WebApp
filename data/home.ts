@@ -29,6 +29,7 @@ type Testimonial = {
   role: string;
   image: RasterAsset;
   flag: RasterAsset;
+  headline: string;
   quote: string;
 };
 
@@ -117,6 +118,7 @@ export const testimonials: Testimonial[] = [
     role: "Graduate",
     image: raster("/assets/testimonial-1.png", 562, 578),
     flag: nigeriaFlag,
+    headline: "Impactful",
     quote: '"Every moment of the bootcamp was impactful, helping me achieve my goals and build a strong professional network. I gained skills in prioritization, stakeholder management, and performance metrics analysis."',
   },
   {
@@ -124,6 +126,7 @@ export const testimonials: Testimonial[] = [
     role: "Lawyer/New to tech",
     image: raster("/assets/testimonial-2.png", 562, 578),
     flag: nigeriaFlag,
+    headline: "Rewarding",
     quote: '"As a lawyer and a newbie in tech, my most significant highlight was working on the capstone project with my group members, it was a rewarding experience putting all we had learnt to work on a product. It was a great initiative to have a collaborative task."',
   },
   {
@@ -131,6 +134,7 @@ export const testimonials: Testimonial[] = [
     role: "Analyst",
     image: raster("/assets/testimonial-3.png", 562, 578),
     flag: raster("/assets/flag-za.png", 275, 183),
+    headline: "Fantastic",
     quote: '"Coming from a rough diamond analyst background, my experience with Product Hub was fantastic, I was able to connect with colleagues and like minds and I learnt from industry experts making the whole learning journey enriching."',
   },
   {
@@ -138,6 +142,7 @@ export const testimonials: Testimonial[] = [
     role: "Product Designer",
     image: raster("/assets/testimonial-4.png", 562, 578),
     flag: nigeriaFlag,
+    headline: "Transformative",
     quote: '"It was a wonderful journey, I had no experience whatsoever in Product Management. I learnt a lot and I have been able to connect with like minds and wonderful people and I believe this strategic relationship will enhance my growth."',
   },
   {
@@ -145,6 +150,7 @@ export const testimonials: Testimonial[] = [
     role: "Developer Relations",
     image: raster("/assets/testimonial-5.png", 562, 578),
     flag: raster("/assets/flag-gh.png", 275, 183),
+    headline: "Impactful",
     quote: '"Every moment of the bootcamp was impactful, helping me achieve my goals and build a strong professional network. I gained skills in prioritization, stakeholder management, and performance metrics analysis."',
   },
   {
@@ -152,6 +158,7 @@ export const testimonials: Testimonial[] = [
     role: "Graduate",
     image: raster("/assets/testimonial-6.png", 562, 578),
     flag: raster("/assets/flag-rw.png", 1280, 854),
+    headline: "Engaging",
     quote: '"The Bootcamp was interactive and enjoyable. I loved the group sessions where we tackled projects together, forming friendships. I gained crucial skills in detail, data cleansing, and research."',
   },
   {
@@ -159,6 +166,7 @@ export const testimonials: Testimonial[] = [
     role: "Technical Writer",
     image: raster("/assets/testimonial-7.png", 562, 578),
     flag: nigeriaFlag,
+    headline: "Invaluable",
     quote: '"During the technical writing bootcamp, the highlight for me was the invaluable mentorship from our coach, who guided us through every step. I picked up new skills that truly sharpened my writing."',
   },
   {
@@ -166,6 +174,7 @@ export const testimonials: Testimonial[] = [
     role: "Graduate",
     image: raster("/assets/testimonial-8.png", 562, 578),
     flag: nigeriaFlag,
+    headline: "Interactive",
     quote: '"I would like to emphasize that the Bootcamp was a very interactive and engaging program. I enjoyed the group sessions the most because we got to do hands on projects together."',
   },
   {
@@ -173,6 +182,7 @@ export const testimonials: Testimonial[] = [
     role: "Graduate",
     image: raster("/assets/testimonial-9.png", 562, 578),
     flag: nigeriaFlag,
+    headline: "Beginner-friendly",
     quote: '"The facilitators were amazing, with a beginner-friendly approach that made learning enjoyable. The dedication of my classmates enriched the experience."',
   },
 ];

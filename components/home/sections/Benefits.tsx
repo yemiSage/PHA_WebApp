@@ -6,14 +6,16 @@ export function Benefits() {
   return (
     <section className="benefits">
       <div className="section-shell benefits__heading">
-        <SectionHeading eyebrow="Who we are" title="Why being with us is non-negotiable" description="Product Hub Africa gives you more than a place to learn. You gain a supportive community, practical experience, meaningful connections, and access to opportunities that move your career forward." />
+        <SectionHeading eyebrow="Who we are" title="Why being with us is non-negotiable" description="We go beyond to provide the best environment that supports growth, innovation, and success through;" />
       </div>
       <div className="benefits__panel">
         <div className="benefits__grid">
           {benefits.map((benefit) => (
-            <article className={`benefit-card ${benefit.darkText ? "benefit-card--dark" : ""}`} style={{ backgroundColor: benefit.color }} key={benefit.title}>
-              <span className="benefit-card__icon" style={{ backgroundColor: benefit.softColor }}><Image src={benefit.icon} width={32} height={32} alt="" /></span>
-              <h3>{benefit.title}</h3><p>{benefit.description}</p>
+            <article className={`benefit-card-shell ${benefit.darkText ? "benefit-card-shell--dark" : ""}`} style={{ backgroundColor: benefit.softColor }} key={benefit.title}>
+              <div className="benefit-card" style={{ backgroundColor: benefit.color }}>
+                <span className="benefit-card__icon" style={{ backgroundColor: benefit.softColor }}><Image src={benefit.icon} width={32} height={32} alt="" /></span>
+                <h3>{benefit.title}</h3><p>{benefit.description}</p>
+              </div>
             </article>
           ))}
         </div>

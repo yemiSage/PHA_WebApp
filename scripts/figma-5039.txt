@@ -1,0 +1,837 @@
+const imgIconamoonArrowTopRight1Bold = "https://www.figma.com/api/mcp/asset/795cca68-9b6e-4031-92aa-2826d4d9b505.svg";
+const imgDownRegular = "https://www.figma.com/api/mcp/asset/a0476fb7-23d4-4999-af0a-e1ebce3049a1.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/a61488bf-6590-4c3d-9cbe-2e8241781ebe.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/0a83f310-64b6-47f9-8eba-10bf37c1df0e.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/685e6276-79c6-4a32-b75b-352b59e434c6.svg";
+const imgAddRegular = "https://www.figma.com/api/mcp/asset/fe576036-5b2b-4b9f-9abb-daec0e9f6d60.svg";
+const img3431 = "https://www.figma.com/api/mcp/asset/222c27e8-f9e3-4f28-8149-5b5de2b925f1.png";
+const imgFrame2147226626 = "https://www.figma.com/api/mcp/asset/3c3a9d09-7457-4019-bde1-081e29631d9d.png";
+const imgFrame2147226627 = "https://www.figma.com/api/mcp/asset/0fee5407-2859-4e03-97d4-10810efaf58e.png";
+const imgFrame2147226625 = "https://www.figma.com/api/mcp/asset/dd9e0e10-bba5-446b-9254-70bdf36107d1.png";
+const imgFrame2147226628 = "https://www.figma.com/api/mcp/asset/ed8ce1a4-4c8e-44a2-875a-a536654bc816.png";
+const imgFrame2147226629 = "https://www.figma.com/api/mcp/asset/1701f0ea-7266-4488-bf58-f7d8930ed74b.png";
+const imgFrame2147226630 = "https://www.figma.com/api/mcp/asset/4598b86c-0a91-461b-93a3-f31d51cf74f3.png";
+const imgFrame2147226631 = "https://www.figma.com/api/mcp/asset/ca27aadc-3aef-47de-b774-b803ac2bb5b0.png";
+const imgFrame2147226632 = "https://www.figma.com/api/mcp/asset/60f5caea-7355-4666-9e2f-80e6cef9f16a.png";
+const imgFrame2147226591 = "https://www.figma.com/api/mcp/asset/0f4a22da-4a30-4a41-b310-e704f56db0d5.png";
+const imgFrame2147226592 = "https://www.figma.com/api/mcp/asset/6200c585-3e23-4eb7-9ff5-e1a1b65816bb.png";
+const imgFrame2147226593 = "https://www.figma.com/api/mcp/asset/df0c0f00-588e-4d06-b988-aea049ea2573.png";
+const imgFrame2147225945 = "https://www.figma.com/api/mcp/asset/0340e18d-bffb-496e-883e-918d93650479.png";
+const img9Ade060E2E874Df76A61B1295E70Dd60BackgroundRemoved2Copy2 = "https://www.figma.com/api/mcp/asset/a1f67828-053f-4dde-ab9c-81b743e8c780.png";
+const imgGroup3 = "https://www.figma.com/api/mcp/asset/58fac874-d91a-440b-8c1b-b504f0eff0d5.svg";
+const imgGroup4 = "https://www.figma.com/api/mcp/asset/e7a8fb81-bbe2-4ffa-bb36-fc8892801cf2.svg";
+const imgGroup5 = "https://www.figma.com/api/mcp/asset/2ceb6c9d-61b2-4ab0-9bbf-b46c1de59489.svg";
+const imgGroup6 = "https://www.figma.com/api/mcp/asset/371547e0-8bc9-4a44-84a5-2a91ec217880.svg";
+const imgGroup7 = "https://www.figma.com/api/mcp/asset/7da91d1a-6892-4644-b1b8-2c84f93f44f1.svg";
+const imgInstagramFilled = "https://www.figma.com/api/mcp/asset/5bc08c7e-e4c8-4749-a8b6-4f6cb9d78c64.svg";
+const imgLinkedinFilled = "https://www.figma.com/api/mcp/asset/b667771c-09b9-4296-9ced-b202580635cf.svg";
+const imgSocialXFilled = "https://www.figma.com/api/mcp/asset/429df989-2bde-47db-a1a0-d2b361654d93.svg";
+const imgFacebookOriginalMono = "https://www.figma.com/api/mcp/asset/06771bc8-d937-4b01-8eb0-4b40676069a9.svg";
+const imgVector8 = "https://www.figma.com/api/mcp/asset/9dbb534c-88a6-4b6f-8c24-519ccad5c488.svg";
+const imgMinimizeRegular = "https://www.figma.com/api/mcp/asset/01b0aa41-c683-4981-b01f-159b1fa93332.svg";
+const imgStar3 = "https://www.figma.com/api/mcp/asset/17952c76-5dcc-4306-ae5a-349852ec05ba.svg";
+const imgArrowLeftCircleFilled = "https://www.figma.com/api/mcp/asset/2b563dcf-05cf-45a6-858c-32abc7de7451.svg";
+
+function IconamoonArrowTopRight1Bold({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[20px]"} data-node-id="2022:2921" data-name="iconamoon:arrow-top-right-1-bold">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconamoonArrowTopRight1Bold} />
+    </div>
+  );
+}
+
+function DownRegular({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[20px]"} data-node-id="2022:3181" data-name="down_regular">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDownRegular} />
+    </div>
+  );
+}
+
+function HeaderNav({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[#f4f4f4] border border-[#eaeaea] border-solid content-stretch flex flex-col items-start justify-center px-[16px] py-[12px] relative rounded-[322px]"} data-node-id="2022:3190" data-name="Header Nav">
+      <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:3191">
+        <div className="content-stretch flex flex-col items-start px-[12px] py-[8px] relative shrink-0 w-[136px]" data-node-id="2022:3192">
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="2022:3193" data-name="Group">
+            <div className="col-1 h-[12.511px] ml-[0.02px] mt-0 relative row-1 w-[61.128px]" data-node-id="2022:3194" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-[13.9px] place-items-start relative row-1" data-node-id="2022:3202" data-name="Group">
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="2022:3203" data-name="Group">
+                <div className="col-1 h-[12.53px] ml-0 mt-[0.06px] relative row-1 w-[29.16px]" data-node-id="2022:3204" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                </div>
+                <div className="col-1 h-[12.586px] ml-[32.1px] mt-0 relative row-1 w-[45.011px]" data-node-id="2022:3208" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="2022:3216">
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3217" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3217;12:2850">
+              <p className="leading-[1.4]">Programmes</p>
+            </div>
+            <DownRegular className="relative shrink-0 size-[20px]" />
+          </div>
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3218" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3218;12:2850">
+              <p className="leading-[1.4]">Courses</p>
+            </div>
+            <DownRegular className="relative shrink-0 size-[20px]" />
+          </div>
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3219" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3219;12:2850">
+              <p className="leading-[1.4]">Talent Pool</p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3220" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3220;12:2850">
+              <p className="leading-[1.4]">About us</p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[8px] h-[40px] items-center justify-center opacity-80 px-[12px] py-[8px] relative shrink-0" data-node-id="2022:3221" data-name="nav link">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3221;12:2850">
+              <p className="leading-[1.4]">Contact Us</p>
+            </div>
+          </div>
+        </div>
+        <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:3222" data-name="Component 2">
+          <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+          <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:3222;9:2816">
+            Join our community
+          </p>
+          <IconamoonArrowTopRight1Bold className="relative shrink-0 size-[20px]" />
+          <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+type Component7Props = {
+  className?: string;
+  property1?: "FAQs";
+  title?: string;
+};
+
+function Component7({ className, property1 = "FAQs", title = "Can i partner with PHA to acquire talents?" }: Component7Props) {
+  return (
+    <div className={className || "content-stretch flex h-[40px] items-center justify-between relative w-[521px]"} data-node-id="2022:3367">
+      <div className="content-stretch flex flex-col items-start mr-[-21px] relative shrink-0 w-[518px]" data-node-id="2022:3368">
+        <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-[color:var(--grey-color\/grey-12---text1,#202020)] tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:3369">
+          {title}
+        </p>
+      </div>
+      <div className="relative shrink-0 size-[24px]" data-node-id="2022:3370" data-name="add_regular">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAddRegular} />
+      </div>
+    </div>
+  );
+}
+
+export default function Programmes() {
+  return (
+    <div className="bg-[#f9f9f9] relative size-full" data-node-id="2022:5039" data-name="PROGRAMMES">
+      <div className="-translate-x-1/2 absolute bg-[#101010] h-[827px] left-1/2 overflow-clip top-[4424px] w-[1440px]" data-node-id="2022:5040" data-name="Desktop - 17">
+        <div className="-translate-x-1/2 absolute h-[512px] left-[calc(50%-0.5px)] opacity-9 top-[459px] w-[1319px]" data-node-id="I2022:5040;103:5860" data-name="343 1">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[360.82%] left-0 max-w-none top-[-148.63%] w-full" src={img3431} />
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[24px] items-start left-[120px] top-[67px] w-[362px]" data-node-id="I2022:5040;38:488">
+          <div className="content-stretch flex flex-col gap-[21px] items-start relative shrink-0 w-full" data-node-id="I2022:5040;38:489">
+            <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="I2022:5040;242:5188">
+              <div className="col-1 ml-0 mt-0 relative row-1 size-[48px]" data-node-id="I2022:5040;242:5189" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+              </div>
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[56.82px] mt-[3.99px] place-items-start relative row-1" data-node-id="I2022:5040;242:5204" data-name="Group">
+                <div className="col-1 h-[18.766px] ml-[0.03px] mt-0 relative row-1 w-[91.693px]" data-node-id="I2022:5040;242:5205" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup4} />
+                </div>
+                <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-[20.84px] place-items-start relative row-1" data-node-id="I2022:5040;242:5213" data-name="Group">
+                  <div className="col-1 ml-[117.27px] mt-[11.7px] relative row-1 size-[7.176px]" data-node-id="I2022:5040;242:5214" data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+                  </div>
+                  <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="I2022:5040;242:5217" data-name="Group">
+                    <div className="col-1 h-[18.794px] ml-0 mt-[0.09px] relative row-1 w-[43.74px]" data-node-id="I2022:5040;242:5218" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup6} />
+                    </div>
+                    <div className="col-1 h-[18.879px] ml-[48.15px] mt-0 relative row-1 w-[67.516px]" data-node-id="I2022:5040;242:5222" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup7} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:5040;38:491">
+              <div className="[word-break:break-word] flex flex-col font-['Inter:Regular'] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white w-full" data-node-id="I2022:5040;38:492">
+                <p className="leading-[1.4]">Product Hub Africa is a Non-governmental organization designed to equipped up coming potential tech enthusiast</p>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Regular'] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#777] text-[14px] whitespace-nowrap" data-node-id="I2022:5040;38:493">
+            <p className="leading-[1.4]">© 2026 Product Hub Africa. All rights reserved.</p>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[18px] items-center left-[120px] top-[251px]" data-node-id="I2022:5040;38:516">
+          <div className="relative shrink-0 size-[24px]" data-node-id="I2022:5040;38:517" data-name="instagram_filled">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInstagramFilled} />
+          </div>
+          <div className="relative shrink-0 size-[24px]" data-node-id="I2022:5040;38:518" data-name="linkedin_filled">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLinkedinFilled} />
+          </div>
+          <div className="relative shrink-0 size-[24px]" data-node-id="I2022:5040;38:519" data-name="social_x_filled">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSocialXFilled} />
+          </div>
+          <div className="relative shrink-0 size-[24px]" data-node-id="I2022:5040;38:725" data-name="facebook_original_mono">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFacebookOriginalMono} />
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[56px] items-start left-[calc(50%+16px)] top-[67px] w-[546px]" data-node-id="I2022:5040;38:555">
+          <div className="content-stretch flex gap-[30px] items-start relative shrink-0 w-full" data-node-id="I2022:5040;38:494">
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[162px]" data-node-id="I2022:5040;38:495">
+              <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:496" data-name="navigation">
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.28px] whitespace-nowrap" data-node-id="I2022:5040;38:497">
+                  <p className="leading-[20px]">Menu</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:5040;38:498">
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:499" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:499;35:400">
+                    <p className="leading-[1.4]">Programmes</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:500" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:500;35:400">
+                    <p className="leading-[1.4]">Talent Pool</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:501" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:501;35:400">
+                    <p className="leading-[1.4]">Counseling</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:502" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:502;35:400">
+                    <p className="leading-[1.4]">Blog</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[162px]" data-node-id="I2022:5040;38:503">
+              <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:504" data-name="navigation">
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.28px] whitespace-nowrap" data-node-id="I2022:5040;38:505">
+                  <p className="leading-[20px]">Product Hub Africa</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:5040;38:506">
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:507" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:507;35:400">
+                    <p className="leading-[1.4]">Partnership</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:508" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:508;35:400">
+                    <p className="leading-[1.4]">Sponsor</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:509" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:509;35:400">
+                    <p className="leading-[1.4]">Volunteer</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;353:4434" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;353:4434;35:400">
+                    <p className="leading-[1.4]">Help</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[162px]" data-node-id="I2022:5040;38:510">
+              <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:511" data-name="navigation">
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--grey-color\/grey-11---text2,#606060)] tracking-[-0.28px] whitespace-nowrap" data-node-id="I2022:5040;38:512">
+                  <p className="leading-[20px]">Others</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:5040;38:513">
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:514" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:514;35:400">
+                    <p className="leading-[1.4]">About us</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex h-[40px] items-center px-[12px] py-[8px] relative rounded-[9999px] shrink-0" data-node-id="I2022:5040;38:515" data-name="navigation">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Regular'] font-normal justify-center leading-[0] relative shrink-0 text-[#eaeaea] text-[16px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:515;35:400">
+                    <p className="leading-[1.4]">Policy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[32px] items-start justify-center relative shrink-0" data-node-id="I2022:5040;35:365">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-[520px]" data-node-id="I2022:5040;35:366">
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="I2022:5040;35:367">
+                <div className="[word-break:break-word] flex flex-col font-['Aeonik:Bold'] justify-center leading-[0] not-italic relative shrink-0 text-[40px] text-white tracking-[-0.6px] w-full" data-node-id="I2022:5040;35:368">
+                  <p className="leading-[1.2]">Don’t miss an update, subscribe to our newsletter</p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[12px] items-start relative shrink-0" data-node-id="I2022:5040;35:370">
+              <div className="bg-[var(--sematic\/backgrounds\/backround-1,#fdfdfd)] border border-[var(--sematic\/boder-and-seperator\/greyborder-1,#d9d9d9)] border-solid content-stretch flex gap-[10px] items-center px-[16px] py-[12px] relative rounded-[16px] self-stretch shrink-0 w-[339px]" data-node-id="I2022:5040;38:547">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[1.4] min-w-px relative text-[#959595] text-[16px] tracking-[-0.24px]" data-node-id="I2022:5040;38:548">
+                  Enter address
+                </p>
+              </div>
+              <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="I2022:5040;38:536" data-name="Component 2">
+                <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+                <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5040;38:536;9:2816">
+                  Subscribe
+                </p>
+                <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-white h-[777px] left-1/2 overflow-clip top-0 w-[1440px]" data-node-id="2022:5041" data-name="Desktop - 18">
+        <div className="absolute h-[451px] left-[calc(50%+26px)] top-[258px] w-[611px]" data-node-id="2022:5042">
+          <div className="absolute inset-[-36.03%_-26.6%]">
+            <img alt="" className="block max-w-none size-full" src={imgVector8} />
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[18px] items-start left-[calc(25%+52px)] top-[250px] w-[584px]" data-node-id="2022:5043">
+          <div className="bg-[#f6f2ff] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:5044">
+            <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:5045">
+              <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#8665d9] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:5046">
+                <p className="leading-[1.4]">Our programmes</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full" data-node-id="2022:5047">
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:5048">
+              <div className="flex flex-col font-['Aeonik:Bold'] justify-center min-w-full not-italic relative shrink-0 text-[#1f1f1f] text-[56px] tracking-[-0.84px] w-[min-content]" data-node-id="2022:5049">
+                <p>
+                  <span className="leading-none">{`Be a part of `}</span>
+                  <span className="leading-none text-[#2e6cff]">Africa’s</span>
+                  <span className="leading-none">{` next global builders today`}</span>
+                </p>
+              </div>
+              <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[18px] tracking-[-0.27px] w-[529px]" data-node-id="2022:5050">
+                <p className="leading-[1.4]">From your first introduction to your next big career move, PHA gives you the training, tools, and community to get there; faster than you thought possible</p>
+              </div>
+            </div>
+            <div className="content-stretch flex items-center relative shrink-0" data-node-id="2022:5051">
+              <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:5052" data-name="Component 2">
+                <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+                <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5052;9:2816">
+                  Get started
+                </p>
+                <IconamoonArrowTopRight1Bold className="relative shrink-0 size-[20px]" />
+                <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute bg-white h-[406px] left-[calc(50%-16px)] overflow-clip rounded-[24px] top-[269px] w-[616px]" data-node-id="2022:5053">
+          <div className="-translate-x-1/2 absolute content-stretch flex h-[203px] items-center left-1/2 top-0" data-node-id="2022:5054">
+            <div className="h-[209px] relative shrink-0 w-[166px]" data-node-id="2022:5055">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-full left-[-5.35%] max-w-none top-0 w-[188.86%]" src={imgFrame2147226626} />
+              </div>
+            </div>
+            <div className="h-[209px] relative shrink-0 w-[166px]" data-node-id="2022:5056">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame2147226627} />
+            </div>
+            <div className="h-[209px] relative shrink-0 w-[166px]" data-node-id="2022:5057">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame2147226625} />
+            </div>
+            <div className="h-[209px] relative shrink-0 w-[166px]" data-node-id="2022:5058">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame2147226628} />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute content-stretch flex h-[203px] items-center left-1/2 top-[203px]" data-node-id="2022:5059">
+            <div className="h-[209px] relative shrink-0 w-[166px]" data-node-id="2022:5060">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame2147226629} />
+            </div>
+            <div className="h-[209px] relative shrink-0 w-[166px]" data-node-id="2022:5061">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame2147226630} />
+            </div>
+            <div className="h-[209px] relative shrink-0 w-[166px]" data-node-id="2022:5062">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame2147226631} />
+            </div>
+            <div className="h-[209px] relative shrink-0 w-[166px]" data-node-id="2022:5063">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFrame2147226632} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#f9f9f9] h-[921px] left-1/2 overflow-clip top-[3480px] w-[1440px]" data-node-id="2022:5064" data-name="Section 12">
+        <div className="-translate-y-1/2 absolute content-stretch flex flex-col gap-[60px] items-center left-[120px] top-[calc(50%-33.5px)] w-[1201px]" data-node-id="2022:5065">
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2022:5066">
+            <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0 w-full" data-node-id="2022:5067">
+              <div className="bg-[#eaf0ff] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:5068">
+                <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:5069">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#2e6cff] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:5070">
+                    <p className="leading-[1.4]">FAQs</p>
+                  </div>
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-center leading-[0] relative shrink-0 text-center" data-node-id="2022:5071">
+                <div className="flex flex-col font-['Aeonik:Bold'] justify-center not-italic relative shrink-0 text-[#1f1f1f] text-[48px] tracking-[-0.72px] w-[979px]" data-node-id="2022:5072">
+                  <p className="leading-[1.2]">Frequently asked questions</p>
+                </div>
+                <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[415px]" data-node-id="2022:5073">
+                  <p className="leading-[1.4] whitespace-pre-wrap">{`Here are couple of questions frequently asked about our  programmes`}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[60px] items-center relative shrink-0" data-node-id="2022:5074">
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="2022:5075" data-name="FAQ Section">
+              <div className="bg-[#f4f4f4] content-stretch flex flex-col items-start overflow-clip px-[24px] py-[16px] relative rounded-[var(--font\/line-height\/sm,24px)] shrink-0 w-full" data-node-id="2022:5076">
+                <Component7 className="content-stretch flex h-[40px] items-center justify-between relative shrink-0 w-full" />
+              </div>
+              <div className="bg-[#f4f4f4] content-stretch flex flex-col items-start overflow-clip px-[24px] py-[16px] relative rounded-[var(--font\/line-height\/sm,24px)] shrink-0 w-full" data-node-id="2022:5078">
+                <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-node-id="2022:5079" data-name="Component 8">
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start leading-[1.4] min-w-px relative text-[16px] tracking-[-0.24px]" data-node-id="I2022:5079;44:3994">
+                    <p className="font-['Geist:Medium'] font-medium relative shrink-0 text-[color:var(--grey-color\/grey-12---text1,#202020)] w-full" data-node-id="I2022:5079;44:3995">
+                      Do i have to pay commission to hire talents here?
+                    </p>
+                    <p className="font-['Geist:Regular'] font-normal relative shrink-0 text-[color:var(--grey-color\/grey-11---text2,#606060)] w-full" data-node-id="I2022:5079;44:3996">
+                      FAQs are a set of common questions and answers about soludesk services, designed to save you time by addressing frequent concerns all in one place instead of answering them repeatedly.
+                    </p>
+                  </div>
+                  <div className="relative shrink-0 size-[24px]" data-node-id="I2022:5079;44:3997" data-name="minimize_regular">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMinimizeRegular} />
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#f4f4f4] content-stretch flex flex-col items-start overflow-clip px-[24px] py-[16px] relative rounded-[var(--font\/line-height\/sm,24px)] shrink-0 w-full" data-node-id="2022:5080">
+                <Component7 className="content-stretch flex h-[40px] items-center justify-between relative shrink-0 w-full" title="Does this talents have experiences?" />
+              </div>
+              <div className="bg-[#f4f4f4] content-stretch flex flex-col items-start overflow-clip px-[24px] py-[16px] relative rounded-[var(--font\/line-height\/sm,24px)] shrink-0 w-full" data-node-id="2022:5082">
+                <Component7 className="content-stretch flex h-[40px] items-center justify-between relative shrink-0 w-full" />
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[28px] items-center relative shrink-0" data-node-id="2022:5084">
+              <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#1f1f1f] text-[18px] text-center tracking-[-0.27px] whitespace-nowrap" data-node-id="2022:5085">
+                <p className="leading-[1.4]">Can’t find the answers you’re looking for?</p>
+              </div>
+              <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:5086" data-name="Component 2">
+                <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+                <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5086;9:2816">
+                  Contact us
+                </p>
+                <IconamoonArrowTopRight1Bold className="relative shrink-0 size-[20px]" />
+                <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#f9f9f9] h-[2703px] left-1/2 overflow-clip top-[777px] w-[1440px]" data-node-id="2022:5087" data-name="Section 6">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[60px] items-start left-1/2 top-[calc(50%-5px)] w-[1200px]" data-node-id="2022:5088">
+          <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0 w-full" data-node-id="2022:5089">
+            <div className="bg-[#eaf0ff] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:5090">
+              <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:5091">
+                <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#2e6cff] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:5092">
+                  <p className="leading-[1.4]">Programmes</p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2022:5093">
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-center leading-[0] relative shrink-0 text-center w-full" data-node-id="2022:5094">
+                <div className="flex flex-col font-['Aeonik:Bold'] justify-center not-italic relative shrink-0 text-[#1f1f1f] text-[40px] tracking-[-0.6px] w-[832px]" data-node-id="2022:5095">
+                  <p className="leading-[1.2]">Four paths. One mission.</p>
+                </div>
+                <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[478px]" data-node-id="2022:5096">
+                  <p className="leading-[1.4]">{`Whatever stage you are at, we’ve got the perfect programme designed to cater for you. `}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[100px] items-start relative shrink-0 w-full" data-node-id="2022:5097">
+            <div className="content-stretch flex flex-col gap-[60px] items-start relative shrink-0 w-full" data-node-id="2022:5098">
+              <div className="content-stretch flex gap-[32px] items-center relative shrink-0 w-full" data-node-id="2022:5099">
+                <div className="h-[429px] overflow-clip relative rounded-[28px] shrink-0 w-[584px]" data-node-id="2022:5100" style={{ backgroundImage: "linear-gradient(162.43579587474497deg, rgb(249, 249, 249) 80.394%, rgb(235, 241, 255) 84.943%)" }}>
+                  <div className="absolute left-[88px] size-[100px] top-[317px]" data-node-id="2022:5101">
+                    <div className="absolute inset-[6.51%_7%_8.48%_7%]">
+                      <img alt="" className="block max-w-none size-full" src={imgStar3} />
+                    </div>
+                  </div>
+                  <div className="-translate-x-1/2 absolute content-stretch flex gap-[19px] items-center left-1/2 top-[85px]" data-node-id="2022:5102">
+                    <div className="h-[259px] relative rounded-[32px] shrink-0 w-[228px]" data-node-id="2022:5103">
+                      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[32px]">
+                        <img alt="" className="absolute h-[132.05%] left-[7.96%] max-w-none top-[-0.12%] w-full" src={imgFrame2147226591} />
+                      </div>
+                    </div>
+                    <div className="h-[259px] relative rounded-[32px] shrink-0 w-[228px]" data-node-id="2022:5104">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[32px] size-full" src={imgFrame2147226592} />
+                    </div>
+                    <div className="h-[259px] relative rounded-[32px] shrink-0 w-[228px]" data-node-id="2022:5105">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[32px] size-full" src={imgFrame2147226593} />
+                    </div>
+                  </div>
+                  <div className="absolute flex h-[73.189px] items-center justify-center left-[106px] top-[-17px] w-[164.685px]" data-node-id="2022:5106">
+                    <div className="flex-none rotate-[8.59deg]">
+                      <div className="content-stretch flex items-center justify-center px-[16px] py-[8px] relative rounded-[322px]">
+                        <div aria-hidden className="absolute bg-[#ff9625] inset-0 pointer-events-none rounded-[322px]" />
+                        <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[24px] text-center text-white tracking-[-0.36px] whitespace-nowrap" data-node-id="2022:5107">
+                          <p className="leading-[1.4]">Collaborate</p>
+                        </div>
+                        <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_-6px_12px_0px_rgba(255,255,255,0.16),inset_0px_6px_6.1px_0px_rgba(255,255,255,0.25)]" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="absolute flex h-[79.428px] items-center justify-center left-[346px] top-[296px] w-[119.715px]" data-node-id="2022:5108">
+                    <div className="flex-none rotate-[-16.65deg]">
+                      <div className="content-stretch flex items-center justify-center px-[16px] py-[8px] relative rounded-[322px]">
+                        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[322px]" style={{ backgroundImage: "linear-gradient(186.31842102664552deg, rgb(46, 108, 255) 74.817%, rgb(234, 240, 255) 199.46%)" }} />
+                        <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[24px] text-center text-white tracking-[-0.36px] whitespace-nowrap" data-node-id="2022:5109">
+                          <p className="leading-[1.4]">Learn!!!</p>
+                        </div>
+                        <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_-6px_12px_0px_rgba(255,255,255,0.16),inset_0px_6px_6.1px_0px_rgba(255,255,255,0.25)]" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[24px] items-start justify-center relative shrink-0 w-[584px]" data-node-id="2022:5110">
+                  <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start leading-[0] relative shrink-0" data-node-id="2022:5111">
+                    <div className="flex flex-col font-['Geist:Bold'] font-bold justify-center relative shrink-0 text-[#1f1f1f] text-[28px] text-center tracking-[-0.42px] whitespace-nowrap" data-node-id="2022:5112">
+                      <p className="leading-[1.3]">Our bootcamp</p>
+                    </div>
+                    <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[478px]" data-node-id="2022:5113">
+                      <p className="leading-[1.4]">{`Our bootcamp programmes offers the perfect opportunity to kick start your career in any discipline of your choice. `}</p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="2022:5114">
+                    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-[478px]" data-node-id="2022:5115">
+                      <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5116">
+                        <div className="relative shrink-0 size-[32px]" data-node-id="2022:5117" data-name="arrow_left_circle_filled">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                        </div>
+                      </div>
+                      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5118">
+                        <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5119">
+                          <p className="leading-[1.4]">Beginner friendly</p>
+                        </div>
+                        <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5120">
+                          <p className="leading-[1.4]">Beginner friendly live classes that teaches you everything you need to know fas a begiiner</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-[478px]" data-node-id="2022:5121">
+                      <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5122">
+                        <div className="relative shrink-0 size-[32px]" data-node-id="2022:5123" data-name="arrow_left_circle_filled">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                        </div>
+                      </div>
+                      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5124">
+                        <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5125">
+                          <p className="leading-[1.4]">Packed with hands-on experience</p>
+                        </div>
+                        <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5126">
+                          <p className="leading-[1.4]">No fixed rates, payments are negotiable across parties.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-[478px]" data-node-id="2022:5127">
+                      <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5128">
+                        <div className="relative shrink-0 size-[32px]" data-node-id="2022:5129" data-name="arrow_left_circle_filled">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                        </div>
+                      </div>
+                      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5130">
+                        <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5131">
+                          <p className="leading-[1.4]">Collaborative capstone projects</p>
+                        </div>
+                        <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5132">
+                          <p className="leading-[1.4]">highly recommended individuals we can vouch for</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:5133" data-name="Button">
+                    <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+                    <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5133;9:2816">
+                      Explore programmes
+                    </p>
+                    <IconamoonArrowTopRight1Bold className="relative shrink-0 size-[20px]" />
+                    <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[32px] items-center relative shrink-0 w-full" data-node-id="2022:5134">
+                <div className="content-stretch flex flex-col gap-[24px] items-start justify-center relative shrink-0 w-[584px]" data-node-id="2022:5135">
+                  <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:5136">
+                    <div className="flex flex-col font-['Geist:Bold'] font-bold justify-center relative shrink-0 text-[#1f1f1f] text-[28px] text-center tracking-[-0.42px] whitespace-nowrap" data-node-id="2022:5137">
+                      <p className="leading-[1.3]">Advanced masterclass</p>
+                    </div>
+                    <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center min-w-full relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[min-content]" data-node-id="2022:5138">
+                      <p className="leading-[1.4]">Thinking of leveling up your career? Our masterclass might just be what you need. Designed to equipped you with what you need for the modern job market.</p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="2022:5139">
+                    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-[442px]" data-node-id="2022:5140">
+                      <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5141">
+                        <div className="relative shrink-0 size-[32px]" data-node-id="2022:5142" data-name="arrow_left_circle_filled">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                        </div>
+                      </div>
+                      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5143">
+                        <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5144">
+                          <p className="leading-[1.4]">Industry Experts</p>
+                        </div>
+                        <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5145">
+                          <p className="leading-[1.4]">{`Get to learn from top industry experts who are leaders in their own industries `}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-[442px]" data-node-id="2022:5146">
+                      <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5147">
+                        <div className="relative shrink-0 size-[32px]" data-node-id="2022:5148" data-name="arrow_left_circle_filled">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                        </div>
+                      </div>
+                      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5149">
+                        <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5150">
+                          <p className="leading-[1.4]">Mentorship</p>
+                        </div>
+                        <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5151">
+                          <p className="leading-[1.4]">Free mentorship to guild you.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-[442px]" data-node-id="2022:5152">
+                      <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5153">
+                        <div className="relative shrink-0 size-[32px]" data-node-id="2022:5154" data-name="arrow_left_circle_filled">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                        </div>
+                      </div>
+                      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5155">
+                        <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5156">
+                          <p className="leading-[1.4]">Real live hands-on projects</p>
+                        </div>
+                        <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5157">
+                          <p className="leading-[1.4] whitespace-pre-wrap">{`Opportunity to collaborate and work on real-live projects  `}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:5158" data-name="Button">
+                    <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+                    <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5158;9:2816">
+                      Join now
+                    </p>
+                    <IconamoonArrowTopRight1Bold className="relative shrink-0 size-[20px]" />
+                    <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+                  </div>
+                </div>
+                <div className="h-[429px] relative rounded-[28px] shrink-0 w-[584px]" data-node-id="2022:5159">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[28px] size-full" src={imgFrame2147225945} />
+                </div>
+              </div>
+            </div>
+            <div className="bg-[#101010] h-[240px] overflow-clip relative rounded-[28px] shrink-0 w-[1200px]" data-node-id="2022:5160">
+              <div className="absolute contents h-[789.135px] left-[666px] top-[-231.92px] w-[652.925px]" data-node-id="2022:5161">
+                <div className="absolute flex h-[669.479px] items-center justify-center left-[666px] top-[-231.92px] w-[358.138px]" data-node-id="2022:5162">
+                  <div className="flex-none rotate-[22.09deg]">
+                    <div className="bg-gradient-to-r from-[#101010] from-[13.75%] h-[677.217px] relative to-[#2e6cff] to-[116.88%] w-[111.63px]" />
+                  </div>
+                </div>
+                <div className="absolute flex h-[669.479px] items-center justify-center left-[739.7px] top-[-202.01px] w-[358.138px]" data-node-id="2022:5163">
+                  <div className="flex-none rotate-[22.09deg]">
+                    <div className="bg-gradient-to-r from-[#101010] from-[13.75%] h-[677.217px] relative to-[#2e6cff] to-[116.88%] w-[111.63px]" />
+                  </div>
+                </div>
+                <div className="absolute flex h-[669.479px] items-center justify-center left-[813.39px] top-[-172.09px] w-[358.138px]" data-node-id="2022:5164">
+                  <div className="flex-none rotate-[22.09deg]">
+                    <div className="bg-gradient-to-r from-[#101010] from-[13.75%] h-[677.217px] relative to-[#2e6cff] to-[116.88%] w-[111.63px]" />
+                  </div>
+                </div>
+                <div className="absolute flex h-[669.479px] items-center justify-center left-[887.09px] top-[-142.18px] w-[358.138px]" data-node-id="2022:5165">
+                  <div className="flex-none rotate-[22.09deg]">
+                    <div className="bg-gradient-to-r from-[#101010] from-[13.75%] h-[677.217px] relative to-[#2e6cff] to-[116.88%] w-[111.63px]" />
+                  </div>
+                </div>
+                <div className="absolute flex h-[669.479px] items-center justify-center left-[960.79px] top-[-112.27px] w-[358.138px]" data-node-id="2022:5166">
+                  <div className="flex-none rotate-[22.09deg]">
+                    <div className="bg-gradient-to-r from-[#101010] from-[13.75%] h-[677.217px] relative to-[#2e6cff] to-[116.88%] w-[111.63px]" />
+                  </div>
+                </div>
+              </div>
+              <div className="-translate-y-1/2 absolute content-stretch flex flex-col gap-[16px] items-start left-[40px] top-1/2" data-node-id="2022:5167">
+                <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="2022:5168">
+                  <div className="[word-break:break-word] flex flex-col font-['Geist:Bold'] font-bold justify-center leading-[0] relative shrink-0 text-[28px] text-white tracking-[-0.42px] w-[693px]" data-node-id="2022:5169">
+                    <p className="leading-[1.3]">Equip yourself with the right necessary skill. Pick the right programme to start today.</p>
+                  </div>
+                </div>
+                <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:5170" data-name="Component 2">
+                  <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+                  <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5170;9:2816">
+                    Join our community
+                  </p>
+                  <IconamoonArrowTopRight1Bold className="relative shrink-0 size-[20px]" />
+                  <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[60px] items-start relative shrink-0 w-full" data-node-id="2022:5171">
+              <div className="content-stretch flex gap-[32px] items-center relative shrink-0 w-full" data-node-id="2022:5172">
+                <div className="h-[429px] overflow-clip relative rounded-[28px] shrink-0 w-[584px]" data-node-id="2022:5173" style={{ backgroundImage: "linear-gradient(168.7421433424102deg, rgb(46, 108, 255) 72.062%, rgb(255, 255, 255) 89.34%)" }}>
+                  <div className="-translate-x-1/2 absolute h-[486px] left-[calc(50%-11px)] top-[12px] w-[520px]" data-node-id="2022:5174" data-name="9ade060e2e874df76a61b1295e70dd60 Background Removed 2 copy 2">
+                    <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={img9Ade060E2E874Df76A61B1295E70Dd60BackgroundRemoved2Copy2} />
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[24px] items-start justify-center relative shrink-0 w-[584px]" data-node-id="2022:5175">
+                  <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start leading-[0] relative shrink-0" data-node-id="2022:5176">
+                    <div className="flex flex-col font-['Geist:Bold'] font-bold justify-center relative shrink-0 text-[#1f1f1f] text-[28px] text-center tracking-[-0.42px] whitespace-nowrap" data-node-id="2022:5177">
+                      <p className="leading-[1.3]">Laptop scholarships</p>
+                    </div>
+                    <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[478px]" data-node-id="2022:5178">
+                      <p className="leading-[1.4]">Be part of our scholarship programmes designed to help users become</p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="2022:5179">
+                    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:5180">
+                      <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5181">
+                        <div className="relative shrink-0 size-[32px]" data-node-id="2022:5182" data-name="arrow_left_circle_filled">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                        </div>
+                      </div>
+                      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5183">
+                        <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5184">
+                          <p className="leading-[1.4]">Experienced global talent</p>
+                        </div>
+                        <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5185">
+                          <p className="leading-[1.4]">Hire from our pool of experience talents from our alumni</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:5186">
+                      <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5187">
+                        <div className="relative shrink-0 size-[32px]" data-node-id="2022:5188" data-name="arrow_left_circle_filled">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                        </div>
+                      </div>
+                      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5189">
+                        <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5190">
+                          <p className="leading-[1.4]">No recruiter markup</p>
+                        </div>
+                        <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5191">
+                          <p className="leading-[1.4]">No fixed rates, payments are negotiable across parties.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:5192">
+                      <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5193">
+                        <div className="relative shrink-0 size-[32px]" data-node-id="2022:5194" data-name="arrow_left_circle_filled">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                        </div>
+                      </div>
+                      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5195">
+                        <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5196">
+                          <p className="leading-[1.4]">Recommendations</p>
+                        </div>
+                        <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5197">
+                          <p className="leading-[1.4]">highly recommended individuals we can vouch for</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[32px] items-center relative shrink-0 w-full" data-node-id="2022:5198">
+                <div className="content-stretch flex flex-col gap-[24px] items-start justify-center relative shrink-0 w-[584px]" data-node-id="2022:5199">
+                  <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2022:5200">
+                    <div className="flex flex-col font-['Geist:Bold'] font-bold justify-center relative shrink-0 text-[#1f1f1f] text-[28px] text-center tracking-[-0.42px] whitespace-nowrap" data-node-id="2022:5201">
+                      <p className="leading-[1.3]">{`Talent hub (Job matching) `}</p>
+                    </div>
+                    <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center min-w-full relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-[min-content]" data-node-id="2022:5202">
+                      <p className="leading-[1.4]">Empower your team with top-tier professionals; experienced and reliable talents ready to drive results each day</p>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-[491px]" data-node-id="2022:5203">
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-[491px]" data-node-id="2022:5204">
+                      <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="2022:5205">
+                        <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:5206">
+                          <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5207">
+                            <div className="relative shrink-0 size-[32px]" data-node-id="2022:5208" data-name="arrow_left_circle_filled">
+                              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                            </div>
+                          </div>
+                          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5209">
+                            <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5210">
+                              <p className="leading-[1.4]">Verified, not just listed</p>
+                            </div>
+                            <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5211">
+                              <p className="leading-[1.4]">We check identity, work history, and credentials before a profile goes live.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:5212">
+                          <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5213">
+                            <div className="relative shrink-0 size-[32px]" data-node-id="2022:5214" data-name="arrow_left_circle_filled">
+                              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                            </div>
+                          </div>
+                          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5215">
+                            <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5216">
+                              <p className="leading-[1.4]">Experienced global talent</p>
+                            </div>
+                            <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5217">
+                              <p className="leading-[1.4]">Hire from our pool of experience talents from our alumni</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full" data-node-id="2022:5218">
+                          <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[8px] shrink-0" data-node-id="2022:5219">
+                            <div className="relative shrink-0 size-[32px]" data-node-id="2022:5220" data-name="arrow_left_circle_filled">
+                              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowLeftCircleFilled} />
+                            </div>
+                          </div>
+                          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start leading-[0] min-w-px relative" data-node-id="2022:5221">
+                            <div className="flex flex-col font-['Geist:Medium'] font-medium justify-center relative shrink-0 text-[#1f1f1f] text-[18px] tracking-[-0.27px] w-full" data-node-id="2022:5222">
+                              <p className="leading-[1.4]">No recruiter markup</p>
+                            </div>
+                            <div className="flex flex-col font-['Geist:Regular'] font-normal justify-center relative shrink-0 text-[#777] text-[16px] tracking-[-0.24px] w-full" data-node-id="2022:5223">
+                              <p className="leading-[1.4]">No fixed rates, payments are negotiable across parties.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="border-[#2e6cff] border-[1.5px] border-solid content-stretch flex gap-[8px] h-[48px] items-center justify-center px-[20px] py-[8px] relative rounded-[16px] shrink-0" data-node-id="2022:5224" data-name="Button">
+                    <div aria-hidden className="absolute bg-gradient-to-r from-[#2e6cff] inset-0 pointer-events-none rounded-[16px] to-[#578fff]" />
+                    <p className="[word-break:break-word] font-['Geist:Medium'] font-medium leading-[1.4] relative shrink-0 text-[16px] text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I2022:5224;9:2816">
+                      Hire talent
+                    </p>
+                    <IconamoonArrowTopRight1Bold className="relative shrink-0 size-[20px]" />
+                    <div className="absolute inset-[-1.5px] pointer-events-none rounded-[inherit] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.16),inset_0px_-4px_2px_0px_rgba(255,255,255,0.08)]" />
+                  </div>
+                </div>
+                <div className="h-[429px] relative rounded-[28px] shrink-0 w-[584px]" data-node-id="2022:5225">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[28px] size-full" src={imgFrame2147226629} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <HeaderNav className="-translate-x-1/2 absolute bg-[#f4f4f4] border border-[#eaeaea] border-solid content-stretch flex flex-col items-start justify-center left-[calc(50%-0.5px)] px-[16px] py-[12px] rounded-[322px] top-[55px]" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: white: #FFFFFF, Grey 900: #1F1F1F, Grey 700: #777777, Grey 500: #959595, Body Sm/Body sm Semibold: Font(family: "Inter", style: Semi Bold, size: 14, weight: 600, lineHeight: 20, letterSpacing: -2), Grey 100: #EAEAEA, Body/Body Re: Font(family: "Geist", style: Regular, size: 16, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), Display: Font(family: "Aeonik", style: Bold, size: 40, weight: 700, lineHeight: 1.2000000476837158, letterSpacing: -1.5), Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Primary/Pri 500: #2E6CFF, Grey 950: #101010, Purple 600: #8665D9, Purple 50: #F6F2FF, Heading: Font(family: "Aeonik", style: Bold, size: 56, weight: 700, lineHeight: 1, letterSpacing: -1.5), Paragraph 3/Paragraph 3 Rg: Font(family: "Geist", style: Regular, size: 18, weight: 400, lineHeight: 1.399999976158142, letterSpacing: -1.5), Old/white: #FFFFFF, Primary/Pri 50: #EAF0FF, Grey 50: #F4F4F4, Paragraph 3/Paragraph 3 md: Font(family: "Geist", style: Medium, size: 18, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Paragraph 2/Paragraph 2 Me: Font(family: "Geist", style: Medium, size: 24, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Orange 500: #FF9625, dark: , Paragraph 1/Paragraph 1 Bd: Font(family: "Geist", style: Bold, size: 28, weight: 700, lineHeight: 1.2999999523162842, letterSpacing: -1.5).
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

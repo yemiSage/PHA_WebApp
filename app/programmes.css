@@ -1,0 +1,327 @@
+.programme-page {
+  background: #f9f9f9;
+}
+.programme-page h1 {
+  font: 700 clamp(38px, 4vw, 56px)/1 var(--display-font);
+  letter-spacing: -0.025em;
+}
+.programme-page h1 em {
+  color: var(--primary);
+  font-style: normal;
+}
+.programme-page .button {
+  border-radius: 16px;
+  min-height: 48px;
+  font-size: 16px;
+}
+.pha-programme-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  padding-block: 250px 100px;
+}
+.pha-programme-hero > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.pha-programme-hero h1 {
+  max-width: 520px;
+}
+.pha-programme-hero p {
+  color: var(--grey-600);
+  max-width: 520px;
+}
+.pha-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  border-radius: 28px;
+  overflow: hidden;
+}
+.pha-photo-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.pha-paths {
+  padding: 100px 0 60px;
+}
+.pha-section-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+.pha-section-title h2 {
+  font-size: clamp(30px, 3vw, 40px);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+.pha-section-title p {
+  max-width: 480px;
+  color: var(--grey-600);
+}
+.pha-path {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+.pha-path__copy {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.pha-path__copy h2 {
+  font: 700 28px/1.3 var(--body);
+  letter-spacing: -0.025em;
+}
+.pha-path__copy > p {
+  color: var(--grey-600);
+  max-width: 520px;
+}
+.pha-path__photo {
+  width: 100%;
+  height: 429px;
+  object-fit: cover;
+  border-radius: 28px;
+}
+.pha-features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+.pha-features li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.pha-features__icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 60px;
+  height: 60px;
+  border-radius: 8px;
+  background: var(--primary-50);
+}
+.pha-features h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.pha-features p {
+  color: var(--grey-600);
+  font-size: 14px;
+}
+.pha-bootcamp-collage {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr 0.95fr;
+  align-items: center;
+  gap: 12px;
+  min-height: 429px;
+  background: var(--primary-50);
+  border-radius: 28px;
+  padding-block: 45px;
+}
+.pha-bootcamp-collage > img:not(.pha-collage-star) {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 22px;
+}
+.pha-bootcamp-collage > img:nth-child(2) {
+  height: 220px;
+}
+.pha-sticker {
+  position: absolute;
+  padding: 5px 18px;
+  color: white;
+  font-size: 23px;
+  border-radius: 30px;
+}
+.pha-sticker--orange {
+  background: var(--orange);
+  top: 15px;
+  left: 20%;
+  transform: rotate(9deg);
+}
+.pha-sticker--blue {
+  background: var(--primary);
+  bottom: 48px;
+  right: 16%;
+  transform: rotate(-18deg);
+}
+.pha-collage-star {
+  position: absolute;
+  bottom: 20px;
+  left: 15%;
+}
+.pha-banner {
+  position: relative;
+  overflow: hidden;
+  padding: 50px 40px;
+  margin-bottom: 90px;
+  border-radius: 28px;
+  color: white;
+  background: #101010;
+}
+.pha-banner::after {
+  content: "";
+  position: absolute;
+  inset: -100px -50px -100px 65%;
+  transform: rotate(22deg);
+  background: repeating-linear-gradient(
+    90deg,
+    #101010 0,
+    #173a8d 60px,
+    #2e6cff 90px,
+    #101010 92px
+  );
+  opacity: 0.7;
+}
+.pha-banner h2 {
+  max-width: 695px;
+  font: 700 28px/1.3 var(--body);
+  margin-bottom: 24px;
+}
+.pha-banner > * {
+  position: relative;
+  z-index: 1;
+}
+.pha-scholarship-photo {
+  height: 429px;
+  border-radius: 28px;
+  overflow: hidden;
+  background: linear-gradient(165deg, #8eafff, #2e6cff 72%, white);
+}
+.pha-scholarship-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+}
+.pha-faq {
+  padding-block: 100px 130px;
+}
+.pha-faq__items {
+  max-width: 584px;
+  margin-inline: auto;
+  display: grid;
+  gap: 10px;
+}
+.pha-faq details {
+  background: #f4f4f4;
+  border-radius: 20px;
+  padding: 22px 24px;
+}
+.pha-faq summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.pha-faq summary::-webkit-details-marker {
+  display: none;
+}
+.pha-faq summary span::after {
+  content: "+";
+  font-size: 24px;
+  font-weight: 400;
+}
+.pha-faq details[open] summary span::after {
+  content: "−";
+}
+.pha-faq details p {
+  color: var(--grey-600);
+  padding-top: 20px;
+}
+.pha-faq__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-top: 50px;
+}
+@media (max-width: 800px) {
+  .pha-programme-hero {
+    grid-template-columns: 1fr;
+    padding-block: 170px 60px;
+    gap: 40px;
+  }
+  .pha-photo-grid img {
+    height: 160px;
+  }
+  .pha-paths {
+    padding-top: 60px;
+  }
+  .pha-path {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+  .pha-path__copy {
+    order: 1;
+  }
+  .pha-path__photo,
+  .pha-scholarship-photo {
+    height: 360px;
+  }
+  .pha-bootcamp-collage {
+    min-height: 360px;
+  }
+  .pha-faq {
+    padding-block: 60px 80px;
+  }
+  .pha-faq__contact {
+    flex-direction: column;
+    text-align: center;
+  }
+  .pha-banner {
+    padding: 32px 24px;
+    margin-bottom: 64px;
+  }
+  .pha-banner h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 440px) {
+  .pha-photo-grid img {
+    height: 125px;
+  }
+  .pha-features li {
+    gap: 14px;
+  }
+  .pha-features__icon {
+    flex-basis: 48px;
+    height: 48px;
+  }
+  .pha-features h3 {
+    font-size: 16px;
+  }
+  .pha-path__photo,
+  .pha-scholarship-photo {
+    height: 280px;
+  }
+  .pha-bootcamp-collage {
+    min-height: 310px;
+  }
+  .pha-bootcamp-collage > img:not(.pha-collage-star) {
+    height: 205px;
+  }
+  .pha-sticker {
+    font-size: 18px;
+  }
+}

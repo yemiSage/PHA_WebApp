@@ -1,3 +1,5 @@
+import { SubmissionForm } from "@/components/forms/SubmissionForm";
+export const metadata = { title: "Partnership | Product Hub Africa" };
 import { OrganizationField } from "@/components/organization/OrganizationForm";
 import { OrganizationEyebrow, OrganizationHero } from "@/components/organization/OrganizationHero";
 import { OrganizationShell } from "@/components/organization/OrganizationShell";
@@ -6,19 +8,19 @@ const supportTypes = ["Sponsor (Financial)", "Partner (Strategic)", "Community S
 
 function PartnershipForm() {
   return (
-    <form className="org-form partnership-form" aria-label="Partnership enquiry form">
+    <SubmissionForm kind="partnership" className="org-form partnership-form" label="Partnership enquiry form">
       <div className="org-form__grid">
-        <OrganizationField label="First name" required><input name="firstName" autoComplete="given-name" placeholder="Enter name…" /></OrganizationField>
-        <OrganizationField label="Organization name" required><input name="organization" autoComplete="organization" placeholder="Enter organization name…" /></OrganizationField>
-        <OrganizationField label="Work email address" required><input name="email" type="email" autoComplete="email" spellCheck={false} placeholder="example@mail.com" /></OrganizationField>
+        <OrganizationField label="First name" required><input required name="firstName" autoComplete="given-name" placeholder="Enter name…" /></OrganizationField>
+        <OrganizationField label="Organization name" required><input required name="organization" autoComplete="organization" placeholder="Enter organization name…" /></OrganizationField>
+        <OrganizationField label="Work email address" required><input required name="email" type="email" autoComplete="email" spellCheck={false} placeholder="example@mail.com" /></OrganizationField>
         <OrganizationField label="Location"><select name="country" autoComplete="country-name" defaultValue="Nigeria"><option>Nigeria</option><option>Ghana</option><option>Kenya</option></select></OrganizationField>
         <OrganizationField label="Phone number"><input name="phone" type="tel" autoComplete="tel" inputMode="tel" placeholder="+234 000 000 0000" /></OrganizationField>
-        <OrganizationField label="Department" required><select name="department" defaultValue=""><option value="" disabled>Select department</option><option>People</option><option>CSR</option><option>Partnerships</option></select></OrganizationField>
+        <OrganizationField label="Department" required><select required name="department" defaultValue=""><option value="" disabled>Select department</option><option>People</option><option>CSR</option><option>Partnerships</option></select></OrganizationField>
       </div>
       <fieldset className="support-types"><legend>Support type <b>*</b></legend>{supportTypes.map((type) => <label key={type}><input type="checkbox" name="supportType" value={type} /><span>{type}</span></label>)}</fieldset>
-      <OrganizationField label="Motivation/Message" required><textarea name="message" placeholder="Tell us how you’d like to collaborate…" /></OrganizationField>
-      <button className="org-submit" type="submit">Confirm &amp; Submit</button>
-    </form>
+      <OrganizationField label="Motivation/Message" required><textarea required name="message" placeholder="Tell us how you’d like to collaborate…" /></OrganizationField>
+
+    </SubmissionForm>
   );
 }
 
@@ -30,3 +32,4 @@ export default function Page() {
     </OrganizationShell>
   );
 }
+

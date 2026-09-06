@@ -6,7 +6,7 @@ export function Blog() {
   return (
     <section className="blog-section" id="blog">
       <div className="section-shell blog-section__heading">
-        <SectionHeading eyebrow="Blog" title="Fresh ideas, practical tips, and stories worth sharing" description="Explore insights on product, careers, technology, and the experiences shaping Africa’s growing tech ecosystem." />
+        <SectionHeading eyebrow="Blog" tone="purple" title="Stay connected with updates around tech" description="Stay connected with daily dose of tech news, insights, and future‑shaping happenings. Subscribe to our update to always stay in touch" />
         <Button href="#contact" arrow>Subscribe</Button>
       </div>
       <div className="section-shell blog-grid">
@@ -16,12 +16,13 @@ export function Blog() {
             <div className="blog-card__content">
               <div><span>Community</span><span>12 min read</span></div>
               <h3>The influence of AI on skill development</h3>
-              <p>Artificial intelligence is reshaping how people learn, practise, and build the skills needed for the future of work.</p>
-              <a href="#blog">read more <Image src="/assets/arrow-small.svg" width={20} height={20} alt="" /></a>
+              <p>In this study, we shall demystify some of the research findings conducted recently on the impact of...</p>
+              <a href="#blog">Read more <Image src="/assets/arrow-small.svg" width={20} height={20} alt="" /></a>
             </div>
           </article>
         ))}
       </div>
+      <a className="blog-section__more" href="#blog">View more <span aria-hidden="true">⌄</span></a>
     </section>
   );
 }

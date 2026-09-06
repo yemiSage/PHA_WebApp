@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/Button";
 export function FinalCta() {
   return (
     <section className="final-cta" id="partner">
-      <Image src="/assets/cta-bg.png" width={1500} height={1000} alt="Product Hub Africa community" />
+      <Image src="/assets/home-v2/cta-bg.png" width={1500} height={1000} sizes="100vw" alt="Product Hub Africa community" />
       <div className="final-cta__overlay" />
       <div className="final-cta__content">
-        <span className="pill pill--red">Join us now</span>
-        <h2>Whether you are learning, hiring, or giving back, there is a place for you here.</h2>
-        <p>Join a growing ecosystem of learners, professionals, facilitators, and organisations working together to shape Africa’s product future.</p>
-        <Button href="#community" variant="secondary" arrow>join now</Button>
+        <span className="pill pill--red">Come join us</span>
+        <h2>Ready to start building your career?</h2>
+        <p>Come join thousands of young enthusiastic individuals who are poised to changing their career.</p>
+        <Button href="#community" variant="secondary" arrow>Join us now</Button>
       </div>
     </section>
   );

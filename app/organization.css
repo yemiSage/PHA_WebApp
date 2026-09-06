@@ -164,6 +164,8 @@
   .site-header__logo img { width: 112px; }
   .org-hero { min-height: 760px; }
   .org-hero__copy { padding-top: 145px; }
+  .volunteer-hero .org-hero__copy { width: var(--page); align-items: center; text-align: center; }
+  .volunteer-hero .org-hero__copy > p { width: 100%; }
   .org-hero__copy h1 { font-size: 38px; line-height: 1.08; }
   .org-hero__copy h1 br { display: none; }
   .org-eyebrow { min-height: 34px; padding: 6px 14px; font-size: 14px; }
@@ -207,7 +209,7 @@
   .about-join__ring { width: 160px; opacity: .25; }
   .volunteer-hero__people { width: 650px; height: 300px; }
   .volunteer-hero__people img { left: -125px; top: -390px; width: 900px; height: 1260px; }
-  .org-form { width: var(--page); min-height: 0; padding: 28px 22px; }
+  .org-form { width: var(--page); min-height: 0; margin: 40px auto; padding: 20px; }
   .org-form__grid { grid-template-columns: 1fr; gap: 20px; }
   .partnership-form > .org-field { width: 100%; }
   .support-types { grid-template-columns: 1fr; }
@@ -256,3 +258,31 @@
   .value-grid article,
   .sponsor-card-grid article { box-shadow: 0 7px 0 #202936; }
 }
+.talent-hero__actions { position: relative; z-index: 2; display: flex; justify-content: center; gap: 12px; margin-top: 24px; }
+.talent-results, .talent-empty { width: var(--page); margin: 0 auto 20px; color: var(--grey-600); }
+.talent-profile-card { min-height: 165px; border-radius: 18px; }
+.talent-profile-card__identity { display: block; }
+.talent-profile-card button { border: 0; border-radius: 8px; background: var(--primary); color: white; padding: 8px 16px; font-size: 14px; }
+.talent-dialog { width: min(480px, calc(100vw - 40px)); padding: 40px; border: 0; border-radius: 24px; }
+.talent-dialog::backdrop { background: #10101080; backdrop-filter: blur(4px); }
+.talent-dialog h2 { margin-block: 24px 8px; font-size: 32px; }
+.talent-dialog p { margin-bottom: 16px; }
+.talent-dialog__close { position: absolute; top: 12px; right: 16px; border: 0; background: transparent; font-size: 28px; }
+.about-hero { background: linear-gradient(179deg, #000f33 16%, #101010 83%); }
+.about-hero__image { border-top: 6px solid white; border-radius: 56px 56px 24px 24px; }
+.about-location { overflow: hidden; background: white; padding-bottom: 0 !important; }
+.about-location .org-section-title p { max-width: 415px; }
+.community-map { position: relative; width: min(1200px, 100%); aspect-ratio: 1.8; margin: 50px auto 0; }
+.community-map__land { position: absolute; width: 82%; height: auto; left: 9%; top: 0; }
+.community-map__person { position: absolute; width: 7%; height: auto; border-radius: 50%; }
+.community-map__person--0 { left: 0; top: 30%; }.community-map__person--1 { right: 28%; top: 0; }.community-map__person--2 { right: 3%; top: 15%; }.community-map__person--3 { right: 10%; bottom: 12%; }
+.community-map__country { position: absolute; display: flex; align-items: center; }
+.community-map__country img { width: clamp(26px, 4vw, 58px); height: auto; }
+.community-map__country span { padding: 8px 16px; background: var(--red); color: white; border-radius: 30px; font-size: clamp(10px, 1.1vw, 16px); }
+.community-map__country--0 { top: 10%; left: 20%; }.community-map__country--1 { top: 42%; left: 30%; }.community-map__country--2 { top: 58%; left: 44%; }.community-map__country--2 span { background: var(--green); }
+.form-trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.form-feedback { margin-top: 20px; font-size: 14px; line-height: 1.5; }.form-feedback a { text-decoration: underline; }.form-feedback--error { color: #a12b24; }.form-feedback--success { color: #267322; }.org-submit:disabled { opacity: .65; cursor: wait; }
+.volunteer-page .org-actions .button--ghost { display: none; }
+.talent-page .org-actions { display: none; }
+@media(max-width: 760px) { .about-location .org-section-title h2 br { display: none; }.community-map { margin-top: 35px; }.community-map__country span { padding: 4px 8px; }.leader-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }.leader-grid img { height: 260px; }.leader-grid article { min-height: 370px; } }
+@media(max-width: 480px) { .leader-grid { grid-template-columns: 1fr; }.leader-grid img { height: 360px; } }

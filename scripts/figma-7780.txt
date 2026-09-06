@@ -1,0 +1,59 @@
+const imgInstagramFilled = "https://www.figma.com/api/mcp/asset/ab062293-dc88-4d8b-a0c4-3cc1d22e827c.svg";
+const imgLinkedinFilled = "https://www.figma.com/api/mcp/asset/06b07003-13ae-458c-938f-938edbe9139c.svg";
+const imgSocialXFilled = "https://www.figma.com/api/mcp/asset/45c2139b-8dad-4a3b-ab63-a190f2ace3b9.svg";
+const imgFacebookOriginalMono = "https://www.figma.com/api/mcp/asset/5614baa6-0a4c-4558-b09a-26c429033431.svg";
+
+export default function Section7() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="2022:7780" data-name="Section 7">
+      <div className="-translate-y-1/2 absolute content-stretch flex flex-col gap-[60px] items-center left-[calc(12.5%+134px)] top-1/2 w-[813px]" data-node-id="2022:7781">
+        <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0 w-full" data-node-id="2022:7782">
+          <div className="bg-[#ffeeed] content-stretch flex flex-col items-start overflow-clip px-[16px] py-[8px] relative rounded-[322px] shrink-0" data-node-id="2022:7783">
+            <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="2022:7784">
+              <div className="[word-break:break-word] flex flex-col font-['Geist:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#ff574e] text-[16px] text-center tracking-[-0.24px] whitespace-nowrap" data-node-id="2022:7785">
+                <p className="leading-[1.4]">Social media</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2022:7786">
+            <div className="[word-break:break-word] flex flex-col font-['Aeonik:Bold'] justify-center leading-[0] not-italic relative shrink-0 text-[#1f1f1f] text-[48px] text-center tracking-[-0.72px] w-[813px]" data-node-id="2022:7787">
+              <p className="leading-[1.2]">Follow us on our social handles</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[20px] items-center relative shrink-0" data-node-id="2022:7788">
+          <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[12px] shrink-0" data-node-id="2022:7789">
+            <div className="relative shrink-0 size-[32px]" data-node-id="2022:7790" data-name="instagram_filled">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInstagramFilled} />
+            </div>
+          </div>
+          <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[12px] shrink-0" data-node-id="2022:7791">
+            <div className="relative shrink-0 size-[32px]" data-node-id="2022:7792" data-name="linkedin_filled">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLinkedinFilled} />
+            </div>
+          </div>
+          <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[12px] shrink-0" data-node-id="2022:7793">
+            <div className="relative shrink-0 size-[32px]" data-node-id="2022:7794" data-name="social_x_filled">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSocialXFilled} />
+            </div>
+          </div>
+          <div className="bg-[#eaf0ff] content-stretch flex h-[60px] items-center overflow-clip px-[14px] py-[15px] relative rounded-[12px] shrink-0" data-node-id="2022:7795">
+            <div className="relative shrink-0 size-[32px]" data-node-id="2022:7796" data-name="facebook_original_mono">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFacebookOriginalMono} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Red 500: #FF574E, Body/Body Me: Font(family: "Geist", style: Medium, size: 16, weight: 500, lineHeight: 1.399999976158142, letterSpacing: -1.5), Red 50: #FFEEED, Grey 900: #1F1F1F, Primary/Pri 500: #2E6CFF, Primary/Pri 50: #EAF0FF.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
