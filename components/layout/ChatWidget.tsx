@@ -107,12 +107,13 @@ export function ChatWidget() {
         throw new Error(data.error || "The assistant could not respond.");
       }
 
+      const assistantMessage = data.message;
       setMessages((current) => [
         ...current,
         {
           id: createMessageId(),
           role: "assistant",
-          content: data.message,
+          content: assistantMessage,
           sources: data.sources,
         },
       ]);
@@ -153,13 +154,7 @@ export function ChatWidget() {
         >
           <header className="chat-widget__header">
             <div className="chat-widget__identity">
-              <span className="chat-widget__avatar" aria-hidden="true">
-                PHA
-              </span>
-              <div>
-                <strong id="support-chat-title">PHA Assistant</strong>
-                <p>Gemini · Web-grounded</p>
-              </div>
+              <strong id="support-chat-title">PHA Assistant</strong>
             </div>
             <button
               type="button"
