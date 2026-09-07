@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { ChatWidget } from "@/components/layout/ChatWidget";
+import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import "./globals.css";
 
 const aeonik = localFont({
@@ -36,8 +37,9 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${aeonik.variable} ${geist.variable}`}>
+    <html lang="en" className={`${aeonik.variable} ${geist.variable}`} data-scroll-behavior="smooth">
       <body>
+        <ScrollToTop />
         {children}
         <ChatWidget />
       </body>

@@ -13,7 +13,14 @@ export function Blog() {
       <div className="section-shell blog-grid">
         {[1, 2, 3].map((item) => (
           <article className="blog-card" key={item}>
-            <div className="blog-card__image" />
+            <div className="blog-card__image">
+              <Image
+                src="/assets/course-ai-automation.png"
+                fill
+                sizes="(max-width: 760px) 100vw, 384px"
+                alt="AI-assisted software development on a computer screen"
+              />
+            </div>
             <div className="blog-card__content">
               <div><span>Community</span><span>12 min read</span></div>
               <h3>The influence of AI on skill development</h3>

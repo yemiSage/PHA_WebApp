@@ -19,15 +19,10 @@
 
 .talent-hero { min-height: 915px; }
 .talent-hero .org-hero__copy { width: 707px; }
-.talent-hero .org-hero__copy > p { width: 529px; }
-.talent-hero__art { position: absolute; inset: auto 0 0; height: 458px; }
-.talent-hero__art::before { content: ""; position: absolute; left: 290px; bottom: 0; width: 360px; height: 145px; background: #47ba39; clip-path: polygon(20% 8%,100% 0,87% 100%,0 75%); }
-.talent-hero__art img { position: absolute; left: 50%; bottom: 0; width: 1458px; max-width: none; transform: translateX(-50%); }
-.talent-ribbon { position: absolute; z-index: 2; padding: 8px 16px; border-radius: 8px; color: #fff; font: 500 28px/1.2 var(--display-font); white-space: nowrap; }
-.talent-ribbon--one { left: 174px; bottom: 132px; background: #ff574e; transform: rotate(-13deg); }
-.talent-ribbon--two { left: 535px; bottom: 165px; background: #ff9625; transform: rotate(8deg); }
-.talent-ribbon--three { left: 360px; bottom: 91px; background: #8665d9; transform: rotate(4deg); }
-.talent-ribbon--four { left: 645px; bottom: 68px; background: #2e6cff; transform: rotate(9deg); }
+.talent-hero .org-hero__copy h1 { color: #101010; }
+.talent-hero .org-hero__copy > p { width: 529px; color: #767676; }
+.talent-hero .org-eyebrow--neutral { color: #101010; background: #f4f4f4; }
+.talent-hero__background { position: absolute; z-index: 0; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center bottom; }
 
 .talent-feature-section { min-height: 886px; background: #f9f9f9; }
 .talent-feature-section .org-section-title h2 { max-width: 1044px; }
@@ -160,8 +155,6 @@
 
 @media (max-width: 760px) {
   .inner-page { --org-section-space: 80px; }
-  body:has(.inner-page) .site-header { top: 12px; }
-  .site-header__logo img { width: 112px; }
   .org-hero { min-height: 760px; }
   .org-hero__copy { padding-top: 145px; }
   .volunteer-hero .org-hero__copy { width: var(--page); align-items: center; text-align: center; }
@@ -177,13 +170,7 @@
   .talent-hero { min-height: 810px; }
   .talent-hero .org-hero__copy { width: var(--page); }
   .talent-hero .org-hero__copy > p { width: 100%; }
-  .talent-hero__art { height: 330px; }
-  .talent-hero__art img { left: 42%; width: 920px; }
-  .talent-ribbon { padding: 6px 10px; font-size: 16px; }
-  .talent-ribbon--one { left: 14px; bottom: 115px; }
-  .talent-ribbon--two { left: 145px; bottom: 148px; }
-  .talent-ribbon--three { left: 85px; bottom: 78px; }
-  .talent-ribbon--four { left: 220px; bottom: 55px; }
+  .talent-hero__background { object-position: 72% bottom; }
   .talent-feature-section, .talent-directory, .talent-request, .talent-faq, .about-values, .about-impact, .about-achievements, .about-team, .about-join, .org-form-section, .sponsorship-programmes { min-height: 0; }
   .talent-feature-card { width: var(--page); grid-template-columns: 1fr; }
   .talent-feature-card > img { height: 330px; }
@@ -289,38 +276,6 @@
 
 /* Figma mobile layouts: volunteer, partnership and sponsorship/contact */
 @media (max-width: 760px) {
-  body:has(.inner-page) .site-header {
-    top: 28px;
-    width: min(341px, calc(100% - 32px));
-    min-height: 56px;
-    padding: 8px 12px 8px 16px;
-    border-color: var(--grey-200);
-    border-radius: 322px;
-    background: #fff;
-    box-shadow: none;
-  }
-  body:has(.inner-page) .site-header__logo img { width: 70px; height: auto; }
-  body:has(.inner-page) .site-header__cta {
-    min-height: 32px;
-    display: inline-flex;
-    margin-left: auto;
-    padding-inline: 8px;
-    border-radius: 8px;
-    font-size: 11px;
-  }
-  body:has(.inner-page) .site-header__cta .button__icon { display: none; }
-  body:has(.inner-page) .site-header__toggle {
-    width: 24px;
-    height: 32px;
-    margin-left: 0;
-    gap: 4px;
-    border-radius: 0;
-    color: var(--grey-900);
-    background: transparent;
-  }
-  body:has(.inner-page) .site-header__toggle span { width: 14px; height: 1.5px; }
-  body:has(.inner-page) .site-header__nav { top: -28px; left: -26px; }
-
   .inner-page { --org-section-space: 80px; }
   .inner-page .org-hero__copy {
     width: min(340px, calc(100% - 40px));

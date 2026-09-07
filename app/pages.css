@@ -112,3 +112,8 @@
   .course-benefits article + article { border-left: 0; border-top: 1px solid var(--grey-200); }
   .testimonial-row { margin-left: 0; }
 }
+
+@media (min-width: 761px) {
+  .programme-page > .inner-page > section:not(.help-hero):not(.blog-lead):not(.course-hero),
+  .programme-page > .inner-page > .up-next { padding-block: 120px; }
+}

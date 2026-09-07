@@ -19,7 +19,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 64px;
   align-items: center;
-  padding-block: 250px 100px;
+  padding-block: 200px 100px;
 }
 .pha-programme-hero > div:first-child {
   display: flex;
@@ -47,7 +47,7 @@
   object-fit: cover;
 }
 .pha-paths {
-  padding: 100px 0 60px;
+  padding: 60px 0;
 }
 .pha-section-title {
   display: flex;
@@ -71,7 +71,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 32px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 }
 .pha-path__copy {
   display: flex;
@@ -170,7 +170,7 @@
   position: relative;
   overflow: hidden;
   padding: 50px 40px;
-  margin-bottom: 90px;
+  margin: 0 60px 120px 0;
   border-radius: 28px;
   color: white;
   background: #101010;
@@ -207,7 +207,7 @@
 .pha-scholarship-photo img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: fill;
   object-position: center bottom;
 }
 .pha-faq {
@@ -279,6 +279,9 @@
   .pha-scholarship-photo {
     height: 360px;
   }
+  .pha-scholarship-photo img {
+    object-fit: contain;
+  }
   .pha-bootcamp-collage {
     min-height: 360px;
   }
@@ -291,7 +294,7 @@
   }
   .pha-banner {
     padding: 32px 24px;
-    margin-bottom: 64px;
+    margin: 0 0 64px;
   }
   .pha-banner h2 {
     font-size: 24px;
@@ -324,4 +327,8 @@
   .pha-sticker {
     font-size: 18px;
   }
+}
+
+@media (min-width: 761px) {
+  .programme-page > section:not(.pha-programme-hero):not(.pha-paths) { padding-block: 120px; }
 }

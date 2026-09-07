@@ -38,10 +38,7 @@ export default function Page() {
     <OrganizationShell pageClass="talent-page">
       <OrganizationHero eyebrow="Hire from us" tone="neutral" title={<>Hire the <em>best talent</em> for your<br />teams today!</>} description="Browse verified professionals who are actively available for work - full-time, contract, or project-based. See their skills, rates, and start dates before you even send a message." className="talent-hero">
         <div className="talent-hero__actions"><Button href="#directory" size="small" arrow>Hire talent</Button><Button href="/#community" variant="ghost" size="small">Join our community</Button></div>
-        <div className="talent-hero__art" aria-hidden="true">
-          <span className="talent-ribbon talent-ribbon--one">Project Managers</span><span className="talent-ribbon talent-ribbon--two">Software Developers</span><span className="talent-ribbon talent-ribbon--three">Product Designers</span><span className="talent-ribbon talent-ribbon--four">Virtual Assistant</span>
-          <Image src="/assets/pages/talent-hero.png" width={4096} height={1550} loading="eager" fetchPriority="high" alt="" />
-        </div>
+        <Image className="talent-hero__background" src="/assets/pages/talent-hero-bg.png" fill sizes="100vw" loading="eager" fetchPriority="high" alt="" aria-hidden="true" />
       </OrganizationHero>
 
       <section className="talent-feature-section">
